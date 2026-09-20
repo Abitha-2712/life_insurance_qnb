@@ -1,0 +1,11 @@
+﻿.merchant-management-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.merchant-management-page .merchant-management-crud.generic-crud-page { padding: 0; }
+@media (max-width: 900px) {
+  .merchant-management-page { padding: 16px; }
+}

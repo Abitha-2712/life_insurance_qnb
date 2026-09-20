@@ -1,0 +1,20 @@
+﻿.terms-conditions-page {
+  padding: 25px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.tnc-filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+.tnc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (max-width: 900px) {
+  .terms-conditions-page { padding: 16px; }
+  .tnc-filters { grid-template-columns: 1fr; }
+}

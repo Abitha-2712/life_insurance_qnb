@@ -1,0 +1,56 @@
+﻿.app-version-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.app-version-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.app-version-page .ui-metric-card-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.app-version-page .ui-metric-card-row > .ui-metric-card {
+  flex: unset;
+  min-height: 120px;
+}
+.app-version-tabs {
+  display: inline-flex;
+  height: 40px;
+  padding: 4px;
+  border-radius: 8px;
+  background: #eff1f5;
+  width: fit-content;
+  max-width: 100%;
+}
+.app-version-tab {
+  min-width: 120px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #9ca3af;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+.app-version-tab.is-selected {
+  background: #fff;
+  color: #1f2937;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+}
+.app-version-page .generic-crud-page.is-embedded { padding: 0; gap: 12px; }
+.app-version-page .generic-crud-export { display: flex; justify-content: flex-end; }
+.app-version-page .generic-crud-page > .ui-card { padding: var(--qnb-space-16); }
+@media (max-width: 800px) {
+  .app-version-page { padding: 16px; }
+  .app-version-page .ui-metric-card-row { grid-template-columns: 1fr; }
+}

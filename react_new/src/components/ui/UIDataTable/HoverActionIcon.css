@@ -1,0 +1,30 @@
+/* Flutter HoverActionIcon — black / #EF4444 idle → #10B981 hover */
+.ui-hover-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #000000;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.ui-hover-action.is-danger {
+  color: #ef4444;
+}
+
+.ui-hover-action:hover,
+.ui-hover-action.is-danger:hover {
+  background: rgb(16 185 129 / 15%);
+  color: #10b981;
+}
+
+.ui-hover-action svg {
+  display: block;
+  flex-shrink: 0;
+}

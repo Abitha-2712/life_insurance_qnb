@@ -1,0 +1,296 @@
+{
+  "modules": [
+    {
+      "id": "cheque_book",
+      "page": "ChequeBookPage",
+      "routeKeys": [
+        "cheque_book_management"
+      ]
+    },
+    {
+      "id": "cheque_deposit",
+      "page": "ChequeDepositPage",
+      "routeKeys": [
+        "cheque_deposit"
+      ]
+    },
+    {
+      "id": "western_union_email",
+      "page": "WesternUnionEmailPage",
+      "routeKeys": [
+        "western_union_email"
+      ]
+    },
+    {
+      "id": "western_union_history",
+      "page": "WesternUnionHistoryPage",
+      "routeKeys": [
+        "western_union_history"
+      ]
+    },
+    {
+      "id": "afaq",
+      "page": "AfaqManagementPage",
+      "routeKeys": [
+        "afaq_management"
+      ]
+    },
+    {
+      "id": "beneficiary",
+      "page": "BeneficiaryConfigPage",
+      "routeKeys": [
+        "beneficiary_nav",
+        "beneficiary_add",
+        "beneficiary_edit",
+        "beneficiary_cooling_off",
+        "beneficiary_cooling_pending"
+      ]
+    },
+    {
+      "id": "charity",
+      "page": "CharityManagementPage",
+      "routeKeys": [
+        "charity_management"
+      ]
+    },
+    {
+      "id": "card",
+      "page": "CardManagementPage",
+      "routeKeys": [
+        "card"
+      ]
+    },
+    {
+      "id": "card_spend",
+      "page": "CardSpendPage",
+      "routeKeys": [
+        "card_spend",
+        "sector_management"
+      ]
+    },
+    {
+      "id": "card_issuance",
+      "page": "CardIssuancePage",
+      "routeKeys": [
+        "card_issuance_management"
+      ]
+    },
+    {
+      "id": "google_pay",
+      "page": "GooglePayPage",
+      "routeKeys": [
+        "google_pay"
+      ]
+    },
+    {
+      "id": "apple_pay",
+      "page": "ApplePayPage",
+      "routeKeys": [
+        "apple_pay"
+      ]
+    },
+    {
+      "id": "direct_remittance",
+      "page": "DirectRemittancePage",
+      "routeKeys": [
+        "direct_remittance"
+      ]
+    },
+    {
+      "id": "direct_remittance_type",
+      "page": "DirectRemittanceTypePage",
+      "routeKeys": [
+        "direct_remittance_type"
+      ]
+    },
+    {
+      "id": "rtp_purpose",
+      "page": "RtpPurposePage",
+      "routeKeys": [
+        "rtp_transfer_purpose_management"
+      ]
+    },
+    {
+      "id": "rtp_account_type",
+      "page": "RtpAccountTypePage",
+      "routeKeys": [
+        "rtp_account_type_management"
+      ]
+    },
+    {
+      "id": "connectivity_hub",
+      "page": "ConnectivityHubPage",
+      "routeKeys": [
+        "connectivity_hub"
+      ]
+    },
+    {
+      "id": "mq_configuration",
+      "page": "MqConfigurationPage",
+      "routeKeys": [
+        "mq_configuration"
+      ]
+    },
+    {
+      "id": "master_category",
+      "page": "MasterCategoryPage",
+      "routeKeys": [
+        "master_category_management",
+        "category_code"
+      ]
+    },
+    {
+      "id": "athkar",
+      "page": "AthkarManagementPage",
+      "routeKeys": [
+        "athkar_management"
+      ]
+    },
+    {
+      "id": "stories",
+      "page": "StoriesManagementPage",
+      "routeKeys": [
+        "stories_management",
+        "story_report"
+      ]
+    },
+    {
+      "id": "onboarding_mgmt",
+      "page": "OnboardingManagementPage",
+      "routeKeys": [
+        "onboarding_management",
+        "onboarding_product_configuration"
+      ]
+    },
+    {
+      "id": "employment_masters",
+      "page": "EmploymentMastersPage",
+      "routeKeys": [
+        "employment_masters"
+      ]
+    },
+    {
+      "id": "notification_template",
+      "page": "NotificationTemplatePage",
+      "routeKeys": [
+        "notification_template",
+        "notification/messages-campaign",
+        "notification/customer-segment"
+      ]
+    },
+    {
+      "id": "sector",
+      "page": "SectorPage",
+      "routeKeys": [
+        "sector"
+      ]
+    },
+    {
+      "id": "mccg",
+      "page": "MccgPage",
+      "routeKeys": [
+        "mccg"
+      ]
+    },
+    {
+      "id": "favorite",
+      "page": "FavoritePage",
+      "routeKeys": [
+        "favorite",
+        "favorite_list"
+      ]
+    },
+    {
+      "id": "widget_cfg",
+      "page": "WidgetConfigPage",
+      "routeKeys": [
+        "widget"
+      ]
+    },
+    {
+      "id": "risk",
+      "page": "RiskManagementPage",
+      "routeKeys": [
+        "risk_mangement"
+      ]
+    },
+    {
+      "id": "eipo",
+      "page": "EipoCompanyConfigPage",
+      "routeKeys": [
+        "eIPO_company_configuration"
+      ]
+    },
+    {
+      "id": "product_content",
+      "page": "ProductContentPage",
+      "routeKeys": [
+        "product_content_management",
+        "products _management"
+      ]
+    },
+    {
+      "id": "report_template",
+      "page": "ReportTemplatePage",
+      "routeKeys": [
+        "report_template_maintanance",
+        "template_creation"
+      ]
+    },
+    {
+      "id": "change_password_cfg",
+      "page": "ChangePasswordConfigPage",
+      "routeKeys": [
+        "change_password"
+      ]
+    }
+  ],
+  "routeMap": {
+    "cheque_book_management": "ChequeBookPage",
+    "cheque_deposit": "ChequeDepositPage",
+    "western_union_email": "WesternUnionEmailPage",
+    "western_union_history": "WesternUnionHistoryPage",
+    "afaq_management": "AfaqManagementPage",
+    "beneficiary_nav": "BeneficiaryConfigPage",
+    "beneficiary_add": "BeneficiaryConfigPage",
+    "beneficiary_edit": "BeneficiaryConfigPage",
+    "beneficiary_cooling_off": "BeneficiaryConfigPage",
+    "beneficiary_cooling_pending": "BeneficiaryConfigPage",
+    "charity_management": "CharityManagementPage",
+    "card": "CardManagementPage",
+    "card_spend": "CardSpendPage",
+    "sector_management": "CardSpendPage",
+    "card_issuance_management": "CardIssuancePage",
+    "google_pay": "GooglePayPage",
+    "apple_pay": "ApplePayPage",
+    "direct_remittance": "DirectRemittancePage",
+    "direct_remittance_type": "DirectRemittanceTypePage",
+    "rtp_transfer_purpose_management": "RtpPurposePage",
+    "rtp_account_type_management": "RtpAccountTypePage",
+    "connectivity_hub": "ConnectivityHubPage",
+    "mq_configuration": "MqConfigurationPage",
+    "master_category_management": "MasterCategoryPage",
+    "category_code": "MasterCategoryPage",
+    "athkar_management": "AthkarManagementPage",
+    "stories_management": "StoriesManagementPage",
+    "story_report": "StoriesManagementPage",
+    "onboarding_management": "OnboardingManagementPage",
+    "onboarding_product_configuration": "OnboardingManagementPage",
+    "employment_masters": "EmploymentMastersPage",
+    "notification_template": "NotificationTemplatePage",
+    "notification/messages-campaign": "NotificationTemplatePage",
+    "notification/customer-segment": "NotificationTemplatePage",
+    "sector": "SectorPage",
+    "mccg": "MccgPage",
+    "favorite": "FavoritePage",
+    "favorite_list": "FavoritePage",
+    "widget": "WidgetConfigPage",
+    "risk_mangement": "RiskManagementPage",
+    "eIPO_company_configuration": "EipoCompanyConfigPage",
+    "product_content_management": "ProductContentPage",
+    "products _management": "ProductContentPage",
+    "report_template_maintanance": "ReportTemplatePage",
+    "template_creation": "ReportTemplatePage",
+    "change_password": "ChangePasswordConfigPage"
+  }
+}

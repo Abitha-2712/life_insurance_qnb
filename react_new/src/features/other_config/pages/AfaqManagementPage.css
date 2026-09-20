@@ -1,0 +1,92 @@
+﻿/* Flutter AfaqTablePage */
+.afaq-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.afaq-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.afaq-title {
+  margin: 0;
+  color: var(--qnb-dashboard-text, #131720);
+}
+
+.afaq-page .ui-metric-card-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.afaq-page .ui-metric-card-row > .ui-metric-card {
+  flex: unset;
+  min-height: 120px;
+}
+
+.afaq-tabs {
+  display: inline-flex;
+  height: 40px;
+  padding: 4px;
+  border-radius: 8px;
+  background: #eff1f5;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.afaq-tab {
+  min-width: 220px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #9ca3af;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+.afaq-tab.is-selected {
+  background: #fff;
+  color: #1f2937;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+}
+
+.afaq-page .generic-crud-page.is-embedded {
+  padding: 0;
+  gap: 12px;
+}
+
+.afaq-page .generic-crud-export {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.afaq-page .generic-crud-page > .ui-card {
+  padding: var(--qnb-space-16);
+}
+
+@media (max-width: 900px) {
+  .afaq-page {
+    padding: 16px;
+  }
+
+  .afaq-page .ui-metric-card-row {
+    grid-template-columns: 1fr;
+  }
+
+  .afaq-tab {
+    min-width: 160px;
+  }
+}

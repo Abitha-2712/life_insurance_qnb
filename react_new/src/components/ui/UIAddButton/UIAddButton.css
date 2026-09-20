@@ -1,0 +1,17 @@
+﻿/* Flutter UIAddButton — green #059669, radius 12, ~40px height */
+.ui-add-button {
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #059669 !important;
+  border-color: #059669 !important;
+  color: #fff !important;
+}
+
+.ui-add-button:hover:not(:disabled) {
+  background: #047857 !important;
+  border-color: #047857 !important;
+}

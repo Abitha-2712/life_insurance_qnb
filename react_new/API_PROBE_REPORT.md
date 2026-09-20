@@ -1,0 +1,130 @@
+# API probe report
+
+Generated: 2026-09-19T19:07:44.694Z
+Cookie provided: no
+OK: 78  FAIL: 79  Total: 157
+
+## Failures
+
+- **400** `POST /bo-api/login/count/hour-wise` — src/core/api/urls/dashboardUrls.js — `{"timestamp":"2026-09-19T19:07:37.727+00:00","status":400,"error":"Bad Request","path":"/backoffice-insurance/login/count/hour-wise"}`
+- **400** `POST /data-api/transfer/topFailureTransactions` — src/core/api/urls/dashboardUrls.js — `{"timestamp":"2026-09-19T19:07:37.736+00:00","status":400,"error":"Bad Request","path":"/backoffice-insurance/transfer/topFailureTransactions"}`
+- **400** `POST /data-api/transfer/topFiveTransactions` — src/core/api/urls/dashboardUrls.js — `{"timestamp":"2026-09-19T19:07:37.640+00:00","status":400,"error":"Bad Request","path":"/backoffice-insurance/transfer/topFiveTransactions"}`
+- **401** `POST /bo-api/pending-approval/list` — src/features/pending_approvals/services/pending_approvalsService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/adapter/getAll` — src/features/adapter/services/adapterService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/api-call/getAll` — src/features/api_call/services/api_callService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/api/complianceTag/getall` — src/core/api/urls/productUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/api/customer/details` — src/core/api/urls/customer_supportUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/api/lookup/getAll` — src/core/api/urls/lookup_typeUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/api/rcategory/getall` — src/core/api/urls/productUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/api/rchannel/getall` — src/core/api/urls/productUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/app-library/getAll` — src/features/app_library/services/app_libraryService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/backoffice-service/ip-block/list` — src/core/api/urls/blocklist_ipUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/backoffice-service/mfa/getMfaNames` — src/core/api/urls/userrrrUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/backoffice-service/parameter/list` — src/core/api/urls/parameterUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/block_list_beneficiary` — src/core/api/urls/menuScreenUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/block_list_country` — src/core/api/urls/menuScreenUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/block_list_currency` — src/core/api/urls/menuScreenUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/block_list_iban` — src/core/api/urls/menuScreenUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/branch-locator/getall` — src/core/api/urls/branch_locatorUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/card/getCardDetails` — src/core/api/urls/customer_supportUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/country/blockedCountryList` — src/core/api/urls/block_listUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/country/list` — src/core/api/urls/block_listUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/country/modifyBlockCountry` — src/core/api/urls/block_listUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/currency/blockedCurrencyList` — src/core/api/urls/block_listUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/customer-journey/getAll` — src/features/customer_jounrey/services/customer_jounreyService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/customer-type/getAll` — src/core/api/urls/customer_typeUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/data-cleansing/getAll` — src/features/data_cleansing/services/data_cleansingService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/dc-city/getAll` — src/features/dc_city_master/services/dc_city_masterService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/deposit/fetch` — src/core/api/urls/customer_supportUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/disclaimer/summary` — src/core/api/urls/disclaimerUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/dynamic-screen/getAll` — src/features/dynamic_screen/services/dynamic_screenService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/e-statement/getAll` — src/features/E-statement/services/E-statementService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/error-config/getAll` — src/features/error_configuration/services/error_configurationService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/features/list` — src/core/api/urls/dashboardUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/finance-calculator/getAll` — src/features/finance_calculator/services/finance_calculatorService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/finance-offer/getAll` — src/features/finance_offer/services/finance_offerService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/followus/getAll` — src/features/follow_us/services/follow_usService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/forceUpdate/summary` — src/core/api/urls/force_updateUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/formconfig/getAll` — src/core/api/urls/configuration_paraUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/formfieldmaster/getAll` — src/core/api/urls/configuration_paraUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/funnel/getAll` — src/features/funnel/services/funnelService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/gateway/getAll` — src/features/gateway_sync/services/gateway_syncService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/group/list` — src/core/api/urls/banner_configurationUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/iban/blockedIbanList` — src/core/api/urls/block_listUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/imei-block/list` — src/core/api/urls/block_listUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/instant-credit-card/getAll` — src/features/other_config/services/card_issuanceService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/instant-finance/getAll` — src/features/instant_finance/services/instant_financeService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/kiosk/getAll` — src/features/kiosk_locator/services/kioskLocatorService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/language/summary` — src/core/api/urls/campaign_messagesUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/loan/LoanDetails` — src/core/api/urls/customer_supportUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/lookup-feature/getAll` — src/core/api/urls/lookupUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/master/city/fetchAll` — src/core/api/urls/cityUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/merchant/getAll` — src/features/merchant_management/services/merchant_managementService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/migration/table-list` — src/core/api/urls/sync_tableUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/oci-user/getAll` — src/features/oci_user/services/oci_userService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/onboarding/getAll` — src/features/digital__instant_onboarding/services/digital__instant_onboardingService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/partner_listing` — src/core/api/urls/menuScreenUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/partner-product/volume` — src/core/api/urls/partner_onboardingUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/password-config/getAll` — src/core/api/urls/password_configurationUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/products/list` — src/core/api/urls/partnershipUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/profile-control/getAll` — src/features/profile_control/services/profile_controlService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/push-notification/customer/subscriptionList` — src/core/api/urls/push_notificationUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/release/getAll` — src/features/release_management/services/release_managementService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/roles/list` — src/core/api/urls/partnershipUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/salary-advance/getAll` — src/features/finance/services/financeService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/sub-products/list-by-prolist` — src/core/api/urls/partnershipUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/table-migration-list` — src/core/api/urls/menuScreenUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/theme/config/fetch` — src/core/api/urls/theme_configUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/theme/font/fetch` — src/core/api/urls/theme_configUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/third-party/get-all` — src/core/api/urls/third_partyUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/transfer/functionList` — src/core/api/urls/dashboardUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/txn/menus/list` — src/core/api/urls/i18_maintenanceUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/userAction/fetchByDateRange` — src/core/api/urls/user_actionUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /data-api/workflow/config/getAll` — src/features/workflow_configuration/services/workflow_configurationService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **401** `POST /wfc-api/pending-request/workflow/list` — src/features/workflow_new/services/workflow_newService.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **404** `POST /wfc-api/graphql` — src/core/api/urls/dashboardUrls.js — `{"status":{"code":"G-00001","description":"Internal Server ERROR"},"data":null}`
+- **405** `POST /data-api/channel/list` — src/core/api/urls/i18_maintenanceUrls.js — `{"timestamp":"2026-09-19T19:07:38.609+00:00","status":405,"error":"Method Not Allowed","path":"/backoffice-insurance/channel/list"}`
+- **405** `POST /data-api/customerSeg/getSegmentList` — src/core/api/urls/customer_segmentUrls.js — `{"timestamp":"2026-09-19T19:07:36.913+00:00","status":405,"error":"Method Not Allowed","path":"/backoffice-insurance/customerSeg/getSegmentList"}`
+
+## OK sample (first 40)
+
+- 200 `POST /data-api/apple-pay/getAll`
+- 200 `POST /data-api/googlepay/bin/getAll`
+- 200 `POST /data-api/profanity/getAll`
+- 200 `POST /wfc-api/bko-features/fetchAll`
+- 200 `POST /wfc-api/bko-features/fetchByCriteria`
+- 200 `POST /data-api/story-management/get-all`
+- 200 `POST /wfc-api/bko-subProduct/fetchby-prodCode`
+- 200 `POST /data-api/account-class/getall`
+- 200 `POST /data-api/accountType/getAll`
+- 200 `POST /data-api/segment-class/ClassCodeList`
+- 200 `POST /data-api/atm/getAll`
+- 200 `POST /data-api/android-config/list`
+- 200 `POST /data-api/apple-config/list`
+- 200 `POST /data-api/bankDetails/getAll`
+- 200 `POST /bo-api/card-bin/getAll`
+- 200 `POST /wfc-api/bko-channel/fetchAll`
+- 200 `POST /wfc-api/bko-channel/fetchByCriteria`
+- 200 `POST /wfc-api/bko-childMenu/fetchByCriteria`
+- 200 `POST /data-api/crm-service-type/get-all`
+- 200 `POST /wfc-api/bko-country/fetchAll`
+- 200 `POST /wfc-api/bko-country/fetchByCriteria`
+- 200 `POST /wfc-api/bko-country/fetchAll-DD`
+- 200 `POST /wfc-api/bko-currency/fetchAll`
+- 200 `POST /wfc-api/bko-currency/fetchByCriteria`
+- 200 `POST /wfc-api/bko-currency/delete`
+- 200 `POST /wfc-api/bko-language/fetchAll`
+- 200 `POST /wfc-api/bko-currency/fetchAll-DD`
+- 200 `POST /data-api/segment-class/getAll`
+- 200 `POST /data-api/segment-mapping/getAll`
+- 200 `POST /data-api/account/getAccountDetails`
+- 200 `POST /wfc-api/bko-currency/post`
+- 200 `POST /data-api/blockUnblock/blockReason`
+- 200 `GET /data-api/onboarding/onboarding-counts`
+- 200 `GET /bo-api/login/unique-logins`
+- 200 `POST /data-api/faq/getAll`
+- 200 `POST /data-api/offer/getAll`
+- 200 `POST /data-api/recent-activity/Activity-Log`
+- 200 `GET /data-api/transfer/viewCount`
+- 200 `POST /data-api/transfer/txnMetrics`
+- 200 `POST /data-api/dbconfig/getDbConfig`

@@ -1,0 +1,3777 @@
+[
+  {
+    "id": "login",
+    "folder": "login",
+    "reactPath": "auth",
+    "kind": "done",
+    "note": "Login + MFA/OTP already ported",
+    "routes": [
+      "/login"
+    ],
+    "skipGen": true
+  },
+  {
+    "id": "dashboard",
+    "folder": "dashboard",
+    "reactPath": "dashboard",
+    "kind": "done",
+    "note": "Shell + Home widgets ported",
+    "routes": [
+      "/dashboard"
+    ],
+    "skipGen": true
+  },
+  {
+    "id": "coming_soon",
+    "folder": "coming_soon",
+    "reactPath": "common",
+    "kind": "coming_soon",
+    "note": "Flutter coming_soon",
+    "routes": [
+      "/dashboard/coming_soon"
+    ],
+    "skipGen": true
+  },
+  {
+    "id": "common",
+    "folder": "common",
+    "reactPath": "common",
+    "kind": "infra",
+    "note": "Shared CRUD + ComingSoon",
+    "routes": [],
+    "skipGen": true
+  },
+  {
+    "id": "bo_app_bar",
+    "folder": "bo_app_bar",
+    "reactPath": "dashboard/components/BoAppBar",
+    "kind": "done",
+    "note": "BoAppBar under dashboard",
+    "routes": [],
+    "skipGen": true
+  },
+  {
+    "id": "ui_menu_navigation",
+    "folder": "ui_menu_navigation",
+    "reactPath": "dashboard/components/SideMenu",
+    "kind": "done",
+    "note": "SideMenu / menu navigation",
+    "routes": [],
+    "skipGen": true
+  },
+  {
+    "id": "master",
+    "folder": "master",
+    "reactPath": "master",
+    "kind": "partial",
+    "note": "City DONE; country/currency/unit/language/channel via master sub-routes",
+    "routes": [
+      "/dashboard/city"
+    ],
+    "skipGen": true
+  },
+  {
+    "id": "dc_city_master",
+    "folder": "dc_city_master",
+    "reactPath": "dc_city_master",
+    "kind": "crud",
+    "title": "DC City Master",
+    "routes": [
+      "/dashboard/dc_city_master"
+    ],
+    "urlModule": "countryUrls",
+    "urls": {
+      "fetchAll": "dc-city/getAll",
+      "create": "dc-city/create",
+      "update": "dc-city/update",
+      "delete": "dc-city/delete"
+    },
+    "columns": [
+      {
+        "key": "cityCode",
+        "label": "City Code"
+      },
+      {
+        "key": "cityName",
+        "label": "City Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "cityCode",
+        "label": "City Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "cityName",
+        "label": "City Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "cityCode": "DOH",
+        "cityName": "Doha",
+        "status": "Y"
+      }
+    ]
+  },
+  {
+    "id": "bank_management",
+    "folder": "bank_management",
+    "title": "Bank Management",
+    "routes": [
+      "/dashboard/bank_management"
+    ],
+    "urls": {
+      "fetchAll": "bankDetails/getAll",
+      "create": "bankDetails/create",
+      "update": "bankDetails/update",
+      "delete": "bankDetails/delete"
+    },
+    "columns": [
+      {
+        "key": "bankCode",
+        "label": "Bank Code"
+      },
+      {
+        "key": "bankName",
+        "label": "Bank Name"
+      },
+      {
+        "key": "swiftCode",
+        "label": "SWIFT"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "bankCode",
+        "label": "Bank Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "bankName",
+        "label": "Bank Name",
+        "required": true
+      },
+      {
+        "key": "swiftCode",
+        "label": "SWIFT Code"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "bankCode": "QNB",
+        "bankName": "Qatar National Bank",
+        "swiftCode": "QNBAQAQA",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "bank_management"
+  },
+  {
+    "id": "banner_configuration",
+    "folder": "banner_configuration",
+    "title": "Banner Configuration",
+    "routes": [
+      "/dashboard/banner-configuration"
+    ],
+    "urls": {
+      "fetchAll": "banner/summary",
+      "create": "banner/manage",
+      "update": "banner/manage",
+      "delete": "banner/manage"
+    },
+    "columns": [
+      {
+        "key": "bannerId",
+        "label": "Banner ID"
+      },
+      {
+        "key": "bannerName",
+        "label": "Name"
+      },
+      {
+        "key": "screenId",
+        "label": "Screen"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "bannerName",
+        "label": "Banner Name",
+        "required": true
+      },
+      {
+        "key": "screenId",
+        "label": "Screen ID"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "bannerId": "B1",
+        "bannerName": "Welcome",
+        "screenId": "HOME",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "banner_configuration"
+  },
+  {
+    "id": "FAQ_management",
+    "folder": "FAQ_management",
+    "title": "FAQ Management",
+    "routes": [
+      "/dashboard/faq_management"
+    ],
+    "urls": {
+      "fetchAll": "faq/getAll",
+      "create": "faq/create",
+      "update": "faq/update",
+      "delete": "faq/delete"
+    },
+    "columns": [
+      {
+        "key": "faqCode",
+        "label": "Code"
+      },
+      {
+        "key": "question",
+        "label": "Question"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "faqCode",
+        "label": "FAQ Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "question",
+        "label": "Question",
+        "required": true
+      },
+      {
+        "key": "answer",
+        "label": "Answer",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "faqCode": "F1",
+        "question": "How to reset password?",
+        "answer": "Use forgot password.",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "FAQ_management"
+  },
+  {
+    "id": "error_management",
+    "folder": "error_management",
+    "title": "Error Management",
+    "routes": [
+      "/dashboard/error_management",
+      "/dashboard/error_master"
+    ],
+    "urls": {
+      "fetchAll": "error/getAll",
+      "create": "error/create",
+      "update": "error/update",
+      "delete": "error/delete"
+    },
+    "columns": [
+      {
+        "key": "errorCode",
+        "label": "Error Code"
+      },
+      {
+        "key": "errorMessage",
+        "label": "Message"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "errorCode",
+        "label": "Error Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "errorMessage",
+        "label": "Message",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "errorCode": "E001",
+        "errorMessage": "Generic error",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "error_management"
+  },
+  {
+    "id": "error_configuration",
+    "folder": "error_configuration",
+    "title": "Error Configuration",
+    "routes": [
+      "/dashboard/error_configuration"
+    ],
+    "urls": {
+      "fetchAll": "error-config/getAll",
+      "create": "error-config/create",
+      "update": "error-config/update",
+      "delete": "error-config/delete"
+    },
+    "columns": [
+      {
+        "key": "configCode",
+        "label": "Code"
+      },
+      {
+        "key": "description",
+        "label": "Description"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "configCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "description",
+        "label": "Description",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "configCode": "EC1",
+        "description": "Default",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "error_configuration"
+  },
+  {
+    "id": "mfa_management",
+    "folder": "mfa_management",
+    "title": "MFA Management",
+    "routes": [
+      "/dashboard/mfa_management"
+    ],
+    "urls": {
+      "fetchAll": "mfa/getall",
+      "create": "mfa/save",
+      "update": "mfa/update",
+      "delete": "mfa/delete"
+    },
+    "columns": [
+      {
+        "key": "mfaCode",
+        "label": "MFA Code"
+      },
+      {
+        "key": "mfaName",
+        "label": "Name"
+      },
+      {
+        "key": "mfaType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "mfaCode",
+        "label": "MFA Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "mfaName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "mfaType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "mfaCode": "OTP",
+        "mfaName": "One Time Password",
+        "mfaType": "otp",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "mfa_management"
+  },
+  {
+    "id": "push_notification",
+    "folder": "push_notification",
+    "title": "Push Notification",
+    "routes": [
+      "/dashboard/notification/push-notification",
+      "/dashboard/Notifications_Management"
+    ],
+    "urls": {
+      "fetchAll": "push-notification/customer/subscriptionList",
+      "create": "push-notification/send",
+      "update": "push-notification/send",
+      "delete": "push-notification/delete"
+    },
+    "columns": [
+      {
+        "key": "customerId",
+        "label": "Customer ID"
+      },
+      {
+        "key": "deviceToken",
+        "label": "Device"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "customerId",
+        "label": "Customer ID",
+        "required": true
+      },
+      {
+        "key": "deviceToken",
+        "label": "Device Token"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "customerId": "C100",
+        "deviceToken": "tok\u2026",
+        "status": "Y"
+      }
+    ],
+    "enableDelete": false,
+    "kind": "crud",
+    "reactPath": "push_notification"
+  },
+  {
+    "id": "user_management",
+    "folder": "user_management",
+    "title": "User Management",
+    "routes": [
+      "/dashboard/user_creation",
+      "/dashboard/role_management",
+      "/dashboard/group_management",
+      "/dashboard/block_user",
+      "/dashboard/role_based_access"
+    ],
+    "urls": {
+      "fetchAll": "bko-user/fetchAll",
+      "create": "bko-user/post",
+      "update": "bko-user/post",
+      "delete": "bko-user/delete"
+    },
+    "columns": [
+      {
+        "key": "userId",
+        "label": "User ID"
+      },
+      {
+        "key": "userName",
+        "label": "Name"
+      },
+      {
+        "key": "userRole",
+        "label": "Role"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "userId",
+        "label": "User ID",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "userName",
+        "label": "User Name",
+        "required": true
+      },
+      {
+        "key": "userEmail",
+        "label": "Email"
+      },
+      {
+        "key": "userRole",
+        "label": "Role"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "userId": "admin",
+        "userName": "Administrator",
+        "userRole": "ADMIN",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "user_management"
+  },
+  {
+    "id": "transfer_config",
+    "folder": "transfer_config",
+    "title": "Transfer Control",
+    "routes": [
+      "/dashboard/transfer_control",
+      "/dashboard/transfer_limit",
+      "/dashboard/transfer_type",
+      "/dashboard/global_transfer_limit",
+      "/dashboard/fees_limit"
+    ],
+    "urls": {
+      "fetchAll": "TransferControl/getAll",
+      "create": "TransferControl/save",
+      "update": "TransferControl/save",
+      "delete": "TransferControl/delete"
+    },
+    "columns": [
+      {
+        "key": "transferType",
+        "label": "Type"
+      },
+      {
+        "key": "limitAmount",
+        "label": "Limit"
+      },
+      {
+        "key": "currency",
+        "label": "Currency"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "transferType",
+        "label": "Transfer Type",
+        "required": true
+      },
+      {
+        "key": "limitAmount",
+        "label": "Limit Amount",
+        "required": true
+      },
+      {
+        "key": "currency",
+        "label": "Currency",
+        "defaultValue": "QAR"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "transferType": "OWN",
+        "limitAmount": "50000",
+        "currency": "QAR",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "transfer_config"
+  },
+  {
+    "id": "workflow_configuration",
+    "folder": "workflow_configuration",
+    "title": "Workflow Configuration",
+    "routes": [
+      "/dashboard/pending_approval_nav",
+      "/dashboard/pending-request-nav"
+    ],
+    "urls": {
+      "fetchAll": "workflow/config/getAll",
+      "create": "workflow/config/save",
+      "update": "workflow/config/save",
+      "delete": "workflow/config/delete"
+    },
+    "columns": [
+      {
+        "key": "workflowCode",
+        "label": "Code"
+      },
+      {
+        "key": "workflowName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "workflowCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "workflowName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "workflowCode": "WF1",
+        "workflowName": "Default Approval",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "workflow_configuration"
+  },
+  {
+    "id": "workflow_new",
+    "folder": "workflow_new",
+    "title": "Workflow New",
+    "routes": [
+      "/dashboard/pending_approval",
+      "/dashboard/pending-request"
+    ],
+    "urls": {
+      "fetchAll": "workflow/new/getAll",
+      "create": "workflow/new/save",
+      "update": "workflow/new/save",
+      "delete": "workflow/new/delete"
+    },
+    "columns": [
+      {
+        "key": "requestId",
+        "label": "Request ID"
+      },
+      {
+        "key": "requestType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "requestId",
+        "label": "Request ID",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "requestType",
+        "label": "Type",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "requestId": "R1",
+        "requestType": "USER",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "workflow_new"
+  },
+  {
+    "id": "blocklist_ip",
+    "folder": "blocklist_ip",
+    "title": "Blocklist IP",
+    "routes": [
+      "/dashboard/BlockList_IP"
+    ],
+    "urls": {
+      "fetchAll": "backoffice-service/ip-block/list",
+      "create": "backoffice-service/ip-block/manage",
+      "update": "backoffice-service/ip-block/manage",
+      "delete": "backoffice-service/ip-block/manage"
+    },
+    "columns": [
+      {
+        "key": "ipAddress",
+        "label": "IP Address"
+      },
+      {
+        "key": "reason",
+        "label": "Reason"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "ipAddress",
+        "label": "IP Address",
+        "required": true
+      },
+      {
+        "key": "reason",
+        "label": "Reason"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "ipAddress": "10.0.0.1",
+        "reason": "Suspicious",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "blocklist_ip"
+  },
+  {
+    "id": "blocklist_imei",
+    "folder": "blocklist_imei",
+    "title": "Blocklist IMEI",
+    "routes": [
+      "/dashboard/blocklist_imei"
+    ],
+    "urls": {
+      "fetchAll": "imei/blockedList",
+      "create": "imei/modifyBlock",
+      "update": "imei/modifyBlock",
+      "delete": "imei/modifyBlock"
+    },
+    "columns": [
+      {
+        "key": "imei",
+        "label": "IMEI"
+      },
+      {
+        "key": "reason",
+        "label": "Reason"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "imei",
+        "label": "IMEI",
+        "required": true
+      },
+      {
+        "key": "reason",
+        "label": "Reason"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "imei": "356938035643809",
+        "reason": "Lost device",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "blocklist_imei"
+  },
+  {
+    "id": "force_update_configuration",
+    "folder": "force_update_configuration",
+    "title": "Force Update",
+    "routes": [
+      "/dashboard/force_update",
+      "/dashboard/application_version_management"
+    ],
+    "urls": {
+      "fetchAll": "forceUpdate/summary",
+      "create": "forceUpdate/modify",
+      "update": "forceUpdate/modify",
+      "delete": "forceUpdate/modify"
+    },
+    "columns": [
+      {
+        "key": "platform",
+        "label": "Platform"
+      },
+      {
+        "key": "version",
+        "label": "Version"
+      },
+      {
+        "key": "forceUpdate",
+        "label": "Force"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "platform",
+        "label": "Platform",
+        "required": true
+      },
+      {
+        "key": "version",
+        "label": "Version",
+        "required": true
+      },
+      {
+        "key": "forceUpdate",
+        "label": "Force Update",
+        "type": "status"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "platform": "Android",
+        "version": "3.2.0",
+        "forceUpdate": "Y",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "force_update_configuration"
+  },
+  {
+    "id": "menu_maintenance",
+    "folder": "menu_maintenance",
+    "title": "Menu Entitlement",
+    "routes": [
+      "/dashboard/menu-entitlement",
+      "/dashboard/child_management"
+    ],
+    "urls": {
+      "fetchAll": "txn/menus/entitlement",
+      "create": "txn/manage-menus",
+      "update": "txn/manage-menus",
+      "delete": "txn/manage-menus"
+    },
+    "columns": [
+      {
+        "key": "menuCode",
+        "label": "Menu Code"
+      },
+      {
+        "key": "menuDesc",
+        "label": "Description"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "menuCode",
+        "label": "Menu Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "menuDesc",
+        "label": "Description",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "menuCode": "DASH",
+        "menuDesc": "Dashboard",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "menu_maintenance"
+  },
+  {
+    "id": "configuration_parameters",
+    "folder": "configuration_parameters",
+    "title": "Configuration Parameters",
+    "routes": [
+      "/dashboard/configuration_para"
+    ],
+    "urls": {
+      "fetchAll": "formconfig/getAll",
+      "create": "formconfig/create",
+      "update": "formconfig/update",
+      "delete": "formconfig/delete"
+    },
+    "columns": [
+      {
+        "key": "paramCode",
+        "label": "Code"
+      },
+      {
+        "key": "paramValue",
+        "label": "Value"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "paramCode",
+        "label": "Parameter Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "paramValue",
+        "label": "Value",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "paramCode": "SESSION_TIMEOUT",
+        "paramValue": "30",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "configuration_parameters"
+  },
+  {
+    "id": "default_parameter",
+    "folder": "default_parameter",
+    "title": "Default Parameter",
+    "routes": [
+      "/dashboard/default_parameter"
+    ],
+    "urls": {
+      "fetchAll": "api/default-config/getAll",
+      "create": "api/default-config/action",
+      "update": "api/default-config/action",
+      "delete": "api/default-config/action"
+    },
+    "columns": [
+      {
+        "key": "configKey",
+        "label": "Key"
+      },
+      {
+        "key": "configValue",
+        "label": "Value"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "configKey",
+        "label": "Key",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "configValue",
+        "label": "Value",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "configKey": "LANG",
+        "configValue": "en",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "default_parameter"
+  },
+  {
+    "id": "Parameter_maintenance",
+    "folder": "Parameter_maintenance",
+    "title": "Parameter Maintenance",
+    "routes": [
+      "/dashboard/Parameter_Maintenance"
+    ],
+    "urls": {
+      "fetchAll": "backoffice-service/parameter/list",
+      "create": "parameter/manage-parameter",
+      "update": "parameter/manage-parameter",
+      "delete": "parameter/manage-parameter"
+    },
+    "columns": [
+      {
+        "key": "parameterCode",
+        "label": "Code"
+      },
+      {
+        "key": "parameterValue",
+        "label": "Value"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "parameterCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "parameterValue",
+        "label": "Value",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "parameterCode": "P1",
+        "parameterValue": "v1",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "Parameter_maintenance"
+  },
+  {
+    "id": "data_base_configuration",
+    "folder": "data_base_configuration",
+    "title": "Database Configuration",
+    "routes": [
+      "/dashboard/database_config"
+    ],
+    "urls": {
+      "fetchAll": "dbconfig/getDbConfig",
+      "create": "dbconfig/createDbConfig",
+      "update": "dbconfig/createDbConfig",
+      "delete": "dbconfig/createDbConfig"
+    },
+    "columns": [
+      {
+        "key": "dbName",
+        "label": "DB Name"
+      },
+      {
+        "key": "host",
+        "label": "Host"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "dbName",
+        "label": "DB Name",
+        "required": true
+      },
+      {
+        "key": "host",
+        "label": "Host",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "dbName": "bo",
+        "host": "localhost",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "data_base_configuration"
+  },
+  {
+    "id": "license_management",
+    "folder": "license_management",
+    "title": "License Management",
+    "routes": [
+      "/dashboard/License_Management"
+    ],
+    "urls": {
+      "fetchAll": "bko-license/fetchAll",
+      "create": "bko-license/post",
+      "update": "bko-license/post",
+      "delete": "bko-license/delete"
+    },
+    "columns": [
+      {
+        "key": "licenseKey",
+        "label": "License Key"
+      },
+      {
+        "key": "expiryDate",
+        "label": "Expiry"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "licenseKey",
+        "label": "License Key",
+        "required": true
+      },
+      {
+        "key": "expiryDate",
+        "label": "Expiry Date"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "licenseKey": "LIC-001",
+        "expiryDate": "2027-12-31",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "license_management"
+  },
+  {
+    "id": "sms_configuration",
+    "folder": "sms_configuration",
+    "title": "SMS Configuration",
+    "routes": [
+      "/dashboard/sms_configuration",
+      "/dashboard/otp_config",
+      "/dashboard/otp-bio_matrix"
+    ],
+    "urls": {
+      "fetchAll": "api/otpControlConfig/getall",
+      "create": "api/otpControlConfig/create",
+      "update": "api/otpControlConfig/update",
+      "delete": "api/otpControlConfig/delete"
+    },
+    "columns": [
+      {
+        "key": "configName",
+        "label": "Name"
+      },
+      {
+        "key": "otpLength",
+        "label": "OTP Length"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "configName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "otpLength",
+        "label": "OTP Length",
+        "defaultValue": "6"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "configName": "Default OTP",
+        "otpLength": "6",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "sms_configuration"
+  },
+  {
+    "id": "rule_management",
+    "folder": "rule_management",
+    "title": "Rule Management",
+    "routes": [
+      "/dashboard/rule-management",
+      "/dashboard/fawran_rules"
+    ],
+    "urls": {
+      "fetchAll": "bko-rule/fetchAll",
+      "create": "bko-rule/post",
+      "update": "bko-rule/update",
+      "delete": "bko-rule/delete"
+    },
+    "columns": [
+      {
+        "key": "ruleCode",
+        "label": "Rule Code"
+      },
+      {
+        "key": "ruleName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "ruleCode",
+        "label": "Rule Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "ruleName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "ruleCode": "R1",
+        "ruleName": "Default Rule",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "rule_management"
+  },
+  {
+    "id": "segment_access_management",
+    "folder": "segment_access_management",
+    "title": "Segment Access",
+    "routes": [
+      "/dashboard/segment_access_management",
+      "/dashboard/customer-segment",
+      "/customer-segment"
+    ],
+    "urls": {
+      "fetchAll": "customerSeg/getSegmentList",
+      "create": "customerSeg/saveSegmentData",
+      "update": "customerSeg/saveSegmentData",
+      "delete": "customerSeg/delete"
+    },
+    "columns": [
+      {
+        "key": "segmentCode",
+        "label": "Segment Code"
+      },
+      {
+        "key": "segmentName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "segmentCode",
+        "label": "Segment Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "segmentName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "segmentCode": "RET",
+        "segmentName": "Retail",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "segment_access_management"
+  },
+  {
+    "id": "merchant_management",
+    "folder": "merchant_management",
+    "title": "Merchant Management",
+    "routes": [
+      "/dashboard/merchant_management",
+      "/merchant_management"
+    ],
+    "urls": {
+      "fetchAll": "merchant/getAll",
+      "create": "merchant/create",
+      "update": "merchant/update",
+      "delete": "merchant/delete"
+    },
+    "columns": [
+      {
+        "key": "merchantCode",
+        "label": "Code"
+      },
+      {
+        "key": "merchantName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "merchantCode",
+        "label": "Merchant Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "merchantName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "merchantCode": "M1",
+        "merchantName": "Demo Merchant",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "merchant_management"
+  },
+  {
+    "id": "offer_discount_management",
+    "folder": "offer_discount_management",
+    "title": "Offer & Discount",
+    "routes": [
+      "/dashboard/offer_management",
+      "/dashboard/discount_management",
+      "/dashboard/offers_category",
+      "/dashboard/offers_rewards_management",
+      "/dashboard/offer_static_info"
+    ],
+    "urls": {
+      "fetchAll": "offer/getAll",
+      "create": "offer/create",
+      "update": "offer/update",
+      "delete": "offer/delete"
+    },
+    "columns": [
+      {
+        "key": "offerCode",
+        "label": "Code"
+      },
+      {
+        "key": "offerName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "offerCode",
+        "label": "Offer Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "offerName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "offerCode": "O1",
+        "offerName": "Welcome Offer",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "offer_discount_management"
+  },
+  {
+    "id": "finance_offer",
+    "folder": "finance_offer",
+    "title": "Finance Offer",
+    "routes": [
+      "/dashboard/finance_offer"
+    ],
+    "urls": {
+      "fetchAll": "finance-offer/getAll",
+      "create": "finance-offer/create",
+      "update": "finance-offer/update",
+      "delete": "finance-offer/delete"
+    },
+    "columns": [
+      {
+        "key": "offerCode",
+        "label": "Code"
+      },
+      {
+        "key": "offerName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "offerCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "offerName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "offerCode": "FO1",
+        "offerName": "Personal Finance",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "finance_offer"
+  },
+  {
+    "id": "finance_calculator",
+    "folder": "finance_calculator",
+    "title": "Finance Calculator",
+    "routes": [
+      "/dashboard/finance_calculator"
+    ],
+    "urls": {
+      "fetchAll": "finance-calculator/getAll",
+      "create": "finance-calculator/save",
+      "update": "finance-calculator/save",
+      "delete": "finance-calculator/delete"
+    },
+    "columns": [
+      {
+        "key": "calcCode",
+        "label": "Code"
+      },
+      {
+        "key": "calcName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "calcCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "calcName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "calcCode": "FC1",
+        "calcName": "EMI Calculator",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "finance_calculator"
+  },
+  {
+    "id": "instant_finance",
+    "folder": "instant_finance",
+    "title": "Instant Finance",
+    "routes": [
+      "/dashboard/instant_finance",
+      "/instant_finance",
+      "/dashboard/salary_advance"
+    ],
+    "urls": {
+      "fetchAll": "instant-finance/getAll",
+      "create": "instant-finance/save",
+      "update": "instant-finance/save",
+      "delete": "instant-finance/delete"
+    },
+    "columns": [
+      {
+        "key": "productCode",
+        "label": "Product"
+      },
+      {
+        "key": "productName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "productCode",
+        "label": "Product Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "productName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "productCode": "IF1",
+        "productName": "Instant Loan",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "instant_finance"
+  },
+  {
+    "id": "finance",
+    "folder": "finance",
+    "title": "Finance",
+    "routes": [],
+    "urls": {
+      "fetchAll": "finance/getAll",
+      "create": "finance/save",
+      "update": "finance/save",
+      "delete": "finance/delete"
+    },
+    "columns": [
+      {
+        "key": "code",
+        "label": "Code"
+      },
+      {
+        "key": "name",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "code",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "name",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "code": "FIN",
+        "name": "Finance Module",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "finance"
+  },
+  {
+    "id": "partner_onboarding",
+    "folder": "partner_onboarding",
+    "title": "Partner Onboarding",
+    "routes": [
+      "/dashboard/Partner_Listing",
+      "/dashboard/partner_stepper"
+    ],
+    "urls": {
+      "fetchAll": "partners/list",
+      "create": "partners/create",
+      "update": "partners/create",
+      "delete": "partners/delete"
+    },
+    "columns": [
+      {
+        "key": "partnerCode",
+        "label": "Code"
+      },
+      {
+        "key": "partnerName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "partnerCode",
+        "label": "Partner Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "partnerName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "partnerCode": "P1",
+        "partnerName": "Partner One",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "partner_onboarding"
+  },
+  {
+    "id": "pending_approvals",
+    "folder": "pending_approvals",
+    "title": "Pending Approvals",
+    "routes": [],
+    "urls": {
+      "fetchAll": "pending-approval/list",
+      "create": "pending-approval/action",
+      "update": "pending-approval/action",
+      "delete": "pending-approval/action"
+    },
+    "columns": [
+      {
+        "key": "approvalId",
+        "label": "ID"
+      },
+      {
+        "key": "requestType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "approvalId",
+        "label": "Approval ID",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "requestType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "approvalId": "A1",
+        "requestType": "USER",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "pending_approvals"
+  },
+  {
+    "id": "profile_control",
+    "folder": "profile_control",
+    "title": "Profile Control",
+    "routes": [
+      "/dashboard/profile_control",
+      "/profile_control"
+    ],
+    "urls": {
+      "fetchAll": "profile-control/getAll",
+      "create": "profile-control/save",
+      "update": "profile-control/save",
+      "delete": "profile-control/delete"
+    },
+    "columns": [
+      {
+        "key": "profileCode",
+        "label": "Code"
+      },
+      {
+        "key": "profileName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "profileCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "profileName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "profileCode": "PR1",
+        "profileName": "Default Profile",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "profile_control"
+  },
+  {
+    "id": "profanity_check",
+    "folder": "profanity_check",
+    "title": "Profanity Check",
+    "routes": [
+      "/dashboard/profanity_check"
+    ],
+    "urls": {
+      "fetchAll": "profanity/getAll",
+      "create": "profanity/save",
+      "update": "profanity/save",
+      "delete": "profanity/delete"
+    },
+    "columns": [
+      {
+        "key": "word",
+        "label": "Word"
+      },
+      {
+        "key": "severity",
+        "label": "Severity"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "word",
+        "label": "Word",
+        "required": true
+      },
+      {
+        "key": "severity",
+        "label": "Severity"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "word": "badword",
+        "severity": "HIGH",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "profanity_check"
+  },
+  {
+    "id": "release_management",
+    "folder": "release_management",
+    "title": "Release Management",
+    "routes": [
+      "/dashboard/release_management"
+    ],
+    "urls": {
+      "fetchAll": "release/getAll",
+      "create": "release/save",
+      "update": "release/save",
+      "delete": "release/delete"
+    },
+    "columns": [
+      {
+        "key": "version",
+        "label": "Version"
+      },
+      {
+        "key": "releaseDate",
+        "label": "Date"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "version",
+        "label": "Version",
+        "required": true
+      },
+      {
+        "key": "releaseDate",
+        "label": "Release Date"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "version": "1.0.0",
+        "releaseDate": "2026-01-01",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "release_management"
+  },
+  {
+    "id": "gateway_sync",
+    "folder": "gateway_sync",
+    "title": "Gateway Sync",
+    "routes": [
+      "/dashboard/gateway_sync",
+      "/dashboard/gateway_configuration"
+    ],
+    "urls": {
+      "fetchAll": "gateway/getAll",
+      "create": "gateway/save",
+      "update": "gateway/save",
+      "delete": "gateway/delete"
+    },
+    "columns": [
+      {
+        "key": "gatewayCode",
+        "label": "Code"
+      },
+      {
+        "key": "gatewayName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "gatewayCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "gatewayName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "gatewayCode": "GW1",
+        "gatewayName": "Primary Gateway",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "gateway_sync"
+  },
+  {
+    "id": "sync_table_management",
+    "folder": "sync_table_management",
+    "title": "Sync Table Management",
+    "routes": [
+      "/dashboard/table-migration",
+      "/dashboard/table-migration-list"
+    ],
+    "urls": {
+      "fetchAll": "migration/table-list",
+      "create": "migration/saveOrUpdate",
+      "update": "migration/saveOrUpdate",
+      "delete": "migration/saveOrUpdate"
+    },
+    "columns": [
+      {
+        "key": "tableName",
+        "label": "Table"
+      },
+      {
+        "key": "lastSync",
+        "label": "Last Sync"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "tableName",
+        "label": "Table Name",
+        "required": true
+      },
+      {
+        "key": "lastSync",
+        "label": "Last Sync"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "tableName": "bko_user",
+        "lastSync": "-",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "sync_table_management"
+  },
+  {
+    "id": "ready_to_sync_table",
+    "folder": "ready_to_sync_table",
+    "title": "Ready To Sync",
+    "routes": [
+      "/dashboard/ready_to_sync_table",
+      "/dashboard/Ready_To_Sync"
+    ],
+    "urls": {
+      "fetchAll": "migration/table-list",
+      "create": "migration/refresh",
+      "update": "migration/refresh",
+      "delete": "migration/refresh"
+    },
+    "columns": [
+      {
+        "key": "tableName",
+        "label": "Table"
+      },
+      {
+        "key": "ready",
+        "label": "Ready"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "tableName",
+        "label": "Table Name",
+        "required": true
+      },
+      {
+        "key": "ready",
+        "label": "Ready",
+        "type": "status"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "tableName": "bko_role",
+        "ready": "Y",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "ready_to_sync_table"
+  },
+  {
+    "id": "oci_user",
+    "folder": "oci_user",
+    "title": "OCI User Management",
+    "routes": [
+      "/dashboard/oci_user_management",
+      "/dashboard/oci_user_notification"
+    ],
+    "urls": {
+      "fetchAll": "oci-user/getAll",
+      "create": "oci-user/save",
+      "update": "oci-user/save",
+      "delete": "oci-user/delete"
+    },
+    "columns": [
+      {
+        "key": "userId",
+        "label": "User ID"
+      },
+      {
+        "key": "userName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "userId",
+        "label": "User ID",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "userName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "userId": "oci1",
+        "userName": "OCI User",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "oci_user"
+  },
+  {
+    "id": "user_name_rules",
+    "folder": "user_name_rules",
+    "title": "Username Rules",
+    "routes": [
+      "/dashboard/User_name",
+      "/dashboard/password_policy",
+      "/dashboard/password_configurations"
+    ],
+    "urls": {
+      "fetchAll": "usernamerule/getAll",
+      "create": "usernamerule/create",
+      "update": "usernamerule/update",
+      "delete": "usernamerule/delete"
+    },
+    "columns": [
+      {
+        "key": "ruleCode",
+        "label": "Rule"
+      },
+      {
+        "key": "minLength",
+        "label": "Min Length"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "ruleCode",
+        "label": "Rule Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "minLength",
+        "label": "Min Length",
+        "defaultValue": "8"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "ruleCode": "UNR1",
+        "minLength": "8",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "user_name_rules"
+  },
+  {
+    "id": "feature_management",
+    "folder": "feature_management",
+    "title": "Feature Management",
+    "routes": [
+      "/dashboard/domain_management",
+      "/dashboard/product_management",
+      "/dashboard/sub_product_management",
+      "/dashboard/retail_product",
+      "/dashboard/retail_subproduct",
+      "/dashboard/access_product_management",
+      "/dashboard/subproduct"
+    ],
+    "urls": {
+      "fetchAll": "bko-features/fetchAll",
+      "create": "bko-features/post",
+      "update": "bko-features/post",
+      "delete": "bko-features/delete"
+    },
+    "columns": [
+      {
+        "key": "featureCode",
+        "label": "Code"
+      },
+      {
+        "key": "featureName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "featureCode",
+        "label": "Feature Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "featureName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "featureCode": "FEAT1",
+        "featureName": "Sample Feature",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "feature_management"
+  },
+  {
+    "id": "about_QNB",
+    "folder": "about_QNB",
+    "title": "About QNB",
+    "routes": [
+      "/dashboard/about_Qnb",
+      "/dashboard/term-condition",
+      "/dashboard/terms&condition_disclaimer"
+    ],
+    "urls": {
+      "fetchAll": "disclaimer/summary",
+      "create": "disclaimer/manage",
+      "update": "disclaimer/manage",
+      "delete": "disclaimer/manage"
+    },
+    "columns": [
+      {
+        "key": "contentCode",
+        "label": "Code"
+      },
+      {
+        "key": "title",
+        "label": "Title"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "contentCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "title",
+        "label": "Title",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "contentCode": "ABOUT",
+        "title": "About QNB",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "about_QNB"
+  },
+  {
+    "id": "follow_us",
+    "folder": "follow_us",
+    "title": "Follow Us / Reach Us",
+    "routes": [
+      "/dashboard/reach_us",
+      "/dashboard/preference",
+      "/dashboard/rm_contact"
+    ],
+    "urls": {
+      "fetchAll": "reach-us/getAll",
+      "create": "reach-us/save",
+      "update": "reach-us/save",
+      "delete": "reach-us/delete"
+    },
+    "columns": [
+      {
+        "key": "channel",
+        "label": "Channel"
+      },
+      {
+        "key": "value",
+        "label": "Value"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "channel",
+        "label": "Channel",
+        "required": true
+      },
+      {
+        "key": "value",
+        "label": "Value",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "channel": "Twitter",
+        "value": "@QNB",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "follow_us"
+  },
+  {
+    "id": "customer_360_view",
+    "folder": "customer_360_view",
+    "title": "Customer 360",
+    "routes": [
+      "/dashboard/customer_search"
+    ],
+    "urls": {
+      "fetchAll": "api/customer/details",
+      "create": "api/customer/details",
+      "update": "api/customer/details",
+      "delete": "api/customer/details"
+    },
+    "columns": [
+      {
+        "key": "customerId",
+        "label": "Customer ID"
+      },
+      {
+        "key": "customerName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "customerId",
+        "label": "Customer ID",
+        "required": true
+      },
+      {
+        "key": "customerName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "customerId": "1001",
+        "customerName": "Demo Customer",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "customer_360_view"
+  },
+  {
+    "id": "customer_jounrey",
+    "folder": "customer_jounrey",
+    "title": "Customer Journey",
+    "routes": [
+      "/customer-journey",
+      "/dashboard/customer-journey"
+    ],
+    "urls": {
+      "fetchAll": "customer-journey/getAll",
+      "create": "customer-journey/save",
+      "update": "customer-journey/save",
+      "delete": "customer-journey/delete"
+    },
+    "columns": [
+      {
+        "key": "journeyCode",
+        "label": "Code"
+      },
+      {
+        "key": "journeyName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "journeyCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "journeyName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "journeyCode": "CJ1",
+        "journeyName": "Onboarding",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "customer_jounrey"
+  },
+  {
+    "id": "customer_service",
+    "folder": "customer_service",
+    "title": "CRM Service",
+    "routes": [
+      "/dashboard/crm_service_management",
+      "/dashboard/crm_department",
+      "/dashboard/utility_service_management"
+    ],
+    "urls": {
+      "fetchAll": "crm-service-type/get-all",
+      "create": "crm-service-type/add",
+      "update": "crm-service-type/update",
+      "delete": "crm-service-type/delete"
+    },
+    "columns": [
+      {
+        "key": "serviceCode",
+        "label": "Code"
+      },
+      {
+        "key": "serviceName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "serviceCode",
+        "label": "Service Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "serviceName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "serviceCode": "SVC1",
+        "serviceName": "General Inquiry",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "customer_service"
+  },
+  {
+    "id": "customer_support",
+    "folder": "customer_support",
+    "title": "Customer Support",
+    "routes": [
+      "/dashboard/logging_exception",
+      "/dashboard/logging_event",
+      "/dashboard/bo_user_action",
+      "/transaction-error-details",
+      "/dashboard/transaction-error-details",
+      "/dashboard/transaction-error-table",
+      "/dashboard/transaction-error-details-landing"
+    ],
+    "urls": {
+      "fetchAll": "userAction/getAll",
+      "create": "userAction/getAll",
+      "update": "userAction/getAll",
+      "delete": "userAction/getAll"
+    },
+    "columns": [
+      {
+        "key": "actionId",
+        "label": "Action ID"
+      },
+      {
+        "key": "userId",
+        "label": "User"
+      },
+      {
+        "key": "actionType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "actionId",
+        "label": "Action ID",
+        "required": true
+      },
+      {
+        "key": "userId",
+        "label": "User ID"
+      },
+      {
+        "key": "actionType",
+        "label": "Type"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "actionId": "ACT1",
+        "userId": "admin",
+        "actionType": "LOGIN",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "customer_support"
+  },
+  {
+    "id": "data_cleansing",
+    "folder": "data_cleansing",
+    "title": "Data Cleansing",
+    "routes": [
+      "/dashboard/data_cleansing"
+    ],
+    "urls": {
+      "fetchAll": "data-cleansing/getAll",
+      "create": "data-cleansing/run",
+      "update": "data-cleansing/run",
+      "delete": "data-cleansing/run"
+    },
+    "columns": [
+      {
+        "key": "jobCode",
+        "label": "Job"
+      },
+      {
+        "key": "lastRun",
+        "label": "Last Run"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "jobCode",
+        "label": "Job Code",
+        "required": true
+      },
+      {
+        "key": "lastRun",
+        "label": "Last Run"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "jobCode": "DC1",
+        "lastRun": "-",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "data_cleansing"
+  },
+  {
+    "id": "E-statement",
+    "folder": "E-statement",
+    "title": "E-Statement",
+    "routes": [
+      "/dashboard/consolidate_e_statement"
+    ],
+    "urls": {
+      "fetchAll": "e-statement/getAll",
+      "create": "e-statement/save",
+      "update": "e-statement/save",
+      "delete": "e-statement/delete"
+    },
+    "columns": [
+      {
+        "key": "templateCode",
+        "label": "Template"
+      },
+      {
+        "key": "templateName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "templateCode",
+        "label": "Template Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "templateName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "templateCode": "ES1",
+        "templateName": "Consolidated",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "E-statement"
+  },
+  {
+    "id": "apply_for_product",
+    "folder": "apply_for_product",
+    "title": "Apply for Product",
+    "routes": [
+      "/dashboard/apply_product"
+    ],
+    "urls": {
+      "fetchAll": "bko-product/fetchAll",
+      "create": "bko-product/post",
+      "update": "bko-product/post",
+      "delete": "bko-product/delete"
+    },
+    "columns": [
+      {
+        "key": "productCode",
+        "label": "Code"
+      },
+      {
+        "key": "productName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "productCode",
+        "label": "Product Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "productName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "productCode": "AP1",
+        "productName": "Apply Product",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "apply_for_product"
+  },
+  {
+    "id": "apply_product_subproduct",
+    "folder": "apply_product_subproduct",
+    "title": "Apply Product Subproduct",
+    "routes": [
+      "/dashboard/apply_product_subproduct"
+    ],
+    "urls": {
+      "fetchAll": "csubproduct/getAll",
+      "create": "csubproduct/create",
+      "update": "csubproduct/update",
+      "delete": "csubproduct/delete"
+    },
+    "columns": [
+      {
+        "key": "subProductCode",
+        "label": "Code"
+      },
+      {
+        "key": "subProductName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "subProductCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "subProductName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "subProductCode": "SP1",
+        "subProductName": "Sub Product",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "apply_product_subproduct"
+  },
+  {
+    "id": "Apply_sub_product",
+    "folder": "Apply_sub_product",
+    "title": "Apply Sub Product",
+    "routes": [],
+    "urls": {
+      "fetchAll": "bko-subProduct/fetchAll",
+      "create": "bko-subProduct/post",
+      "update": "bko-subProduct/post",
+      "delete": "bko-subProduct/delete"
+    },
+    "columns": [
+      {
+        "key": "subProductCode",
+        "label": "Code"
+      },
+      {
+        "key": "subProductName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "subProductCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "subProductName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "subProductCode": "ASP1",
+        "subProductName": "Apply Sub",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "Apply_sub_product"
+  },
+  {
+    "id": "app_library",
+    "folder": "app_library",
+    "title": "App Library",
+    "routes": [
+      "/app-library",
+      "/dashboard/app-library",
+      "/show-case",
+      "/dashboard/show-case"
+    ],
+    "urls": {
+      "fetchAll": "app-library/getAll",
+      "create": "app-library/save",
+      "update": "app-library/save",
+      "delete": "app-library/delete"
+    },
+    "columns": [
+      {
+        "key": "libCode",
+        "label": "Code"
+      },
+      {
+        "key": "libName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "libCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "libName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "libCode": "LIB1",
+        "libName": "Component Showcase",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "app_library"
+  },
+  {
+    "id": "adapter",
+    "folder": "adapter",
+    "title": "Adapter Table",
+    "routes": [
+      "/dashboard/adapter_table"
+    ],
+    "urls": {
+      "fetchAll": "adapter/getAll",
+      "create": "adapter/save",
+      "update": "adapter/save",
+      "delete": "adapter/delete"
+    },
+    "columns": [
+      {
+        "key": "adapterCode",
+        "label": "Code"
+      },
+      {
+        "key": "adapterName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "adapterCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "adapterName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "adapterCode": "AD1",
+        "adapterName": "Default Adapter",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "adapter"
+  },
+  {
+    "id": "api_call",
+    "folder": "api_call",
+    "title": "API Call",
+    "routes": [
+      "/dashboard/api_call"
+    ],
+    "urls": {
+      "fetchAll": "api-call/getAll",
+      "create": "api-call/save",
+      "update": "api-call/save",
+      "delete": "api-call/delete"
+    },
+    "columns": [
+      {
+        "key": "apiCode",
+        "label": "Code"
+      },
+      {
+        "key": "apiName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "apiCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "apiName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "endpoint",
+        "label": "Endpoint"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "apiCode": "API1",
+        "apiName": "Sample",
+        "endpoint": "/health",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "api_call"
+  },
+  {
+    "id": "dynamic_screen",
+    "folder": "dynamic_screen",
+    "title": "Dynamic Screen",
+    "routes": [
+      "/dashboard/dynamic_screen",
+      "/dashboard/splash_screen_maintenance",
+      "/dashboard/i18n-management"
+    ],
+    "urls": {
+      "fetchAll": "dynamic-screen/getAll",
+      "create": "dynamic-screen/save",
+      "update": "dynamic-screen/save",
+      "delete": "dynamic-screen/delete"
+    },
+    "columns": [
+      {
+        "key": "screenCode",
+        "label": "Code"
+      },
+      {
+        "key": "screenName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "screenCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "screenName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "screenCode": "SCR1",
+        "screenName": "Home",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "dynamic_screen"
+  },
+  {
+    "id": "screen_configuration",
+    "folder": "screen_configuration",
+    "title": "Screen Configuration",
+    "routes": [
+      "/dashboard/theme_config",
+      "/dashboard/link_configuration",
+      "/dashboard/fingerprint_management"
+    ],
+    "urls": {
+      "fetchAll": "theme/config/fetch",
+      "create": "theme/config/manage",
+      "update": "theme/config/manage",
+      "delete": "theme/config/manage"
+    },
+    "columns": [
+      {
+        "key": "themeCode",
+        "label": "Code"
+      },
+      {
+        "key": "themeName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "themeCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "themeName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "themeCode": "DEFAULT",
+        "themeName": "Default Theme",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "screen_configuration"
+  },
+  {
+    "id": "funnel",
+    "folder": "funnel",
+    "title": "Funnel",
+    "routes": [
+      "/dashboard/funnel"
+    ],
+    "urls": {
+      "fetchAll": "funnel/getAll",
+      "create": "funnel/save",
+      "update": "funnel/save",
+      "delete": "funnel/delete"
+    },
+    "columns": [
+      {
+        "key": "funnelCode",
+        "label": "Code"
+      },
+      {
+        "key": "funnelName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "funnelCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "funnelName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "funnelCode": "FN1",
+        "funnelName": "Onboarding Funnel",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "funnel"
+  },
+  {
+    "id": "other_config",
+    "folder": "other_config",
+    "title": "Other Configuration",
+    "routes": [
+      "/dashboard/account_class",
+      "/dashboard/account_type",
+      "/dashboard/lookup_types",
+      "/dashboard/lookups",
+      "/dashboard/atm_locator",
+      "/dashboard/branch_locator",
+      "/dashboard/kiosk_locator",
+      "/dashboard/iban_nav",
+      "/dashboard/beneficiary_nav",
+      "/dashboard/beneficiary_add",
+      "/dashboard/beneficiary_edit",
+      "/dashboard/beneficiary_cooling_off",
+      "/dashboard/beneficiary_cooling_pending",
+      "/dashboard/master_category_management",
+      "/dashboard/category_code",
+      "/dashboard/charity_management",
+      "/dashboard/card",
+      "/dashboard/card_spend",
+      "/dashboard/card_issuance_management",
+      "/dashboard/google_pay",
+      "/dashboard/apple_pay",
+      "/dashboard/cheque_book_management",
+      "/dashboard/cheque_deposit",
+      "/dashboard/direct_remittance",
+      "/dashboard/direct_remittance_type",
+      "/dashboard/western_union_email",
+      "/dashboard/western_union_history",
+      "/dashboard/rtp_transfer_purpose_management",
+      "/dashboard/rtp_account_type_management",
+      "/dashboard/connectivity_hub",
+      "/dashboard/mq_configuration",
+      "/dashboard/afaq_management",
+      "/dashboard/athkar_management",
+      "/dashboard/stories_management",
+      "/dashboard/story_report",
+      "/dashboard/onboarding_management",
+      "/dashboard/onboarding_product_configuration",
+      "/dashboard/employment_masters",
+      "/dashboard/notification_template",
+      "/dashboard/notification/messages-campaign",
+      "/dashboard/notification/customer-segment",
+      "/dashboard/sector",
+      "/dashboard/sector_management",
+      "/dashboard/mccg",
+      "/dashboard/favorite",
+      "/dashboard/favorite_list",
+      "/dashboard/widget",
+      "/dashboard/risk_mangement",
+      "/dashboard/eIPO_company_configuration",
+      "/dashboard/product_content_management",
+      "/dashboard/products _management",
+      "/dashboard/report_template_maintanance",
+      "/dashboard/change_password",
+      "/dashboard/group_manage_add",
+      "/dashboard/group_manage_edit",
+      "/dashboard/template_creation",
+      "/dashboard/country_nav",
+      "/dashboard/unit_nav",
+      "/dashboard/currency_nav",
+      "/dashboard/master_currency_nav",
+      "/dashboard/master_country_nav",
+      "/dashboard/master_language_nav",
+      "/dashboard/channel_nav"
+    ],
+    "urls": {
+      "fetchAll": "account-class/getall",
+      "create": "account-class/add",
+      "update": "account-class/update",
+      "delete": "account-class/delete"
+    },
+    "columns": [
+      {
+        "key": "code",
+        "label": "Code"
+      },
+      {
+        "key": "name",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "code",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "name",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "code": "OC1",
+        "name": "Other Config",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "other_config"
+  },
+  {
+    "id": "CMS",
+    "folder": "CMS",
+    "title": "CMS / i18n",
+    "routes": [
+      "/dashboard/i18n-management"
+    ],
+    "urls": {
+      "fetchAll": "i18n/getAll",
+      "create": "i18n/save",
+      "update": "i18n/save",
+      "delete": "i18n/delete"
+    },
+    "columns": [
+      {
+        "key": "key",
+        "label": "Key"
+      },
+      {
+        "key": "en",
+        "label": "English"
+      },
+      {
+        "key": "ar",
+        "label": "Arabic"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "key",
+        "label": "Key",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "en",
+        "label": "English",
+        "required": true
+      },
+      {
+        "key": "ar",
+        "label": "Arabic"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "key": "welcome",
+        "en": "Welcome",
+        "ar": "\u0623\u0647\u0644\u0627\u064b",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "CMS"
+  },
+  {
+    "id": "limit_setup",
+    "folder": "limit_setup",
+    "title": "Limit Setup",
+    "routes": [],
+    "urls": {
+      "fetchAll": "limit/getAll",
+      "create": "limit/save",
+      "update": "limit/save",
+      "delete": "limit/delete"
+    },
+    "columns": [
+      {
+        "key": "limitCode",
+        "label": "Code"
+      },
+      {
+        "key": "limitValue",
+        "label": "Value"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "limitCode",
+        "label": "Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "limitValue",
+        "label": "Value",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "limitCode": "L1",
+        "limitValue": "10000",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "limit_setup"
+  },
+  {
+    "id": "digital _instant_onboarding",
+    "folder": "digital _instant_onboarding",
+    "title": "Digital Instant Onboarding",
+    "routes": [],
+    "urls": {
+      "fetchAll": "onboarding/getAll",
+      "create": "onboarding/save",
+      "update": "onboarding/save",
+      "delete": "onboarding/delete"
+    },
+    "columns": [
+      {
+        "key": "stepCode",
+        "label": "Step"
+      },
+      {
+        "key": "stepName",
+        "label": "Name"
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "statusChip": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "stepCode",
+        "label": "Step Code",
+        "required": true,
+        "lockOnEdit": true
+      },
+      {
+        "key": "stepName",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "status"
+      }
+    ],
+    "seed": [
+      {
+        "id": "1",
+        "stepCode": "S1",
+        "stepName": "KYC",
+        "status": "Y"
+      }
+    ],
+    "kind": "crud",
+    "reactPath": "digital__instant_onboarding"
+  }
+]

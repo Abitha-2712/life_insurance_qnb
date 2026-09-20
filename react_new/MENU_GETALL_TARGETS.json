@@ -1,0 +1,689 @@
+[
+  {
+    "file": "src/features/about_QNB/services/about_QNBService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "disclaimer/summary",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/adapter/services/adapterService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "adapter/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/api_call/services/api_callService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "api-call/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/apply_for_product/services/apply_for_productService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-product/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/apply_product_subproduct/services/apply_product_subproductService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "csubproduct/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/Apply_sub_product/services/Apply_sub_productService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "csubproduct/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/app_library/services/app_libraryService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "app-library/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/atm_locator/services/atmLocatorService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "atm/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/bank_management/services/bank_managementService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "bankDetails/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/blocklist_imei/services/blocklist_imeiService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "imei-block/list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/blocklist_ip/services/blocklist_ipService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "backoffice-service/ip-block/list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/branch_locator/services/branchLocatorService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "branch-locator/getall",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/CMS/services/CMSService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "txn/labels",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/configuration_parameters/services/configuration_parametersService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "formconfig/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/customer_360_view/services/customer_360_viewService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "blockUnblock/detail",
+    "kind": "crud",
+    "fetchBody": {
+      "unitId": "PRD",
+      "channelId": "BO"
+    }
+  },
+  {
+    "file": "src/features/customer_jounrey/services/customer_jounreyService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "customer-journey/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/customer_service/services/customer_serviceService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "crm-service-type/get-all",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/customer_support/services/customer_supportService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "api/customer/details",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/data_base_configuration/services/data_base_configurationService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "dbconfig/getDbConfig",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/data_cleansing/services/data_cleansingService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "data-cleansing/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/dc_city_master/services/dc_city_masterService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "city-master/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/default_parameter/services/default_parameterService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "api/default-config/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/digital__instant_onboarding/services/digital__instant_onboardingService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "onboarding/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/dynamic_screen/services/dynamic_screenService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "dynamic-screen/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/E-statement/services/E-statementService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "e-statement/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/error_configuration/services/error_configurationService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "error-config/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/FAQ_management/services/FAQ_managementService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "faq/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/feature_management/services/domainService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-domain/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/feature_management/services/feature_managementService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-features/fetchByCriteria",
+    "kind": "crud",
+    "fetchBody": {
+      "domainId": "BO"
+    }
+  },
+  {
+    "file": "src/features/feature_management/services/subProductService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-subProduct/fetchByCriteria",
+    "kind": "crud",
+    "fetchBody": {
+      "domainId": "BO"
+    }
+  },
+  {
+    "file": "src/features/finance/services/financeService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "salary-advance/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/finance_calculator/services/finance_calculatorService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "finance-calculator/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/finance_offer/services/finance_offerService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "finance-offer/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/follow_us/services/follow_usService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "followus/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/force_update_configuration/services/force_update_configurationService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "forceUpdate/summary",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/funnel/services/funnelService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "funnel/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/gateway_sync/services/gateway_syncService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "gateway/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/instant_finance/services/instant_financeService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "instant-finance/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/kiosk_locator/services/kioskLocatorService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "kiosk/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/license_management/services/license_managementService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-license/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/limit_setup/services/feesLimitService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "TransferControl/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/master/channel/services/channelService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-channel/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/master/country/services/countryService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-country/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/master/currency/services/currencyService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-currency/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/master/iban/services/ibanService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "iban/blockedIbanList",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/master/language/services/languageService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-language/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/master/unit/services/unitService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-unit/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/menu_maintenance/services/menu_maintenanceService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "txn/menus/entitlement",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/merchant_management/services/merchant_managementService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "merchant/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/mfa_management/services/mfa_managementService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "mfa/getall",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/oci_user/services/oci_userService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "oci-user/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/offer_discount_management/services/discountService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "offer/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/offer_discount_management/services/offer_discount_managementService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "offer/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/accountClassService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "account-class/getall",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/accountTypeService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "accountType/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/android_configService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "android-config/list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/apple_payService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "apple-pay/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/cardService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "card-bin/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/card_issuanceService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "instant-credit-card/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/card_spendService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "card-spend-category/getAll?page=0&size=50",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/change_password_cfgService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "password-config/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/google_payService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "googlepay/bin/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/lookupService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "lookup-feature/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/lookupTypeService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "api/lookup/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/other_config/services/storiesService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "story-management/get-all",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/Parameter_maintenance/services/Parameter_maintenanceService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "backoffice-service/parameter/list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/partner_onboarding/services/partner_onboardingService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "partners/list?statusType=active",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/pending_approvals/services/pending_approvalsService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "pending-approval/list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/profanity_check/services/profanity_checkService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "profanity/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/profile_control/services/profile_controlService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "profile-control/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/push_notification/services/push_notificationService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "push-notification/customer/subscriptionList",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/ready_to_sync_table/services/ready_to_sync_tableService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "migration/table-list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/release_management/services/release_managementService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "release/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/rule_management/services/rule_managementService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-rule/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/screen_configuration/services/screen_configurationService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "theme/config/fetch",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/segment_access_management/services/segment_access_managementService.js",
+    "base": "bo",
+    "method": "GET",
+    "path": "customerSeg/getSegmentList",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/sms_configuration/services/sms_configurationService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "api/otpControlConfig/getall",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/sync_table_management/services/sync_table_managementService.js",
+    "base": "bo",
+    "method": "POST",
+    "path": "migration/table-list",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/user_management/services/groupService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-grp/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/user_management/services/roleService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-role/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/user_management/services/user_managementService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-user/fetchAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/user_name_rules/services/passwordPolicyService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "bko-password-policy/fetchByCriteria",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/user_name_rules/services/user_name_rulesService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "usernamerule/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/workflow_configuration/services/workflow_configurationService.js",
+    "base": "data",
+    "method": "POST",
+    "path": "workflow/config/getAll",
+    "kind": "crud",
+    "fetchBody": {}
+  },
+  {
+    "file": "src/features/workflow_new/services/workflow_newService.js",
+    "base": "wfc",
+    "method": "POST",
+    "path": "pending-request/workflow/list",
+    "kind": "crud",
+    "fetchBody": {}
+  }
+]

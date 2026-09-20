@@ -1,0 +1,11 @@
+﻿.reach-us-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.reach-us-page .reach-us-crud.generic-crud-page { padding: 0; }
+@media (max-width: 900px) {
+  .reach-us-page { padding: 16px; }
+}

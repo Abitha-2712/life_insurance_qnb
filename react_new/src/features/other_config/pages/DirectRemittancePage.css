@@ -1,0 +1,58 @@
+﻿.direct-remittance-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.direct-remittance-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.direct-remittance-page .ui-metric-card-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.direct-remittance-page .ui-metric-card-row > .ui-metric-card {
+  flex: unset;
+  min-height: 110px;
+}
+.direct-remittance-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 12px;
+  background: #f1f3f6;
+  width: fit-content;
+  max-width: 100%;
+}
+.direct-remittance-tab {
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #485363;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.direct-remittance-tab.is-selected {
+  background: #fff;
+  color: #131720;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+}
+.direct-remittance-page .generic-crud-page.is-embedded { padding: 0; gap: 12px; }
+.direct-remittance-page .generic-crud-page-header.is-embedded-header { justify-content: flex-end; }
+.direct-remittance-page .generic-crud-export { display: flex; justify-content: flex-end; }
+.direct-remittance-page .generic-crud-page > .ui-card { padding: var(--qnb-space-16); }
+@media (max-width: 900px) {
+  .direct-remittance-page { padding: 16px; }
+  .direct-remittance-page .ui-metric-card-row { grid-template-columns: 1fr; }
+}
