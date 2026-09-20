@@ -1,0 +1,9 @@
+﻿/* Flutter UICard — elevation ~5, radius 8, blueGrey shadow */
+.ui-card {
+  background: var(--qnb-card-bg);
+  border: 1px solid var(--qnb-border);
+  border-radius: var(--qnb-radius);
+  padding: var(--qnb-space-8);
+  box-shadow: 0 2px 8px rgb(96 125 139 / 20%);
+  box-sizing: border-box;
+}

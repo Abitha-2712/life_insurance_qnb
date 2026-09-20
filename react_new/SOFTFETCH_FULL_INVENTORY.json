@@ -1,0 +1,2671 @@
+{
+  "generated": "2026-09-20T03:57:56.107Z",
+  "counts": {
+    "softfetchServices": 120,
+    "flutterUrlConsts": 687,
+    "genericPages": 124,
+    "pathMismatchHighConfidence": 2,
+    "noFlutterMatch": 36
+  },
+  "services": [
+    {
+      "feature": "about_QNB",
+      "file": "src/features/about_QNB/services/about_QNBService.js",
+      "base": "data",
+      "fetchAll": "disclaimer/summary",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllDisclaimer",
+        "path": "disclaimer/summary",
+        "file": "lib/network/url/disclaimer_url/disclaimer_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "adapter",
+      "file": "src/features/adapter/services/adapterService.js",
+      "base": "data",
+      "fetchAll": "adapter/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "accountType/getAll",
+        "file": "lib/network/url/account_type_url.dart"
+      },
+      "flutterScore": 35,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "api_call",
+      "file": "src/features/api_call/services/api_callService.js",
+      "base": "data",
+      "fetchAll": "api-call/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAllCategories",
+        "path": "api/rcategory/getall",
+        "file": "lib/network/url/category_code_url/category_code_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "apply_for_product",
+      "file": "src/features/apply_for_product/services/apply_for_productService.js",
+      "base": "wfc",
+      "fetchAll": "bko-product/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllProduct",
+        "path": "bko-product/fetchAll",
+        "file": "lib/network/url/product_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "apply_product_subproduct",
+      "file": "src/features/apply_product_subproduct/services/apply_product_subproductService.js",
+      "base": "bo",
+      "fetchAll": "csubproduct/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "SubProductManagementUrlgetall",
+        "path": "csubproduct/getAll",
+        "file": "lib/network/url/sub_product_management_url/sub_products_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "Apply_sub_product",
+      "file": "src/features/Apply_sub_product/services/Apply_sub_productService.js",
+      "base": "data",
+      "fetchAll": "csubproduct/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "SubProductManagementUrlgetall",
+        "path": "csubproduct/getAll",
+        "file": "lib/network/url/sub_product_management_url/sub_products_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "app_library",
+      "file": "src/features/app_library/services/app_libraryService.js",
+      "base": "bo",
+      "fetchAll": "app-library/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 23,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "atm_locator",
+      "file": "src/features/atm_locator/services/atmLocatorService.js",
+      "base": "data",
+      "fetchAll": "atm/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAtmLocatorkey",
+        "path": "atm/getAll",
+        "file": "lib/network/url/atm_locator_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "bank_management",
+      "file": "src/features/bank_management/services/bank_managementService.js",
+      "base": "data",
+      "fetchAll": "bankDetails/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAllBanks",
+        "path": "bankDetails/getAll",
+        "file": "lib/network/url/bank_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "banner_configuration",
+      "file": "src/features/banner_configuration/services/banner_configurationService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "blocklist_imei",
+      "file": "src/features/blocklist_imei/services/blocklist_imeiService.js",
+      "base": "data",
+      "fetchAll": "imei-block/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "blockIMEIGetAll",
+        "path": "imei-block/getAll",
+        "file": "lib/network/url/block_list_url/block_list_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "blocklist_ip",
+      "file": "src/features/blocklist_ip/services/blocklist_ipService.js",
+      "base": "wfc",
+      "fetchAll": "backoffice-service/ip-block/list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllIP",
+        "path": "backoffice-service/ip-block/list",
+        "file": "lib/network/url/blocklist_ip_url/block_ip_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "branch_locator",
+      "file": "src/features/branch_locator/services/branchLocatorService.js",
+      "base": "data",
+      "fetchAll": "branch-locator/getall",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "branchgetall",
+        "path": "branch-locator/getall",
+        "file": "lib/network/url/branch_locator_url/branch_locator_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "CMS",
+      "file": "src/features/CMS/services/CMSService.js",
+      "base": "data",
+      "fetchAll": "txn/labels",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "labels",
+        "path": "txn/labels",
+        "file": "lib/network/url/i18_maintenance_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "common",
+      "file": "src/features/common/crud/createCrudService.js",
+      "base": "bo",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "configuration_parameters",
+      "file": "src/features/configuration_parameters/services/configuration_parametersService.js",
+      "base": "data",
+      "fetchAll": "formconfig/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "ConfigurationParaUrlgetall",
+        "path": "formconfig/getAll",
+        "file": "lib/network/url/configuration_para_url/configuration_para_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "customer_360_view",
+      "file": "src/features/customer_360_view/services/customer_360_viewService.js",
+      "base": "bo",
+      "fetchAll": "blockUnblock/detail",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "blockUserDetail",
+        "path": "blockUnblock/detail",
+        "file": "lib/network/url/customer_360_view_url/customer_view_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "customer_jounrey",
+      "file": "src/features/customer_jounrey/services/customer_jounreyService.js",
+      "base": "bo",
+      "fetchAll": "customer-journey/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "customer-type/getAll",
+        "file": "lib/network/url/customer_type_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "customer_service",
+      "file": "src/features/customer_service/services/customer_serviceService.js",
+      "base": "data",
+      "fetchAll": "crm-service-type/get-all",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "crm-service-type/get-all",
+        "file": "lib/network/url/crm_service_url/crm_service_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "customer_support",
+      "file": "src/features/customer_support/services/customer_supportService.js",
+      "base": "data",
+      "fetchAll": "api/customer/details",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllcustomerDETAILS",
+        "path": "api/customer/details",
+        "file": "lib/network/url/customer _support_url/customer_support_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "data_base_configuration",
+      "file": "src/features/data_base_configuration/services/data_base_configurationService.js",
+      "base": "bo",
+      "fetchAll": "dbconfig/getDbConfig",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAlldatabasefetch",
+        "path": "dbconfig/getDbConfig",
+        "file": "lib/network/url/database_url/database_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "data_cleansing",
+      "file": "src/features/data_cleansing/services/data_cleansingService.js",
+      "base": "bo",
+      "fetchAll": "data-cleansing/get-all",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "data-cleansing/get-all",
+        "file": "lib/network/url/data_cleansing_url/data_cleansing_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "dc_city_master",
+      "file": "src/features/dc_city_master/services/dc_city_masterService.js",
+      "base": "data",
+      "fetchAll": "city-master/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "city-master/getAll",
+        "file": "lib/network/url/dc_city_master/dc_city_master_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "default_parameter",
+      "file": "src/features/default_parameter/services/default_parameterService.js",
+      "base": "bo",
+      "fetchAll": "api/default-config/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "api/default-config/getAll",
+        "file": "lib/network/url/default_parameter_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "digital__instant_onboarding",
+      "file": "src/features/digital__instant_onboarding/services/digital__instant_onboardingService.js",
+      "base": "data",
+      "fetchAll": "onboarding/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAllStates",
+        "path": "customerOnboarding/getAll",
+        "file": "lib/network/url/onboarding_management/onboarding_management_url.dart"
+      },
+      "flutterScore": 90,
+      "needsPathFix": true,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "dynamic_screen",
+      "file": "src/features/dynamic_screen/services/dynamic_screenService.js",
+      "base": "data",
+      "fetchAll": "dynamic-screen/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 23,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "E-statement",
+      "file": "src/features/E-statement/services/E-statementService.js",
+      "base": "bo",
+      "fetchAll": "e-statement/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 23,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "error_configuration",
+      "file": "src/features/error_configuration/services/error_configurationService.js",
+      "base": "data",
+      "fetchAll": "error-config/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "cheque-config/getAll",
+        "file": "lib/network/url/cheque_book_config_url/cheque_book_config_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "error_management",
+      "file": "src/features/error_management/services/error_managementService.js",
+      "base": "data",
+      "fetchAll": "error-config/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "cheque-config/getAll",
+        "file": "lib/network/url/cheque_book_config_url/cheque_book_config_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "FAQ_management",
+      "file": "src/features/FAQ_management/services/FAQ_managementService.js",
+      "base": "data",
+      "fetchAll": "faq/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "FaqManagementUrlgetall",
+        "path": "faq/getAll",
+        "file": "lib/network/url/faq_management_url/faq_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "feature_management",
+      "file": "src/features/feature_management/services/domainService.js",
+      "base": "wfc",
+      "fetchAll": "bko-domain/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllDomain",
+        "path": "bko-domain/fetchAll",
+        "file": "lib/network/url/domain_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "feature_management",
+      "file": "src/features/feature_management/services/feature_managementService.js",
+      "base": "wfc",
+      "fetchAll": "bko-features/fetchByCriteria",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "searchByCriteriaAccess",
+        "path": "bko-features/fetchByCriteria",
+        "file": "lib/network/url/access_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "feature_management",
+      "file": "src/features/feature_management/services/productService.js",
+      "base": "wfc",
+      "fetchAll": "bko-product/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllProduct",
+        "path": "bko-product/fetchAll",
+        "file": "lib/network/url/product_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "feature_management",
+      "file": "src/features/feature_management/services/subProductService.js",
+      "base": "wfc",
+      "fetchAll": "bko-subProduct/fetchByCriteria",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "searchByCriteriaSubProduct",
+        "path": "bko-subProduct/fetchByCriteria",
+        "file": "lib/network/url/sub_product_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "finance",
+      "file": "src/features/finance/services/financeService.js",
+      "base": "data",
+      "fetchAll": "salary-advance/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "salary-matrix/getAll",
+        "file": "lib/network/url/salary_matrix_url/salary_matrix_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "finance_calculator",
+      "file": "src/features/finance_calculator/services/finance_calculatorService.js",
+      "base": "data",
+      "fetchAll": "finance-calculator/getall",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "finance-calculator/getall",
+        "file": "lib/network/url/finance_calculator_url/finance_calculator_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "finance_offer",
+      "file": "src/features/finance_offer/services/finance_offerService.js",
+      "base": "data",
+      "fetchAll": "finance-offer/get-all",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "finance-offer/get-all",
+        "file": "lib/network/url/finance_offer_url/finance_offer_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "follow_us",
+      "file": "src/features/follow_us/services/follow_usService.js",
+      "base": "data",
+      "fetchAll": "followus/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "accountType/getAll",
+        "file": "lib/network/url/account_type_url.dart"
+      },
+      "flutterScore": 35,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "force_update_configuration",
+      "file": "src/features/force_update_configuration/services/force_update_configurationService.js",
+      "base": "bo",
+      "fetchAll": "forceUpdate/summary",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "forceUpdateSummary",
+        "path": "forceUpdate/summary",
+        "file": "lib/network/url/fawran_rules/fawran_rules_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "funnel",
+      "file": "src/features/funnel/services/funnelService.js",
+      "base": "bo",
+      "fetchAll": "funnel/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "accountType/getAll",
+        "file": "lib/network/url/account_type_url.dart"
+      },
+      "flutterScore": 35,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "gateway_sync",
+      "file": "src/features/gateway_sync/services/gateway_syncService.js",
+      "base": "data",
+      "fetchAll": "gateway-sync/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "gateway-sync/getAll",
+        "file": "lib/network/url/gateway_sync_url/gateway_sync_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "instant_finance",
+      "file": "src/features/instant_finance/services/instant_financeService.js",
+      "base": "bo",
+      "fetchAll": "instant-finance/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "instantFinanceBookingGetAll",
+        "path": "instant-finance-booking/getAll",
+        "file": "lib/network/url/oci_user_url/oci_user_popup_url.dart"
+      },
+      "flutterScore": 53,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "kiosk_locator",
+      "file": "src/features/kiosk_locator/services/kioskLocatorService.js",
+      "base": "data",
+      "fetchAll": "kiosk/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "accountType/getAll",
+        "file": "lib/network/url/account_type_url.dart"
+      },
+      "flutterScore": 35,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "license_management",
+      "file": "src/features/license_management/services/license_managementService.js",
+      "base": "wfc",
+      "fetchAll": "bko-license/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllLicense",
+        "path": "bko-license/fetchAll",
+        "file": "lib/network/url/license_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "limit_setup",
+      "file": "src/features/limit_setup/services/feesLimitService.js",
+      "base": "data",
+      "fetchAll": "TransferControl/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "TransferControl/getAll",
+        "file": "lib/network/url/transfer_control_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "limit_setup",
+      "file": "src/features/limit_setup/services/limit_setupService.js",
+      "base": "data",
+      "fetchAll": "TransferControl/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "TransferControl/getAll",
+        "file": "lib/network/url/transfer_control_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "master",
+      "file": "src/features/master/channel/services/channelService.js",
+      "base": "wfc",
+      "fetchAll": "bko-channel/fetchAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAllChannel",
+        "path": "bko-channel/fetchAll",
+        "file": "lib/network/url/channel_url/channel_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "master",
+      "file": "src/features/master/country/services/countryService.js",
+      "base": "wfc",
+      "fetchAll": "bko-country/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllCountry",
+        "path": "bko-country/fetchAll",
+        "file": "lib/network/url/country_url/country_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "master",
+      "file": "src/features/master/currency/services/currencyService.js",
+      "base": "wfc",
+      "fetchAll": "bko-currency/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllCurrency",
+        "path": "bko-currency/fetchAll",
+        "file": "lib/network/url/currency_url/currency_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "master",
+      "file": "src/features/master/iban/services/ibanService.js",
+      "base": "bo",
+      "fetchAll": "iban/blockedIbanList",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "blockIbanList",
+        "path": "iban/blockedIbanList",
+        "file": "lib/network/url/block_list_url/block_list_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "master",
+      "file": "src/features/master/language/services/languageService.js",
+      "base": "wfc",
+      "fetchAll": "bko-language/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "currencylangList",
+        "path": "bko-language/fetchAll",
+        "file": "lib/network/url/currency_url/currency_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "master",
+      "file": "src/features/master/unit/services/unitService.js",
+      "base": "wfc",
+      "fetchAll": "bko-unit/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllUnit",
+        "path": "bko-unit/fetchAll",
+        "file": "lib/network/url/unit_url/unit_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "menu_maintenance",
+      "file": "src/features/menu_maintenance/services/menu_maintenanceService.js",
+      "base": "bo",
+      "fetchAll": "txn/menus/entitlement",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "viewMenus",
+        "path": "txn/menus/entitlement",
+        "file": "lib/network/url/menu_maintenance/menu_entitlement_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "merchant_management",
+      "file": "src/features/merchant_management/services/merchant_managementService.js",
+      "base": "data",
+      "fetchAll": "merchantmaster/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllMerchant",
+        "path": "merchantmaster/getAll",
+        "file": "lib/network/url/merchant_url/merchant_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "mfa_management",
+      "file": "src/features/mfa_management/services/mfa_managementService.js",
+      "base": "data",
+      "fetchAll": "mfa/getall",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "mfagetall",
+        "path": "mfa/getall",
+        "file": "lib/network/url/mfa_management_url/mfa_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "oci_user",
+      "file": "src/features/oci_user/services/oci_userService.js",
+      "base": "data",
+      "fetchAll": "oci-user/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 23,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "offer_discount_management",
+      "file": "src/features/offer_discount_management/services/discountService.js",
+      "base": "bo",
+      "fetchAll": "offer/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllOffer",
+        "path": "offer/getAll",
+        "file": "lib/network/url/offer_url/offer_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "offer_discount_management",
+      "file": "src/features/offer_discount_management/services/offer_discount_managementService.js",
+      "base": "data",
+      "fetchAll": "offer/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllOffer",
+        "path": "offer/getAll",
+        "file": "lib/network/url/offer_url/offer_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/accountClassService.js",
+      "base": "data",
+      "fetchAll": "account-class/getall",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/accountTypeService.js",
+      "base": "data",
+      "fetchAll": "accountType/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "accountType/getAll",
+        "file": "lib/network/url/account_type_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/afaqService.js",
+      "base": "data",
+      "fetchAll": "afaq-country-currencies/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "afaq-country-currencies/getAll",
+        "file": "lib/network/url/afaq_country_currency_url/afaq_country_currency_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/android_configService.js",
+      "base": "bo",
+      "fetchAll": "android-config/list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAndroid",
+        "path": "android-config/list",
+        "file": "lib/network/url/android_url/android_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/apple_payService.js",
+      "base": "data",
+      "fetchAll": "apple-pay/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "apple-pay/getAll",
+        "file": "lib/network/url/apple_pay_url/apple_pay_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/athkarService.js",
+      "base": "data",
+      "fetchAll": "athkar/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "athkar/fetchAll",
+        "file": "lib/network/url/athkar_url/athkar_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/beneficiaryService.js",
+      "base": "bo",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/cardService.js",
+      "base": "bo",
+      "fetchAll": "card-bin/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "card-bin/getAll",
+        "file": "lib/network/url/card_bin_url/card_bin_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/card_issuanceService.js",
+      "base": "data",
+      "fetchAll": "instant-credit-card/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "instant-credit-card/getAll",
+        "file": "lib/network/url/instant_credit_card_description_url/instant_credit_card_description_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/card_spendService.js",
+      "base": "data",
+      "fetchAll": "card-spend-category/getAll?page=0&size=50",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "sectorDropdown",
+        "path": "card-spend-category/dropdown",
+        "file": "lib/network/url/merchant_url/merchant_url.dart"
+      },
+      "flutterScore": 53,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/change_password_cfgService.js",
+      "base": "data",
+      "fetchAll": "password-config/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllPasswordConfiguration",
+        "path": "password-config/getAll",
+        "file": "lib/network/url/username_rules/password_configuration_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/charityService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/cheque_bookService.js",
+      "base": "data",
+      "fetchAll": "cheque-config/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "cheque-config/getAll",
+        "file": "lib/network/url/cheque_book_config_url/cheque_book_config_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/cheque_depositService.js",
+      "base": "data",
+      "fetchAll": "cheque-deposit/get-all",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "cheque-deposit/get-all",
+        "file": "lib/network/url/cheque_deposit_url/cheque_deposit_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/connectivity_hubService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/direct_remittanceService.js",
+      "base": "data",
+      "fetchAll": "beneficiaryAccountType/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllBeneficiaryAccountType",
+        "path": "beneficiaryAccountType/getAll",
+        "file": "lib/network/url/direct_remittance_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/direct_remittance_typeService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/eipoService.js",
+      "base": "data",
+      "fetchAll": "eipo-company-config/get-all",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "eipo-company-config/get-all",
+        "file": "lib/network/url/eIPO_company_config/eIPO_company_config_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/employment_mastersService.js",
+      "base": "data",
+      "fetchAll": "dob/employer/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "dob/employer/getAll",
+        "file": "lib/network/url/employment_masters_employer/employment_masters_employer_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/favoriteService.js",
+      "base": "bo",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/google_payService.js",
+      "base": "data",
+      "fetchAll": "googlepay/bin/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "binGetAll",
+        "path": "googlepay/bin/getAll",
+        "file": "lib/network/url/google_pay_url/google_pay_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/lookupService.js",
+      "base": "wfc",
+      "fetchAll": "lookup-feature/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAllLookup",
+        "path": "lookup-feature/getAll",
+        "file": "lib/network/url/lookup_url/lookup_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/lookupTypeService.js",
+      "base": "wfc",
+      "fetchAll": "api/lookup/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAllLookupType",
+        "path": "api/lookup/getAll",
+        "file": "lib/network/url/lookup_type_url/lookup_type_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/master_categoryService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/mccgService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/mq_configurationService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/notification_templateService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/onboarding_mgmtService.js",
+      "base": "data",
+      "fetchAll": "customerOnboarding/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAllStates",
+        "path": "customerOnboarding/getAll",
+        "file": "lib/network/url/onboarding_management/onboarding_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/other_configService.js",
+      "base": "data",
+      "fetchAll": "account-class/getall",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/product_contentService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/report_templateService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/riskService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/rtp_account_typeService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/rtp_purposeService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/sectorService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/storiesService.js",
+      "base": "data",
+      "fetchAll": "story-management/get-all",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "story-management/get-all",
+        "file": "lib/network/url/stories_management/stories_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/western_union_emailService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/western_union_historyService.js",
+      "base": "data",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "other_config",
+      "file": "src/features/other_config/services/widget_cfgService.js",
+      "base": "bo",
+      "fetchAll": null,
+      "hasMapRow": false,
+      "flutterMatch": null,
+      "flutterScore": 0,
+      "needsPathFix": null,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "Parameter_maintenance",
+      "file": "src/features/Parameter_maintenance/services/Parameter_maintenanceService.js",
+      "base": "bo",
+      "fetchAll": "backoffice-service/parameter/list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllparameter",
+        "path": "backoffice-service/parameter/list",
+        "file": "lib/network/url/parameter_url/parameter_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "partner_onboarding",
+      "file": "src/features/partner_onboarding/services/partner_onboardingService.js",
+      "base": "bo",
+      "fetchAll": "partners/list?statusType=active",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "partnerList",
+        "path": "partners/list?statusType=active",
+        "file": "lib/network/url/partner_onboarding_url/partner_onboarding_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "pending_approvals",
+      "file": "src/features/pending_approvals/services/pending_approvalsService.js",
+      "base": "wfc",
+      "fetchAll": "pending-approval/list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "pendingApproval",
+        "path": "pending-approval",
+        "file": "lib/network/url/menu_screen_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "profanity_check",
+      "file": "src/features/profanity_check/services/profanity_checkService.js",
+      "base": "bo",
+      "fetchAll": "profanity/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "profanity/getAll",
+        "file": "lib/network/url/profanity_url/profanity_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "profile_control",
+      "file": "src/features/profile_control/services/profile_controlService.js",
+      "base": "bo",
+      "fetchAll": "profile-control/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllAccountClass",
+        "path": "account-class/getall",
+        "file": "lib/network/url/account_class_url.dart"
+      },
+      "flutterScore": 23,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "push_notification",
+      "file": "src/features/push_notification/services/push_notificationService.js",
+      "base": "data",
+      "fetchAll": "push-notification/customer/subscriptionList",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getSubscribedCustomers",
+        "path": "customer/subscriptionList",
+        "file": "lib/network/url/push_notification_url.dart"
+      },
+      "flutterScore": 90,
+      "needsPathFix": true,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "ready_to_sync_table",
+      "file": "src/features/ready_to_sync_table/services/ready_to_sync_tableService.js",
+      "base": "data",
+      "fetchAll": "migration/table-list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "tableList",
+        "path": "migration/table-list",
+        "file": "lib/network/url/sync_table/sync_table_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "release_management",
+      "file": "src/features/release_management/services/release_managementService.js",
+      "base": "data",
+      "fetchAll": "release-management/get-all",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "release-management/get-all",
+        "file": "lib/network/url/release_management_url/release_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "rule_management",
+      "file": "src/features/rule_management/services/rule_managementService.js",
+      "base": "wfc",
+      "fetchAll": "bko-rule/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "allRule",
+        "path": "bko-rule/fetchAll",
+        "file": "lib/network/url/rule_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "screen_configuration",
+      "file": "src/features/screen_configuration/services/screen_configurationService.js",
+      "base": "bo",
+      "fetchAll": "theme/config/fetch",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllTheme",
+        "path": "theme/config/fetch",
+        "file": "lib/network/url/theme_config_url/theme_config_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "screen_configuration",
+      "file": "src/features/screen_configuration/services/termsDisclaimerService.js",
+      "base": "data",
+      "fetchAll": "disclaimer/summary",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllDisclaimer",
+        "path": "disclaimer/summary",
+        "file": "lib/network/url/disclaimer_url/disclaimer_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "segment_access_management",
+      "file": "src/features/segment_access_management/services/segment_access_managementService.js",
+      "base": "bo",
+      "fetchAll": "customerSeg/getSegmentList",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getCustomerSegmentList",
+        "path": "customerSeg/getSegmentList",
+        "file": "lib/network/url/push_notification/customer_segment_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "sms_configuration",
+      "file": "src/features/sms_configuration/services/sms_configurationService.js",
+      "base": "data",
+      "fetchAll": "api/otpControlConfig/getall",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllOtpControl",
+        "path": "api/otpControlConfig/getall",
+        "file": "lib/network/url/otp_control_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "sync_table_management",
+      "file": "src/features/sync_table_management/services/sync_table_managementService.js",
+      "base": "bo",
+      "fetchAll": "migration/table-list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "tableList",
+        "path": "migration/table-list",
+        "file": "lib/network/url/sync_table/sync_table_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "transfer_config",
+      "file": "src/features/transfer_config/services/transfer_configService.js",
+      "base": "data",
+      "fetchAll": "TransferControl/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "getAll",
+        "path": "TransferControl/getAll",
+        "file": "lib/network/url/transfer_control_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "user_management",
+      "file": "src/features/user_management/services/groupService.js",
+      "base": "wfc",
+      "fetchAll": "bko-grp/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllGroups",
+        "path": "bko-grp/fetchAll",
+        "file": "lib/network/url/manage_user_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "user_management",
+      "file": "src/features/user_management/services/roleService.js",
+      "base": "wfc",
+      "fetchAll": "bko-role/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "allUser",
+        "path": "bko-role/fetchAll",
+        "file": "lib/network/url/user_role_management_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "user_management",
+      "file": "src/features/user_management/services/user_managementService.js",
+      "base": "wfc",
+      "fetchAll": "bko-user/fetchAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllUsers",
+        "path": "bko-user/fetchAll",
+        "file": "lib/network/url/manage_user_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "user_name_rules",
+      "file": "src/features/user_name_rules/services/passwordConfigService.js",
+      "base": "data",
+      "fetchAll": "password-config/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllPasswordConfiguration",
+        "path": "password-config/getAll",
+        "file": "lib/network/url/username_rules/password_configuration_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "user_name_rules",
+      "file": "src/features/user_name_rules/services/passwordPolicyService.js",
+      "base": "wfc",
+      "fetchAll": "bko-password-policy/fetchByCriteria",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllPasswordPolicy",
+        "path": "bko-password-policy/fetchByCriteria",
+        "file": "lib/network/url/password_policy_url/password_policy_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "user_name_rules",
+      "file": "src/features/user_name_rules/services/user_name_rulesService.js",
+      "base": "data",
+      "fetchAll": "usernamerule/getAll",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "fetchAllUsernameRuleUrl",
+        "path": "usernamerule/getAll",
+        "file": "lib/network/url/username_rules/username_rule_url.dart"
+      },
+      "flutterScore": 100,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    },
+    {
+      "feature": "workflow_configuration",
+      "file": "src/features/workflow_configuration/services/workflow_configurationService.js",
+      "base": "data",
+      "fetchAll": "workflow/config/getAll",
+      "hasMapRow": false,
+      "flutterMatch": {
+        "name": "fetchAll",
+        "path": "cheque-config/getAll",
+        "file": "lib/network/url/cheque_book_config_url/cheque_book_config_url.dart"
+      },
+      "flutterScore": 47,
+      "needsPathFix": false,
+      "noFlutterMatch": true
+    },
+    {
+      "feature": "workflow_new",
+      "file": "src/features/workflow_new/services/workflow_newService.js",
+      "base": "wfc",
+      "fetchAll": "pending-request/workflow/list",
+      "hasMapRow": true,
+      "flutterMatch": {
+        "name": "pendingRequestCount",
+        "path": "pending-request/workflow/count",
+        "file": "lib/network/url/dashboard_url.dart"
+      },
+      "flutterScore": 53,
+      "needsPathFix": false,
+      "noFlutterMatch": false
+    }
+  ],
+  "pages": [
+    {
+      "file": "src/features/about_QNB/pages/AboutQNBPage.jsx",
+      "serviceImport": "../services/about_QNBService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/adapter/pages/AdapterTablePage.jsx",
+      "serviceImport": "../services/adapterService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/api_call/pages/APICallPage.jsx",
+      "serviceImport": "../services/api_callService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/apply_for_product/pages/ApplyforProductPage.jsx",
+      "serviceImport": "../services/apply_for_productService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/apply_product_subproduct/pages/ApplyProductSubproductPage.jsx",
+      "serviceImport": "../services/apply_product_subproductService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/Apply_sub_product/pages/ApplySubProductPage.jsx",
+      "serviceImport": "../services/Apply_sub_productService",
+      "columnKeys": [
+        "subProductCode",
+        "nameEn",
+        "nameAr",
+        "productName",
+        "imageEn",
+        "imageAr",
+        "priority",
+        "enableFlag"
+      ]
+    },
+    {
+      "file": "src/features/app_library/pages/AppLibraryPage.jsx",
+      "serviceImport": "../services/app_libraryService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/atm_locator/pages/AtmLocatorPage.jsx",
+      "serviceImport": "../services/atmLocatorService",
+      "columnKeys": [
+        "atmCode",
+        "atmName",
+        "city",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/bank_management/pages/BankManagementPage.jsx",
+      "serviceImport": "../services/bank_managementService",
+      "columnKeys": [
+        "bankCode",
+        "bankName",
+        "swiftCode",
+        "countryCode",
+        "status",
+        "bankNameAr",
+        "city",
+        "address"
+      ]
+    },
+    {
+      "file": "src/features/banner_configuration/pages/BannerConfigurationPage.jsx",
+      "serviceImport": "../services/banner_configurationService",
+      "columnKeys": [
+        "bannerId",
+        "bannerName",
+        "screenId",
+        "status",
+        "all",
+        "active",
+        "inactive"
+      ]
+    },
+    {
+      "file": "src/features/blocklist_imei/pages/BlocklistIMEIPage.jsx",
+      "serviceImport": "../services/blocklist_imeiService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/blocklist_ip/pages/BlocklistIPPage.jsx",
+      "serviceImport": "../services/blocklist_ipService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/branch_locator/pages/BranchLocatorPage.jsx",
+      "serviceImport": "../services/branchLocatorService",
+      "columnKeys": [
+        "branchCode",
+        "branchName",
+        "city",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/CMS/pages/CMSi18nPage.jsx",
+      "serviceImport": "../services/CMSService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/common/crud/GenericCrudPage.jsx",
+      "serviceImport": null,
+      "columnKeys": [
+        "all",
+        "active",
+        "inactive"
+      ]
+    },
+    {
+      "file": "src/features/configuration_parameters/pages/ConfigurationParametersPage.jsx",
+      "serviceImport": "../services/configuration_parametersService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/customer_360_view/pages/Customer360Page.jsx",
+      "serviceImport": "../services/customer_360_viewService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/customer_jounrey/pages/CustomerJourneyPage.jsx",
+      "serviceImport": "../services/customer_jounreyService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/customer_service/pages/CRMServicePage.jsx",
+      "serviceImport": "../services/customer_serviceService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/customer_support/pages/CustomerSupportPage.jsx",
+      "serviceImport": "../services/customer_supportService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/dashboard/pages/HomePage/HomePage.jsx",
+      "serviceImport": "@/features/dashboard/services/dashboardService",
+      "columnKeys": [
+        "faq",
+        "mfa",
+        "product",
+        "user",
+        "faqs",
+        "products",
+        "subProducts",
+        "offers",
+        "req",
+        "apr",
+        "rej",
+        "serviceType",
+        "total",
+        "success",
+        "failure"
+      ]
+    },
+    {
+      "file": "src/features/data_base_configuration/pages/DatabaseConfigurationPage.jsx",
+      "serviceImport": "../services/data_base_configurationService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/data_cleansing/pages/DataCleansingPage.jsx",
+      "serviceImport": "../services/data_cleansingService",
+      "columnKeys": [
+        "customerId",
+        "customerName",
+        "mobile",
+        "qidStatus",
+        "accountStatus",
+        "isBlocked",
+        "channelId",
+        "blockReason"
+      ]
+    },
+    {
+      "file": "src/features/dc_city_master/pages/DCCityMasterPage.jsx",
+      "serviceImport": "../services/dc_city_masterService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/default_parameter/pages/DefaultParameterPage.jsx",
+      "serviceImport": "../services/default_parameterService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/digital__instant_onboarding/pages/DigitalInstantOnboardingPage.jsx",
+      "serviceImport": "../services/digital__instant_onboardingService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/dynamic_screen/pages/DynamicScreenPage.jsx",
+      "serviceImport": "../services/dynamic_screenService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/E-statement/pages/EStatementPage.jsx",
+      "serviceImport": "../services/E-statementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/error_configuration/pages/ErrorConfigurationPage.jsx",
+      "serviceImport": "../services/error_configurationService",
+      "columnKeys": [
+        "configCode",
+        "description",
+        "channel",
+        "status",
+        "defaultSeverity"
+      ]
+    },
+    {
+      "file": "src/features/error_management/pages/ErrorManagementPage.jsx",
+      "serviceImport": "../services/error_managementService",
+      "columnKeys": [
+        "errorCode",
+        "errorMessage",
+        "severity",
+        "status",
+        "errorMessageAr",
+        "httpStatus"
+      ]
+    },
+    {
+      "file": "src/features/FAQ_management/pages/FAQManagementPage.jsx",
+      "serviceImport": "../services/FAQ_managementService",
+      "columnKeys": [
+        "faqCode",
+        "question",
+        "category",
+        "channel",
+        "status",
+        "questionAr",
+        "answer",
+        "answerAr",
+        "sequence"
+      ]
+    },
+    {
+      "file": "src/features/feature_management/pages/DomainManagementPage.jsx",
+      "serviceImport": "../services/domainService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/feature_management/pages/FeatureManagementPage.jsx",
+      "serviceImport": "../services/feature_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/feature_management/pages/ProductManagementPage.jsx",
+      "serviceImport": "../services/productService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/feature_management/pages/SubProductManagementPage.jsx",
+      "serviceImport": "../services/subProductService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/finance/pages/FinancePage.jsx",
+      "serviceImport": "../services/financeService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/finance_calculator/pages/FinanceCalculatorPage.jsx",
+      "serviceImport": "../services/finance_calculatorService",
+      "columnKeys": [
+        "segmentId",
+        "segmentNameEN",
+        "recordsCount"
+      ]
+    },
+    {
+      "file": "src/features/finance_offer/pages/FinanceOfferPage.jsx",
+      "serviceImport": "../services/finance_offerService",
+      "columnKeys": [
+        "id",
+        "segment",
+        "instrument",
+        "product",
+        "term",
+        "currency",
+        "minAmount",
+        "maxAmount",
+        "period"
+      ]
+    },
+    {
+      "file": "src/features/follow_us/pages/FollowUsReachUsPage.jsx",
+      "serviceImport": "../services/follow_usService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/force_update_configuration/pages/ForceUpdatePage.jsx",
+      "serviceImport": "../services/force_update_configurationService",
+      "columnKeys": [
+        "platform",
+        "version",
+        "latestVersion",
+        "forceUpdate",
+        "status",
+        "storeUrl",
+        "messageEn",
+        "messageAr"
+      ]
+    },
+    {
+      "file": "src/features/funnel/pages/FunnelPage.jsx",
+      "serviceImport": "../services/funnelService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/gateway_sync/pages/GatewaySyncPage.jsx",
+      "serviceImport": "../services/gateway_syncService",
+      "columnKeys": [
+        "syncTable",
+        "migrationStatus",
+        "syncStatus",
+        "refreshStatus",
+        "migrationDate",
+        "syncDate",
+        "keyPrefix",
+        "keyPattern"
+      ]
+    },
+    {
+      "file": "src/features/instant_finance/pages/InstantFinancePage.jsx",
+      "serviceImport": "../services/instant_financeService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/kiosk_locator/pages/KioskLocatorPage.jsx",
+      "serviceImport": "../services/kioskLocatorService",
+      "columnKeys": [
+        "kioskCode",
+        "kioskName",
+        "city",
+        "status",
+        "address",
+        "latitude",
+        "longitude"
+      ]
+    },
+    {
+      "file": "src/features/license_management/pages/LicenseManagementPage.jsx",
+      "serviceImport": "../services/license_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/limit_setup/pages/FeesLimitPage.jsx",
+      "serviceImport": "../services/feesLimitService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/limit_setup/pages/LimitSetupPage.jsx",
+      "serviceImport": "../services/limit_setupService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/master/channel/pages/ChannelTablePage.jsx",
+      "serviceImport": "../services/channelService",
+      "columnKeys": [
+        "channelCode",
+        "channelName",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/master/city/pages/CityTablePage/CityTablePage.jsx",
+      "serviceImport": null,
+      "columnKeys": [
+        "cityNameEnglish",
+        "cityNameArabic",
+        "status",
+        "all",
+        "active",
+        "inactive"
+      ]
+    },
+    {
+      "file": "src/features/master/country/pages/CountryTablePage.jsx",
+      "serviceImport": "../services/countryService",
+      "columnKeys": [
+        "countryCode",
+        "countryName",
+        "countryNameAr",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/master/currency/pages/CurrencyTablePage.jsx",
+      "serviceImport": "../services/currencyService",
+      "columnKeys": [
+        "currencyCode",
+        "currencyName",
+        "currencyNameAr",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/master/iban/pages/IbanBlocklistPage.jsx",
+      "serviceImport": "../services/ibanService",
+      "columnKeys": [
+        "iban",
+        "reason",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/master/language/pages/LanguageTablePage.jsx",
+      "serviceImport": "../services/languageService",
+      "columnKeys": [
+        "langCode",
+        "langName",
+        "langNameAr",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/master/unit/pages/UnitTablePage.jsx",
+      "serviceImport": "../services/unitService",
+      "columnKeys": [
+        "unitCode",
+        "unitName",
+        "unitNameAr",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/menu_maintenance/pages/MenuEntitlementPage.jsx",
+      "serviceImport": "../services/menu_maintenanceService",
+      "columnKeys": [
+        "menuCode",
+        "menuDesc",
+        "roleCode",
+        "status",
+        "parentMenuCode",
+        "sequence"
+      ]
+    },
+    {
+      "file": "src/features/merchant_management/pages/MerchantManagementPage.jsx",
+      "serviceImport": "../services/merchant_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/mfa_management/pages/MFAManagementPage.jsx",
+      "serviceImport": "../services/mfa_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/oci_user/pages/OCINotificationPage.jsx",
+      "serviceImport": "../services/oci_userService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/oci_user/pages/OCIUserManagementPage.jsx",
+      "serviceImport": "../services/oci_userService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/offer_discount_management/pages/DiscountManagementPage.jsx",
+      "serviceImport": "../services/discountService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/offer_discount_management/pages/OfferDiscountPage.jsx",
+      "serviceImport": "../services/offer_discount_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/AccountClassPage.jsx",
+      "serviceImport": "../services/accountClassService",
+      "columnKeys": [
+        "classCode",
+        "className",
+        "classNameAr",
+        "status",
+        "segmentCode"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/AccountTypePage.jsx",
+      "serviceImport": "../services/accountTypeService",
+      "columnKeys": [
+        "typeCode",
+        "typeName",
+        "classCode",
+        "status",
+        "typeNameAr"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/AfaqManagementPage.jsx",
+      "serviceImport": "../services/afaqService",
+      "columnKeys": [
+        "countryCode",
+        "countryDesc",
+        "currencyCode",
+        "isoNumber",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/AndroidConfigPage.jsx",
+      "serviceImport": "../services/android_configService",
+      "columnKeys": [
+        "configKey",
+        "configValue",
+        "packageName",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/ApplePayPage.jsx",
+      "serviceImport": "../services/apple_payService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/AthkarManagementPage.jsx",
+      "serviceImport": "../services/athkarService",
+      "columnKeys": [
+        "rowNo",
+        "categoryEn",
+        "categoryAr",
+        "status",
+        "contentEn",
+        "contentAr"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/BeneficiaryConfigPage.jsx",
+      "serviceImport": "../services/beneficiaryService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/CardIssuancePage.jsx",
+      "serviceImport": "../services/card_issuanceService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/CardManagementPage.jsx",
+      "serviceImport": "../services/cardService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/CardSpendPage.jsx",
+      "serviceImport": "../services/card_spendService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/ChangePasswordConfigPage.jsx",
+      "serviceImport": "../services/change_password_cfgService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/CharityManagementPage.jsx",
+      "serviceImport": "../services/charityService",
+      "columnKeys": [
+        "charityId",
+        "englishName",
+        "arabicName",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/ChequeBookPage.jsx",
+      "serviceImport": "../services/cheque_bookService",
+      "columnKeys": [
+        "segmentName",
+        "chequeLeaveNumbers",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/ChequeDepositPage.jsx",
+      "serviceImport": "../services/cheque_depositService",
+      "columnKeys": [
+        "segmentName",
+        "minAmount",
+        "maxAmount",
+        "maxDepositsPerDay",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/ConnectivityHubPage.jsx",
+      "serviceImport": "../services/connectivity_hubService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/DirectRemittancePage.jsx",
+      "serviceImport": "../services/direct_remittanceService",
+      "columnKeys": [
+        "beneficiaryAccountTypeCode",
+        "beneficiaryAccountTypeName",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/DirectRemittanceTypePage.jsx",
+      "serviceImport": "../services/direct_remittance_typeService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/EipoCompanyConfigPage.jsx",
+      "serviceImport": "../services/eipoService",
+      "columnKeys": [
+        "companyId",
+        "companyNameEn",
+        "companyNameAr",
+        "unitPrice",
+        "status",
+        "minShares",
+        "maxShares"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/EmploymentMastersPage.jsx",
+      "serviceImport": "../services/employment_mastersService",
+      "columnKeys": [
+        "employerId",
+        "employerName",
+        "employerNameAr",
+        "displayOrder",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/FavoritePage.jsx",
+      "serviceImport": "../services/favoriteService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/GooglePayPage.jsx",
+      "serviceImport": "../services/google_payService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/LookupsPage.jsx",
+      "serviceImport": "../services/lookupService",
+      "columnKeys": [
+        "lookupCode",
+        "lookupValue",
+        "lookupType",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/LookupTypesPage.jsx",
+      "serviceImport": "../services/lookupTypeService",
+      "columnKeys": [
+        "lookupType",
+        "description",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/MasterCategoryPage.jsx",
+      "serviceImport": "../services/master_categoryService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/MccgPage.jsx",
+      "serviceImport": "../services/mccgService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/MqConfigurationPage.jsx",
+      "serviceImport": "../services/mq_configurationService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/NotificationTemplatePage.jsx",
+      "serviceImport": "../services/notification_templateService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/OnboardingManagementPage.jsx",
+      "serviceImport": "../services/onboarding_mgmtService",
+      "columnKeys": [
+        "customerId",
+        "mobileNumber",
+        "qatarIdNo",
+        "onboardingStatus",
+        "currentStep"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/OtherConfigurationPage.jsx",
+      "serviceImport": "../services/other_configService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/ProductContentPage.jsx",
+      "serviceImport": "../services/product_contentService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/ReportTemplatePage.jsx",
+      "serviceImport": "../services/report_templateService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/RiskManagementPage.jsx",
+      "serviceImport": "../services/riskService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/RtpAccountTypePage.jsx",
+      "serviceImport": "../services/rtp_account_typeService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/RtpPurposePage.jsx",
+      "serviceImport": "../services/rtp_purposeService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/SectorPage.jsx",
+      "serviceImport": "../services/sectorService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/StoriesManagementPage.jsx",
+      "serviceImport": "../services/storiesService",
+      "columnKeys": [
+        "txnId",
+        "storyName",
+        "storyType",
+        "storyNature",
+        "storyImageEnglish",
+        "storyImageArabic",
+        "priority",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/other_config/pages/WesternUnionEmailPage.jsx",
+      "serviceImport": "../services/western_union_emailService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/WesternUnionHistoryPage.jsx",
+      "serviceImport": "../services/western_union_historyService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/other_config/pages/WidgetConfigPage.jsx",
+      "serviceImport": "../services/widget_cfgService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/Parameter_maintenance/pages/ParameterMaintenancePage.jsx",
+      "serviceImport": "../services/Parameter_maintenanceService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/partner_onboarding/pages/PartnerOnboardingPage.jsx",
+      "serviceImport": "../services/partner_onboardingService",
+      "columnKeys": [
+        "partnerCode",
+        "partnerName",
+        "email",
+        "status",
+        "partnerNameAr",
+        "phone"
+      ]
+    },
+    {
+      "file": "src/features/partner_onboarding/pages/PartnerStepperPage.jsx",
+      "serviceImport": "../services/partner_onboardingService",
+      "columnKeys": [
+        "profile",
+        "products",
+        "security",
+        "users",
+        "confirm"
+      ]
+    },
+    {
+      "file": "src/features/pending_approvals/pages/PendingApprovalsPage.jsx",
+      "serviceImport": "../services/pending_approvalsService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/profanity_check/pages/ProfanityCheckPage.jsx",
+      "serviceImport": "../services/profanity_checkService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/profile_control/pages/ProfileControlPage.jsx",
+      "serviceImport": "../services/profile_controlService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/push_notification/pages/PushNotificationPage.jsx",
+      "serviceImport": "../services/push_notificationService",
+      "columnKeys": [
+        "customerId",
+        "deviceToken",
+        "platform",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/ready_to_sync_table/pages/ReadyToSyncPage.jsx",
+      "serviceImport": "../services/ready_to_sync_tableService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/release_management/pages/ReleaseManagementPage.jsx",
+      "serviceImport": "../services/release_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/rule_management/pages/RuleManagementPage.jsx",
+      "serviceImport": "../services/rule_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/screen_configuration/pages/ScreenConfigurationPage.jsx",
+      "serviceImport": "../services/screen_configurationService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/screen_configuration/pages/TermsDisclaimerPage.jsx",
+      "serviceImport": "../services/termsDisclaimerService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/segment_access_management/pages/SegmentAccessPage.jsx",
+      "serviceImport": "../services/segment_access_managementService",
+      "columnKeys": [
+        "segmentCode",
+        "segmentName",
+        "description",
+        "status",
+        "segmentNameAr",
+        "priority"
+      ]
+    },
+    {
+      "file": "src/features/sms_configuration/pages/SMSConfigurationPage.jsx",
+      "serviceImport": "../services/sms_configurationService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/sync_table_management/pages/SyncTableManagementPage.jsx",
+      "serviceImport": "../services/sync_table_managementService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/transfer_config/pages/TransferControlPage.jsx",
+      "serviceImport": "../services/transfer_configService",
+      "columnKeys": [
+        "transferType",
+        "channel",
+        "limitAmount",
+        "currency",
+        "status",
+        "segmentCode",
+        "dailyLimit"
+      ]
+    },
+    {
+      "file": "src/features/user_management/pages/GroupManagementPage.jsx",
+      "serviceImport": "../services/groupService",
+      "columnKeys": [
+        "groupCode",
+        "groupName",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/user_management/pages/RoleManagementPage.jsx",
+      "serviceImport": "../services/roleService",
+      "columnKeys": [
+        "roleCode",
+        "roleName",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/user_management/pages/UserManagementPage.jsx",
+      "serviceImport": "../services/user_managementService",
+      "columnKeys": [
+        "userId",
+        "userName",
+        "userEmail",
+        "userRole",
+        "status",
+        "all",
+        "active",
+        "inactive"
+      ]
+    },
+    {
+      "file": "src/features/user_name_rules/pages/PasswordConfigPage.jsx",
+      "serviceImport": "../services/passwordConfigService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/user_name_rules/pages/PasswordPolicyPage.jsx",
+      "serviceImport": "../services/passwordPolicyService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/user_name_rules/pages/UsernameRulesPage.jsx",
+      "serviceImport": "../services/user_name_rulesService",
+      "columnKeys": []
+    },
+    {
+      "file": "src/features/workflow_configuration/pages/WorkflowConfigurationPage.jsx",
+      "serviceImport": "../services/workflow_configurationService",
+      "columnKeys": [
+        "workflowCode",
+        "workflowName",
+        "steps",
+        "status"
+      ]
+    },
+    {
+      "file": "src/features/workflow_new/pages/WorkflowNewPage.jsx",
+      "serviceImport": "../services/workflow_newService",
+      "columnKeys": [
+        "requestId",
+        "requestType",
+        "requestedBy",
+        "status"
+      ]
+    }
+  ]
+}

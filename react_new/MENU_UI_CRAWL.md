@@ -1,0 +1,314 @@
+# Menu UI crawl
+
+Generated: 2026-09-20T03:20:28.309Z
+Routes crawled: 174
+Pages with SoftFetch fails: 81
+
+## Pages with failing getAll/list
+
+- **/dashboard/BlockList_IP** — apiFails=2
+  - 401 G-00001 /wfc-api/backoffice-service/ip-block/list
+  - 401 G-00001 /wfc-api/backoffice-service/ip-block/list
+- **/dashboard/Notifications_Management** — apiFails=2
+  - 401 G-00001 /data-api/push-notification/customer/subscriptionList
+  - 401 G-00001 /data-api/push-notification/customer/subscriptionList
+- **/dashboard/Parameter_Maintenance** — apiFails=2
+  - 401 G-00001 /bo-api/backoffice-service/parameter/list
+  - 401 G-00001 /bo-api/backoffice-service/parameter/list
+- **/dashboard/Partner_Listing** — apiFails=2
+  - 401 G-00001 /bo-api/partners/list?statusType=active
+  - 401 G-00001 /bo-api/partners/list?statusType=active
+- **/dashboard/Ready_To_Sync** — apiFails=2
+  - 401 G-00001 /bo-api/migration/table-list
+  - 401 G-00001 /bo-api/migration/table-list
+- **/dashboard/about_Qnb** — apiFails=2
+  - 401 G-00001 /data-api/disclaimer/summary
+  - 401 G-00001 /data-api/disclaimer/summary
+- **/dashboard/access_product_management** — apiFails=2
+  - 200 - /wfc-api/bko-features/fetchAll
+  - 200 - /wfc-api/bko-features/fetchAll
+- **/dashboard/adapter_table** — apiFails=2
+  - 401 G-00001 /data-api/adapter/getAll
+  - 401 G-00001 /data-api/adapter/getAll
+- **/dashboard/afaq_management** — apiFails=2
+  - 401 G-00001 /data-api/afaq/getAll
+  - 401 G-00001 /data-api/afaq/getAll
+- **/dashboard/api_call** — apiFails=2
+  - 401 G-00001 /data-api/api-call/getAll
+  - 401 G-00001 /data-api/api-call/getAll
+- **/dashboard/app-library** — apiFails=2
+  - 401 G-00001 /bo-api/app-library/getAll
+  - 401 G-00001 /bo-api/app-library/getAll
+- **/dashboard/application_version_management** — apiFails=2
+  - 401 G-00001 /bo-api/forceUpdate/summary
+  - 401 G-00001 /bo-api/forceUpdate/summary
+- **/dashboard/athkar_management** — apiFails=2
+  - 401 G-00001 /data-api/athkar/getAll
+  - 401 G-00001 /data-api/athkar/getAll
+- **/dashboard/banner-configuration** — apiFails=4
+  - 401 G-00001 /data-api/language/summary
+  - 401 G-00001 /data-api/banner/summary
+  - 401 G-00001 /data-api/banner/summary
+  - 401 G-00001 /data-api/language/summary
+- **/dashboard/blocklist_imei** — apiFails=2
+  - 401 G-00001 /data-api/imei-block/list
+  - 401 G-00001 /data-api/imei-block/list
+- **/dashboard/branch_locator** — apiFails=2
+  - 401 G-00001 /data-api/branch-locator/getall
+  - 401 G-00001 /data-api/branch-locator/getall
+- **/dashboard/card_issuance_management** — apiFails=2
+  - 401 G-00001 /data-api/instant-credit-card/getAll
+  - 401 G-00001 /data-api/instant-credit-card/getAll
+- **/dashboard/category_code** — apiFails=2
+  - 401 G-00001 /data-api/gateway_audit/getAll
+  - 401 G-00001 /data-api/gateway_audit/getAll
+- **/dashboard/change_password** — apiFails=2
+  - 401 G-00001 /data-api/password-config/getAll
+  - 401 G-00001 /data-api/password-config/getAll
+- **/dashboard/cheque_book_management** — apiFails=2
+  - 401 G-00001 /data-api/domain/list
+  - 401 G-00001 /data-api/domain/list
+- **/dashboard/cheque_deposit** — apiFails=2
+  - 401 G-00001 /data-api/cheque-deposit/getAll
+  - 401 G-00001 /data-api/cheque-deposit/getAll
+- **/dashboard/city** — apiFails=2
+  - 401 G-00001 /data-api/master/city/fetchAll
+  - 401 G-00001 /data-api/master/city/fetchAll
+- **/dashboard/configuration_para** — apiFails=2
+  - 401 G-00001 /data-api/formconfig/getAll
+  - 401 G-00001 /data-api/formconfig/getAll
+- **/dashboard/connectivity_hub** — apiFails=2
+  - 401 G-00001 /data-api/third-party/get-all
+  - 401 G-00001 /data-api/third-party/get-all
+- **/dashboard/consolidate_e_statement** — apiFails=2
+  - 401 G-00001 /bo-api/e-statement/getAll
+  - 401 G-00001 /bo-api/e-statement/getAll
+- **/dashboard/customer-journey** — apiFails=2
+  - 401 G-00001 /bo-api/customer-journey/getAll
+  - 401 G-00001 /bo-api/customer-journey/getAll
+- **/dashboard/data_cleansing** — apiFails=2
+  - 401 G-00001 /bo-api/data-cleansing/getAll
+  - 401 G-00001 /bo-api/data-cleansing/getAll
+- **/dashboard/dc_city_master** — apiFails=2
+  - 401 G-00001 /data-api/dc-city/getAll
+  - 401 G-00001 /data-api/dc-city/getAll
+- **/dashboard/direct_remittance** — apiFails=2
+  - 401 G-00001 /data-api/direct-remittance/getAll
+  - 401 G-00001 /data-api/direct-remittance/getAll
+- **/dashboard/direct_remittance_type** — apiFails=2
+  - 401 G-00001 /data-api/direct-remittance-type/getAll
+  - 401 G-00001 /data-api/direct-remittance-type/getAll
+- **/dashboard/dynamic_screen** — apiFails=2
+  - 401 G-00001 /data-api/dynamic-screen/getAll
+  - 401 G-00001 /data-api/dynamic-screen/getAll
+- **/dashboard/eIPO_company_configuration** — apiFails=2
+  - 401 G-00001 /data-api/eipo-company/getAll
+  - 401 G-00001 /data-api/eipo-company/getAll
+- **/dashboard/employment_masters** — apiFails=2
+  - 401 G-00001 /data-api/employment-master/getAll
+  - 401 G-00001 /data-api/employment-master/getAll
+- **/dashboard/error_configuration** — apiFails=2
+  - 401 G-00001 /data-api/error-config/getAll
+  - 401 G-00001 /data-api/error-config/getAll
+- **/dashboard/error_management** — apiFails=2
+  - 401 G-00001 /data-api/error-config/getAll
+  - 401 G-00001 /data-api/error-config/getAll
+- **/dashboard/error_master** — apiFails=2
+  - 401 G-00001 /data-api/error-config/getAll
+  - 401 G-00001 /data-api/error-config/getAll
+- **/dashboard/favorite** — apiFails=2
+  - 401 G-00001 /bo-api/favorite/getAll
+  - 401 G-00001 /bo-api/favorite/getAll
+- **/dashboard/favorite_list** — apiFails=2
+  - 401 G-00001 /bo-api/favorite/getAll
+  - 401 G-00001 /bo-api/favorite/getAll
+- **/dashboard/finance_calculator** — apiFails=2
+  - 401 G-00001 /data-api/finance-calculator/getAll
+  - 401 G-00001 /data-api/finance-calculator/getAll
+- **/dashboard/finance_offer** — apiFails=2
+  - 401 G-00001 /data-api/finance-offer/getAll
+  - 401 G-00001 /data-api/finance-offer/getAll
+- **/dashboard/force_update** — apiFails=2
+  - 401 G-00001 /bo-api/forceUpdate/summary
+  - 401 G-00001 /bo-api/forceUpdate/summary
+- **/dashboard/funnel** — apiFails=2
+  - 401 G-00001 /bo-api/funnel/getAll
+  - 401 G-00001 /bo-api/funnel/getAll
+- **/dashboard/gateway_configuration** — apiFails=2
+  - 401 G-00001 /data-api/gateway/getAll
+  - 401 G-00001 /data-api/gateway/getAll
+- **/dashboard/gateway_sync** — apiFails=2
+  - 401 G-00001 /data-api/gateway/getAll
+  - 401 G-00001 /data-api/gateway/getAll
+- **/dashboard/iban_nav** — apiFails=2
+  - 401 G-00001 /bo-api/iban/blockedIbanList
+  - 401 G-00001 /bo-api/iban/blockedIbanList
+- **/dashboard/instant_finance** — apiFails=2
+  - 401 G-00001 /bo-api/instant-finance/getAll
+  - 401 G-00001 /bo-api/instant-finance/getAll
+- **/dashboard/kiosk_locator** — apiFails=2
+  - 401 G-00001 /data-api/kiosk/getAll
+  - 401 G-00001 /data-api/kiosk/getAll
+- **/dashboard/master_category_management** — apiFails=2
+  - 401 G-00001 /data-api/gateway_audit/getAll
+  - 401 G-00001 /data-api/gateway_audit/getAll
+- **/dashboard/mccg** — apiFails=2
+  - 401 G-00001 /data-api/mccg/getAll
+  - 401 G-00001 /data-api/mccg/getAll
+- **/dashboard/merchant_management** — apiFails=2
+  - 401 G-00001 /data-api/merchant/getAll
+  - 401 G-00001 /data-api/merchant/getAll
+- **/dashboard/notification/push-notification** — apiFails=2
+  - 401 G-00001 /data-api/push-notification/customer/subscriptionList
+  - 401 G-00001 /data-api/push-notification/customer/subscriptionList
+- **/dashboard/oci_user_management** — apiFails=2
+  - 401 G-00001 /data-api/oci-user/getAll
+  - 401 G-00001 /data-api/oci-user/getAll
+- **/dashboard/oci_user_notification** — apiFails=2
+  - 401 G-00001 /data-api/oci-user/getAll
+  - 401 G-00001 /data-api/oci-user/getAll
+- **/dashboard/onboarding_management** — apiFails=2
+  - 401 G-00001 /data-api/onboarding-mgmt/getAll
+  - 401 G-00001 /data-api/onboarding-mgmt/getAll
+- **/dashboard/onboarding_product_configuration** — apiFails=2
+  - 401 G-00001 /data-api/onboarding-mgmt/getAll
+  - 401 G-00001 /data-api/onboarding-mgmt/getAll
+- **/dashboard/password_configurations** — apiFails=2
+  - 401 G-00001 /data-api/password-config/getAll
+  - 401 G-00001 /data-api/password-config/getAll
+- **/dashboard/pending-request** — apiFails=2
+  - 401 G-00001 /wfc-api/pending-approval/list
+  - 401 G-00001 /wfc-api/pending-approval/list
+- **/dashboard/pending-request-nav** — apiFails=2
+  - 401 G-00001 /data-api/workflow/config/getAll
+  - 401 G-00001 /data-api/workflow/config/getAll
+- **/dashboard/pending_approval** — apiFails=2
+  - 401 G-00001 /wfc-api/pending-approval/list
+  - 401 G-00001 /wfc-api/pending-approval/list
+- **/dashboard/pending_approval_nav** — apiFails=2
+  - 401 G-00001 /data-api/workflow/config/getAll
+  - 401 G-00001 /data-api/workflow/config/getAll
+- **/dashboard/preference** — apiFails=2
+  - 401 G-00001 /data-api/followus/getAll
+  - 401 G-00001 /data-api/followus/getAll
+- **/dashboard/profile_control** — apiFails=2
+  - 401 G-00001 /bo-api/profile-control/getAll
+  - 401 G-00001 /bo-api/profile-control/getAll
+- **/dashboard/reach_us** — apiFails=2
+  - 401 G-00001 /data-api/followus/getAll
+  - 401 G-00001 /data-api/followus/getAll
+- **/dashboard/ready_to_sync_table** — apiFails=2
+  - 401 G-00001 /bo-api/migration/table-list
+  - 401 G-00001 /bo-api/migration/table-list
+- **/dashboard/release_management** — apiFails=2
+  - 401 G-00001 /data-api/release/getAll
+  - 401 G-00001 /data-api/release/getAll
+- **/dashboard/report_template_maintanance** — apiFails=2
+  - 401 G-00001 /data-api/report-template/getAll
+  - 401 G-00001 /data-api/report-template/getAll
+- **/dashboard/retail_subproduct** — apiFails=2
+  - 200 - /wfc-api/bko-subProduct/fetchAll
+  - 200 - /wfc-api/bko-subProduct/fetchAll
+- **/dashboard/risk_mangement** — apiFails=2
+  - 401 G-00001 /data-api/risk/getAll
+  - 401 G-00001 /data-api/risk/getAll
+- **/dashboard/rm_contact** — apiFails=2
+  - 401 G-00001 /data-api/followus/getAll
+  - 401 G-00001 /data-api/followus/getAll
+- **/dashboard/salary_advance** — apiFails=2
+  - 401 G-00001 /data-api/salary-advance/getAll
+  - 401 G-00001 /data-api/salary-advance/getAll
+- **/dashboard/sector** — apiFails=2
+  - 401 G-00001 /data-api/sector/getAll
+  - 401 G-00001 /data-api/sector/getAll
+- **/dashboard/show-case** — apiFails=2
+  - 401 G-00001 /bo-api/app-library/getAll
+  - 401 G-00001 /bo-api/app-library/getAll
+- **/dashboard/splash_screen_maintenance** — apiFails=2
+  - 401 G-00001 /data-api/dynamic-screen/getAll
+  - 401 G-00001 /data-api/dynamic-screen/getAll
+- **/dashboard/sub_product_management** — apiFails=2
+  - 200 - /wfc-api/bko-subProduct/fetchAll
+  - 200 - /wfc-api/bko-subProduct/fetchAll
+- **/dashboard/subproduct** — apiFails=2
+  - 200 - /wfc-api/bko-subProduct/fetchAll
+  - 200 - /wfc-api/bko-subProduct/fetchAll
+- **/dashboard/table-migration** — apiFails=2
+  - 401 G-00001 /bo-api/migration/table-list
+  - 401 G-00001 /bo-api/migration/table-list
+- **/dashboard/table-migration-list** — apiFails=2
+  - 401 G-00001 /bo-api/migration/table-list
+  - 401 G-00001 /bo-api/migration/table-list
+- **/dashboard/template_creation** — apiFails=2
+  - 401 G-00001 /data-api/report-template/getAll
+  - 401 G-00001 /data-api/report-template/getAll
+- **/dashboard/term-condition** — apiFails=2
+  - 401 G-00001 /data-api/disclaimer/summary
+  - 401 G-00001 /data-api/disclaimer/summary
+- **/dashboard/terms&condition_disclaimer** — apiFails=2
+  - 401 G-00001 /data-api/disclaimer/summary
+  - 401 G-00001 /data-api/disclaimer/summary
+- **/dashboard/widget** — apiFails=2
+  - 401 G-00001 /bo-api/widget/getAll
+  - 401 G-00001 /bo-api/widget/getAll
+
+## Unique failing SoftFetch URLs
+
+- **401** `G-00001` http://127.0.0.1:5173/wfc-api/backoffice-service/ip-block/list
+- **401** `G-00001` http://127.0.0.1:5173/data-api/push-notification/customer/subscriptionList
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/backoffice-service/parameter/list
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/partners/list?statusType=active
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/migration/table-list
+- **401** `G-00001` http://127.0.0.1:5173/data-api/disclaimer/summary
+- **200** `-` http://127.0.0.1:5173/wfc-api/bko-features/fetchAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/adapter/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/afaq/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/api-call/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/app-library/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/forceUpdate/summary
+- **401** `G-00001` http://127.0.0.1:5173/data-api/athkar/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/language/summary
+- **401** `G-00001` http://127.0.0.1:5173/data-api/banner/summary
+- **401** `G-00001` http://127.0.0.1:5173/data-api/imei-block/list
+- **401** `G-00001` http://127.0.0.1:5173/data-api/branch-locator/getall
+- **401** `G-00001` http://127.0.0.1:5173/data-api/instant-credit-card/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/gateway_audit/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/password-config/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/domain/list
+- **401** `G-00001` http://127.0.0.1:5173/data-api/cheque-deposit/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/master/city/fetchAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/formconfig/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/third-party/get-all
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/e-statement/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/customer-journey/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/data-cleansing/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/dc-city/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/direct-remittance/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/direct-remittance-type/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/dynamic-screen/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/eipo-company/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/employment-master/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/error-config/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/favorite/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/finance-calculator/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/finance-offer/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/funnel/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/gateway/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/iban/blockedIbanList
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/instant-finance/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/kiosk/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/mccg/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/merchant/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/oci-user/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/onboarding-mgmt/getAll
+- **401** `G-00001` http://127.0.0.1:5173/wfc-api/pending-approval/list
+- **401** `G-00001` http://127.0.0.1:5173/data-api/workflow/config/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/followus/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/profile-control/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/release/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/report-template/getAll
+- **200** `-` http://127.0.0.1:5173/wfc-api/bko-subProduct/fetchAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/risk/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/salary-advance/getAll
+- **401** `G-00001` http://127.0.0.1:5173/data-api/sector/getAll
+- **401** `G-00001` http://127.0.0.1:5173/bo-api/widget/getAll

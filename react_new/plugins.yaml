@@ -1,0 +1,83 @@
+﻿# Flutter plugin → React/npm equivalents for QNB Life BO
+# Source: qnb-insurance-ui + qnb-insurance-ui-component pubspec.yaml
+# App: D:\react_new
+
+plugins:
+  # Core (already in package.json)
+  - flutter: flutter / flutter_web_plugins / flutter_localizations
+    npm: react / react-dom
+    status: present
+  - flutter: auto_route
+    npm: react-router-dom
+    status: present
+  - flutter: dio / http
+    npm: (fetch via src/core/api/client.js)
+    status: present
+  - flutter: jsencrypt equivalent (RSA login)
+    npm: jsencrypt
+    status: present
+
+  # State / codegen (Flutter-only patterns → React hooks)
+  - flutter: flutter_riverpod / riverpod_annotation
+    npm: (React hooks + context; no Riverpod port)
+    status: intentional
+  - flutter: freezed / json_serializable / hive
+    npm: plain JS objects + localStorage where needed
+    status: intentional
+
+  # UI / charts / files — add if missing
+  - flutter: fl_chart / syncfusion_flutter_charts / syncfusion_flutter_gauges
+    npm: recharts
+    status: required
+  - flutter: flutter_svg
+    npm: (inline SVG / <img src>)
+    status: present
+  - flutter: pdf / printing / syncfusion_flutter_pdf
+    npm: jspdf
+    status: required
+  - flutter: excel
+    npm: xlsx
+    status: required
+  - flutter: flutter_quill / flutter_quill_extensions
+    npm: react-quill (install with --legacy-peer-deps for React 19)
+    status: present
+  - flutter: file_picker / flutter_dropzone / super_drag_and_drop
+    npm: (native <input type=file> + drag events)
+    status: present
+  - flutter: toastification / fluttertoast / motion_toast
+    npm: (UIToast component)
+    status: present
+  - flutter: calendar_date_picker2 / flutter_datetime_picker_*
+    npm: dayjs
+    status: required
+  - flutter: intl
+    npm: dayjs
+    status: required
+  - flutter: uuid
+    npm: uuid
+    status: required
+  - flutter: lottie / loading_animation_widget
+    npm: lottie-react
+    status: optional
+  - flutter: flutter_map / latlong2
+    npm: leaflet / react-leaflet
+    status: optional
+  - flutter: country_flags
+    npm: (flag CDN / emoji)
+    status: optional
+  - flutter: url_launcher / url_launcher_web
+    npm: (window.open)
+    status: present
+  - flutter: video_player
+    npm: (HTML5 video)
+    status: present
+  - flutter: font_awesome_flutter / iconly
+    npm: (SVG assets from Flutter)
+    status: present
+
+# Fixed in Flutter pubspec (bare versions filled)
+flutter_pubspec_fixes:
+  - qnb-insurance-ui: syncfusion_flutter_gauges: ^30.2.7
+  - qnb-insurance-ui-component: file_picker: ^8.0.6
+  - qnb-insurance-ui-component: flutter_dropzone: ^4.0.1
+

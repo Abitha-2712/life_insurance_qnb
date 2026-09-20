@@ -1,0 +1,48 @@
+/* Flutter buildStatusChip — ACTIVE #E6F6EF/#0F9D58, INACTIVE #F1F1F1/#6B7280 */
+.ui-status-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.ui-status-chip.tone-success {
+  background: #e6f6ef;
+  color: #0f9d58;
+  border-color: #e6f6ef;
+}
+
+.ui-status-chip.tone-neutral {
+  background: #f1f1f1;
+  color: #6b7280;
+  border-color: #f1f1f1;
+}
+
+.ui-status-chip.tone-danger {
+  background: #fee2e2;
+  color: #ef4444;
+  border-color: #fee2e2;
+}
+
+.ui-status-chip.tone-info {
+  background: #eff6ff;
+  color: #3b82f6;
+  border-color: #eff6ff;
+}
+
+.ui-status-chip.tone-warning {
+  background: #ffedd5;
+  color: #c2410c;
+  border-color: #ffedd5;
+}
+
+.ui-status-chip.tone-default {
+  background: #eff6ff;
+  color: #60a5fa;
+  border-color: #eff6ff;
+}

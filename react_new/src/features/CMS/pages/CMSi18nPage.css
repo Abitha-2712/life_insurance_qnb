@@ -1,0 +1,23 @@
+﻿.i18-maintenance-page {
+  padding: 25px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.i18-filters {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+.i18-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (max-width: 1100px) {
+  .i18-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .i18-maintenance-page { padding: 16px; }
+  .i18-filters { grid-template-columns: 1fr; }
+}

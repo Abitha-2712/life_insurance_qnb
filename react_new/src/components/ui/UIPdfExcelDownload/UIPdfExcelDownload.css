@@ -1,0 +1,60 @@
+.ui-pdf-excel-download {
+  display: flex;
+  width: 100%;
+}
+
+.ui-pdf-excel-download.is-end {
+  justify-content: flex-end;
+}
+
+.ui-pdf-excel-card {
+  display: inline-flex;
+  padding: 4px 16px;
+  margin: 0;
+  border: 1px solid var(--qnb-blue-brand, #0d59f2);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: none;
+}
+
+.ui-pdf-excel-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ui-pdf-excel-btn {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--qnb-blue-brand, #0d59f2);
+  cursor: pointer;
+}
+
+.ui-pdf-excel-btn:hover:not(:disabled) {
+  background: rgb(13 89 242 / 8%);
+}
+
+.ui-pdf-excel-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.ui-pdf-excel-spinner {
+  display: inline-block;
+  border: 2.5px solid rgb(13 89 242 / 25%);
+  border-top-color: var(--qnb-blue-brand, #0d59f2);
+  border-radius: 50%;
+  animation: ui-pdf-excel-spin 0.7s linear infinite;
+}
+
+@keyframes ui-pdf-excel-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

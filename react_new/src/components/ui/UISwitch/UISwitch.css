@@ -1,0 +1,64 @@
+/* Flutter Material Switch / theme primary track */
+.ui-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.ui-switch input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ui-switch-track {
+  width: 40px;
+  height: 22px;
+  border-radius: 999px;
+  background: #b0b0b0;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.ui-switch-track::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  transition: transform 0.15s ease;
+}
+
+.ui-switch input:checked + .ui-switch-track {
+  background: var(--qnb-primary, #01559c);
+}
+
+.ui-switch input:checked + .ui-switch-track::after {
+  transform: translateX(18px);
+}
+
+.ui-switch:hover:not(.is-disabled) input:not(:checked) + .ui-switch-track {
+  background: #9ca3af;
+}
+
+.ui-switch:hover:not(.is-disabled) input:checked + .ui-switch-track {
+  background: var(--qnb-blue-b9c, #0b4b9c);
+}
+
+.ui-switch-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #101828;
+}
+
+.ui-switch.is-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,95 @@
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--qnb-space-8);
+  min-height: 40px;
+  padding: 0 var(--qnb-space-20);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+
+.ui-button:disabled {
+  background: #9ca3af !important;
+  border-color: #9ca3af !important;
+  color: #ffffff !important;
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+/* Flutter colorScheme.primary — Add / primary actions */
+.ui-button-primary {
+  background: var(--qnb-primary);
+  color: var(--qnb-on-primary);
+  border-color: var(--qnb-primary);
+}
+
+.ui-button-primary:hover:not(:disabled) {
+  background: var(--qnb-blue-b9c);
+  border-color: var(--qnb-blue-b9c);
+}
+
+/* Flutter UIOutlineButton / Discard — navy text, green hover fill */
+.ui-button-outline {
+  background: #ffffff;
+  color: var(--qnb-primary, #01559c);
+  border-color: var(--qnb-outline-border, #e2e8f0);
+  font-weight: 500;
+}
+
+.ui-button-outline:hover:not(:disabled) {
+  background: var(--qnb-primary-fixed, #10b981);
+  border-color: var(--qnb-primary-fixed, #10b981);
+  color: #ffffff;
+}
+
+.ui-button-outline:disabled {
+  background: #ffffff !important;
+  border-color: var(--qnb-outline-border, #e2e8f0) !important;
+  color: #98a2b3 !important;
+}
+
+/* Flutter CardsForm Save — primaryFixed green */
+.ui-button-success {
+  background: var(--qnb-primary-fixed, #10b981);
+  color: var(--qnb-on-primary-fixed, #ffffff);
+  border-color: var(--qnb-primary-fixed, #10b981);
+}
+
+.ui-button-success:hover:not(:disabled) {
+  background: #0d9f70;
+  border-color: #0d9f70;
+}
+
+.ui-button-ghost {
+  background: transparent;
+  color: var(--qnb-on-surface);
+  border-color: var(--qnb-border);
+}
+
+.ui-button-ghost:hover:not(:disabled) {
+  background: #f8fafc;
+}
+
+.ui-button-danger {
+  background: var(--qnb-error);
+  color: var(--qnb-on-error);
+  border-color: var(--qnb-error);
+}
+
+.ui-button-danger:hover:not(:disabled) {
+  filter: brightness(0.95);
+}
+
+.ui-button-icon {
+  min-height: 36px;
+  width: 36px;
+  padding: 0;
+  background: var(--qnb-secondary);
+  color: var(--qnb-on-surface);
+}

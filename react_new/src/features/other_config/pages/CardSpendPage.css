@@ -1,0 +1,57 @@
+﻿/* Flutter CardSpendTablePage */
+.card-spend-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.card-spend-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card-spend-title {
+  margin: 0;
+  color: var(--qnb-dashboard-text, #131720);
+}
+
+.card-spend-page .ui-metric-card-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.card-spend-page .ui-metric-card-row > .ui-metric-card {
+  flex: unset;
+  min-height: 120px;
+}
+
+.card-spend-page .generic-crud-page.is-embedded {
+  padding: 0;
+  gap: 12px;
+}
+
+.card-spend-page .generic-crud-export {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-spend-page .generic-crud-page > .ui-card {
+  padding: var(--qnb-space-16);
+}
+
+@media (max-width: 800px) {
+  .card-spend-page {
+    padding: 16px;
+  }
+
+  .card-spend-page .ui-metric-card-row {
+    grid-template-columns: 1fr;
+  }
+}

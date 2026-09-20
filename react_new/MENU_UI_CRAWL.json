@@ -1,0 +1,2707 @@
+{
+  "landed": "http://127.0.0.1:5173/dashboard",
+  "routes": 174,
+  "pages": [
+    {
+      "route": "/dashboard",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/BlockList_IP",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/wfc-api/backoffice-service/ip-block/list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/wfc-api/backoffice-service/ip-block/list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/License_Management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/Notifications_Management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/push-notification/customer/subscriptionList"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/push-notification/customer/subscriptionList"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/Parameter_Maintenance",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/backoffice-service/parameter/list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/backoffice-service/parameter/list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/Partner_Listing",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/partners/list?statusType=active"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/partners/list?statusType=active"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/Ready_To_Sync",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/User_name",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/about_Qnb",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/disclaimer/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/disclaimer/summary"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/access_product_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-features/fetchAll"
+        },
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-features/fetchAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/account_class",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/account_type",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/adapter_table",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/adapter/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/adapter/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/afaq_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/afaq/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/afaq/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/android_config",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/api_call",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/api-call/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/api-call/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/app-library",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/app-library/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/app-library/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/apple_pay",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/application_version_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/forceUpdate/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/forceUpdate/summary"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/apply_product",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/apply_product_subproduct",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/athkar_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/athkar/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/athkar/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/atm_locator",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/bank_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/banner-configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 4,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/language/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/banner/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/banner/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/language/summary"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/beneficiary_add",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/beneficiary_cooling_off",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/beneficiary_cooling_pending",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/beneficiary_edit",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/beneficiary_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/block_user",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/blocklist_imei",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/imei-block/list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/imei-block/list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/bo_user_action",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/branch_locator",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/branch-locator/getall"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/branch-locator/getall"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/card",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/card_issuance_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/instant-credit-card/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/instant-credit-card/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/card_spend",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/category_code",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway_audit/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway_audit/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/change_password",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/password-config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/password-config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/channel_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/charity_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/cheque_book_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/domain/list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/domain/list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/cheque_deposit",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/cheque-deposit/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/cheque-deposit/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/child_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/city",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/master/city/fetchAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/master/city/fetchAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/coming_soon",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/configuration_para",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/formconfig/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/formconfig/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/connectivity_hub",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/third-party/get-all"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/third-party/get-all"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/consolidate_e_statement",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/e-statement/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/e-statement/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/country_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/crm_department",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/crm_service_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/currency_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/customer-journey",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/customer-journey/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/customer-journey/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/customer-segment",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/customer_search",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/data_cleansing",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/data-cleansing/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/data-cleansing/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/database_config",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/dc_city_master",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/dc-city/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/dc-city/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/default_parameter",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/direct_remittance",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/direct-remittance/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/direct-remittance/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/direct_remittance_type",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/direct-remittance-type/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/direct-remittance-type/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/discount_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/domain_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/dynamic_screen",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/dynamic-screen/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/dynamic-screen/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/eIPO_company_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/eipo-company/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/eipo-company/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/employment_masters",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/employment-master/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/employment-master/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/error_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/error-config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/error-config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/error_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/error-config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/error-config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/error_master",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/error-config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/error-config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/faq_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/favorite",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/favorite/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/favorite/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/favorite_list",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/favorite/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/favorite/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/fawran_rules",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/fees_limit",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/finance_calculator",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/finance-calculator/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/finance-calculator/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/finance_offer",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/finance-offer/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/finance-offer/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/fingerprint_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/force_update",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/forceUpdate/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/forceUpdate/summary"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/funnel",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/funnel/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/funnel/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/gateway_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/gateway_sync",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/global_transfer_limit",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/google_pay",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/group_manage_add",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/group_manage_edit",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/group_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/i18n-management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/iban_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/iban/blockedIbanList"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/iban/blockedIbanList"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/instant_finance",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/instant-finance/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/instant-finance/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/kiosk_locator",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/kiosk/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/kiosk/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/link_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/logging_event",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/logging_exception",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/lookup_types",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/lookups",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/master_category_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway_audit/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/gateway_audit/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/master_country_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/master_currency_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/master_language_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/mccg",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/mccg/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/mccg/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/menu-entitlement",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/merchant_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/merchant/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/merchant/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/mfa_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/mq_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/notification/customer-segment",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/notification/messages-campaign",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/notification/push-notification",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/push-notification/customer/subscriptionList"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/push-notification/customer/subscriptionList"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/notification_template",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/oci_user_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/oci-user/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/oci-user/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/oci_user_notification",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/oci-user/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/oci-user/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/offer_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/offer_static_info",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/offers_category",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/offers_rewards_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/onboarding_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/onboarding-mgmt/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/onboarding-mgmt/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/onboarding_product_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/onboarding-mgmt/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/onboarding-mgmt/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/otp-bio_matrix",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/otp_config",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/partner_stepper",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/password_configurations",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/password-config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/password-config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/password_policy",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/pending-request",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/wfc-api/pending-approval/list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/wfc-api/pending-approval/list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/pending-request-nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/workflow/config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/workflow/config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/pending_approval",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/wfc-api/pending-approval/list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/wfc-api/pending-approval/list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/pending_approval_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/workflow/config/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/workflow/config/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/preference",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/followus/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/followus/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/product_content_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/product_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/products _management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/profanity_check",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/profile_control",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/profile-control/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/profile-control/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/reach_us",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/followus/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/followus/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/ready_to_sync_table",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/release_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/release/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/release/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/report_template_maintanance",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/report-template/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/report-template/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/retail_product",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/retail_subproduct",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-subProduct/fetchAll"
+        },
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-subProduct/fetchAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/risk_mangement",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/risk/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/risk/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/rm_contact",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/followus/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/followus/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/role-management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/role_based_access",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/rtp_account_type_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/rtp_transfer_purpose_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/rule-management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/salary_advance",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/salary-advance/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/salary-advance/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/sector",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/sector/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/sector/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/sector_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/segment_access_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/show-case",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/app-library/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/app-library/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/sms_configuration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/splash_screen_maintenance",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/dynamic-screen/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/dynamic-screen/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/stories_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/story_report",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/sub_product_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-subProduct/fetchAll"
+        },
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-subProduct/fetchAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/subproduct",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-subProduct/fetchAll"
+        },
+        {
+          "status": 200,
+          "biz": "",
+          "url": "/wfc-api/bko-subProduct/fetchAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/table-migration",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/table-migration-list",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/migration/table-list"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/template_creation",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/report-template/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/report-template/getAll"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/term-condition",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/disclaimer/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/disclaimer/summary"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/terms&condition_disclaimer",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/disclaimer/summary"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/data-api/disclaimer/summary"
+        }
+      ]
+    },
+    {
+      "route": "/dashboard/theme_config",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/transaction-error-details",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/transaction-error-details-landing",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/transaction-error-table",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/transfer_control",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/transfer_limit",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/transfer_type",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/unit_nav",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/user_creation",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/utility_service_management",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/western_union_email",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/western_union_history",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": false,
+      "apiFails": 0,
+      "fails": []
+    },
+    {
+      "route": "/dashboard/widget",
+      "okNav": true,
+      "title": "QNB Life Back Office",
+      "hasNoData": true,
+      "apiFails": 2,
+      "fails": [
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/widget/getAll"
+        },
+        {
+          "status": 401,
+          "biz": "G-00001",
+          "url": "/bo-api/widget/getAll"
+        }
+      ]
+    }
+  ],
+  "uniqueApiFails": [
+    {
+      "url": "http://127.0.0.1:5173/wfc-api/backoffice-service/ip-block/list",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/BlockList_IP",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/push-notification/customer/subscriptionList",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/notification/push-notification",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/backoffice-service/parameter/list",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/Parameter_Maintenance",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/partners/list?statusType=active",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/Partner_Listing",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/migration/table-list",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/table-migration-list",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/disclaimer/summary",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/terms&condition_disclaimer",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/wfc-api/bko-features/fetchAll",
+      "status": 200,
+      "biz": "",
+      "route": "http://127.0.0.1:5173/dashboard/access_product_management",
+      "body": ""
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/adapter/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/adapter_table",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/afaq/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/afaq_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/api-call/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/api_call",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/app-library/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/show-case",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/forceUpdate/summary",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/force_update",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/athkar/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/athkar_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/language/summary",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/banner-configuration",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/banner/summary",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/banner-configuration",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/imei-block/list",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/blocklist_imei",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/branch-locator/getall",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/branch_locator",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/instant-credit-card/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/card_issuance_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/gateway_audit/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/master_category_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/password-config/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/password_configurations",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/domain/list",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/cheque_book_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/cheque-deposit/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/cheque_deposit",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/master/city/fetchAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/city",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/formconfig/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/configuration_para",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/third-party/get-all",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/connectivity_hub",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/e-statement/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/consolidate_e_statement",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/customer-journey/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/customer-journey",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/data-cleansing/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/data_cleansing",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/dc-city/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/dc_city_master",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/direct-remittance/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/direct_remittance",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/direct-remittance-type/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/direct_remittance_type",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/dynamic-screen/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/splash_screen_maintenance",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/eipo-company/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/eIPO_company_configuration",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/employment-master/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/employment_masters",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/error-config/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/error_master",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/favorite/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/favorite_list",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/finance-calculator/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/finance_calculator",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/finance-offer/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/finance_offer",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/funnel/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/funnel",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/gateway/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/gateway_sync",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/iban/blockedIbanList",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/iban_nav",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/instant-finance/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/instant_finance",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/kiosk/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/kiosk_locator",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/mccg/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/mccg",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/merchant/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/merchant_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/oci-user/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/oci_user_notification",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/onboarding-mgmt/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/onboarding_product_configuration",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/wfc-api/pending-approval/list",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/pending_approval",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/workflow/config/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/pending_approval_nav",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/followus/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/rm_contact",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/profile-control/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/profile_control",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/release/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/release_management",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/report-template/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/template_creation",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/wfc-api/bko-subProduct/fetchAll",
+      "status": 200,
+      "biz": "",
+      "route": "http://127.0.0.1:5173/dashboard/subproduct",
+      "body": ""
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/risk/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/risk_mangement",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/salary-advance/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/salary_advance",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/data-api/sector/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/sector",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bo-api/widget/getAll",
+      "status": 401,
+      "biz": "G-00001",
+      "route": "http://127.0.0.1:5173/dashboard/widget",
+      "body": "{\"status\":{\"code\":\"G-00001\",\"description\":\"Internal Server ERROR\"},\"data\":null}"
+    }
+  ]
+}
