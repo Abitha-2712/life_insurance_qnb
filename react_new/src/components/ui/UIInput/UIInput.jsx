@@ -11,6 +11,9 @@ function UIInput({
   inputClassName = '',
   readOnly = false,
   disabled = false,
+  required = false,
+  showRequiredStar = false,
+  helperText,
   ...props
 }) {
   const wrapClass = [
@@ -33,6 +36,7 @@ function UIInput({
       {label ? (
         <UIText as="span" variant="b14Medium" className="ui-input-label">
           {label}
+          {required || showRequiredStar ? <span className="ui-input-required">*</span> : null}
         </UIText>
       ) : null}
       <span className={wrapClass}>
@@ -44,6 +48,7 @@ function UIInput({
           type={type}
           readOnly={readOnly}
           disabled={disabled}
+          required={required}
           {...props}
         />
         {rightAdornment ? (
@@ -54,6 +59,22 @@ function UIInput({
         <UIText as="span" variant="b12Regular" className="ui-input-error">
           {error}
         </UIText>
+      ) : null}
+      {helperText ? (
+        <div className="ui-input-helper">
+          <svg
+            className="ui-input-helper-icon"
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.8" />
+            <path d="M12 16v-4M12 8h.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          </svg>
+          <span>{helperText}</span>
+        </div>
       ) : null}
     </label>
   )

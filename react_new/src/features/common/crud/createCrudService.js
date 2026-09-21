@@ -140,7 +140,7 @@ export function createCrudService(config) {
       : (buildCreateBody ? buildCreateBody(payload) : payload)
 
     const res = await apiRequest(path, { base, method: 'POST', body })
-    if (!res.ok && !isApiSuccess(res.data)) {
+    if (!res.ok || !isApiSuccess(res.data)) {
       throw new ApiError(apiStatusDescription(res.data, `Save failed (${res.status})`), res)
     }
     return { status: { code: API_SUCCESS_CODE }, raw: res.data }
@@ -152,13 +152,23 @@ export function createCrudService(config) {
     }
     const body = buildDeleteBody ? buildDeleteBody(id, row) : { id }
     const res = await apiRequest(urls.delete, { base, method: 'POST', body })
-    if (!res.ok && !isApiSuccess(res.data)) {
+    if (!res.ok || !isApiSuccess(res.data)) {
       throw new ApiError(apiStatusDescription(res.data, `Delete failed (${res.status})`), res)
     }
     return { status: { code: API_SUCCESS_CODE }, raw: res.data }
   }
 
-  return { fetchAll, save, remove, name, urls, mapRow }
+  return {
+    fetchAll,
+    save,
+    remove,
+    name,
+    urls,
+    mapRow,
+    buildCreateBody,
+    buildUpdateBody,
+    buildDeleteBody,
+  }
 }
 
 export default createCrudService

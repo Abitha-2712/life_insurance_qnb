@@ -1,5 +1,5 @@
-﻿import { useCallback, useEffect, useRef, useState } from 'react'
-import { isApiSuccess } from '@/core/api/client'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { isApiSuccess, apiStatusDescription } from '@/core/api/client'
 
 export function useCrudList(service) {
   const [rows, setRows] = useState([])
@@ -13,7 +13,7 @@ export function useCrudList(service) {
     setError('')
     try {
       const res = await serviceRef.current.fetchAll()
-      if (!isApiSuccess(res)) throw new Error('Fetch failed')
+      if (!isApiSuccess(res)) throw new Error(apiStatusDescription(res?.raw || res, 'Fetch failed'))
       setRows(res.data || [])
     } catch (err) {
       setError(err?.message || 'Fetch failed')
@@ -31,7 +31,7 @@ export function useCrudList(service) {
       try {
         const res = await serviceRef.current.fetchAll()
         if (cancelled) return
-        if (!isApiSuccess(res)) throw new Error('Fetch failed')
+        if (!isApiSuccess(res)) throw new Error(apiStatusDescription(res?.raw || res, 'Fetch failed'))
         setRows(res.data || [])
       } catch (err) {
         if (cancelled) return
@@ -49,7 +49,9 @@ export function useCrudList(service) {
   const upsert = useCallback(
     async (payload) => {
       const res = await serviceRef.current.save(payload)
-      if (!isApiSuccess(res)) throw new Error('Save failed')
+      if (!isApiSuccess(res) && !isApiSuccess(res?.raw)) {
+        throw new Error(apiStatusDescription(res?.raw || res, 'Save failed'))
+      }
       await softFetch()
     },
     [softFetch],
@@ -58,7 +60,9 @@ export function useCrudList(service) {
   const remove = useCallback(
     async (id, row) => {
       const res = await serviceRef.current.remove(id, row)
-      if (!isApiSuccess(res)) throw new Error('Delete failed')
+      if (!isApiSuccess(res) && !isApiSuccess(res?.raw)) {
+        throw new Error(apiStatusDescription(res?.raw || res, 'Delete failed'))
+      }
       await softFetch()
     },
     [softFetch],

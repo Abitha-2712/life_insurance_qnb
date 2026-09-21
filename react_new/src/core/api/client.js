@@ -155,9 +155,24 @@ export async function apiRequest(path, options = {}) {
 }
 
 export function apiStatusDescription(payload, fallback = '') {
-  const desc = payload?.status?.description
+  if (!payload || typeof payload !== 'object') return fallback
+  const root = payload?.data && typeof payload.data === 'object' ? payload.data : null
+  const desc =
+    payload?.status?.description ||
+    payload?.description ||
+    payload?.message ||
+    payload?.error ||
+    payload?.status?.message ||
+    root?.status?.description ||
+    root?.description ||
+    root?.message ||
+    root?.error
   if (desc && String(desc).trim()) return String(desc).trim()
-  const code = payload?.status?.code
+  const code =
+    payload?.status?.code ||
+    payload?.code ||
+    root?.status?.code ||
+    root?.code
   if (code && String(code) !== API_SUCCESS_CODE) return String(code)
   return fallback
 }

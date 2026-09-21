@@ -1,6 +1,7 @@
-﻿/* Flutter SummaryStatusRow â€” Total / Active / Inactive cards */
+/* Flutter SummaryStatusRow â€” Total / Active / Inactive cards */
 .ui-summary-status-row {
-  display: grid;`n  align-items: stretch;
+  display: grid;
+  align-items: stretch;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   width: 100%;

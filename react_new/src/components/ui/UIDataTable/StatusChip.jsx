@@ -14,12 +14,16 @@ function toneForStatus(status) {
     case 'completed':
     case 'enabled':
     case 'success':
+    case 'act':
       return 'success'
     case 'inactive':
     case 'false':
     case 'n':
     case 'no':
     case '0':
+    case 'iac':
+    case 'inact':
+    case 'disabled':
       return 'neutral'
     case 'failed':
     case 'rejected':

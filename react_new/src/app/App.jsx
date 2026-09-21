@@ -1,4 +1,4 @@
-﻿import { Navigate, Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import routes, { dashboardChildPaths } from '@/app/routes'
 import { RedirectIfAuthed, RequireAuth } from '@/core/router/guards'
 import LoginPage from '@/features/auth/pages/LoginPage/LoginPage'
@@ -125,6 +125,7 @@ import SegmentAccessPage from '@/features/segment_access_management/pages/Segmen
 import SubProductManagementPage from '@/features/feature_management/pages/SubProductManagementPage'
 import SyncTableManagementPage from '@/features/sync_table_management/pages/SyncTableManagementPage'
 import TransferControlPage from '@/features/transfer_config/pages/TransferControlPage'
+import TransferTypePage from '@/features/master/transfer_type/pages/TransferTypePage'
 import UnitTablePage from '@/features/master/unit/pages/UnitTablePage'
 import UserManagementPage from '@/features/user_management/pages/UserManagementPage'
 import UsernameRulesPage from '@/features/user_name_rules/pages/UsernameRulesPage'
@@ -232,6 +233,7 @@ const featurePageByPath = {
   'lookups': LookupsPage,
   'master_category_management': MasterCategoryPage,
   'master_country_nav': CountryTablePage,
+  'master_country_config': CountryTablePage,
   'master_currency_nav': CurrencyTablePage,
   'master_language_nav': LanguageTablePage,
   'mccg': MccgPage,
@@ -306,7 +308,7 @@ const featurePageByPath = {
   'transaction-error-table': CustomerSupportPage,
   'transfer_control': TransferControlPage,
   'transfer_limit': LimitSetupPage,
-  'transfer_type': TransferControlPage,
+  'transfer_type': TransferTypePage,
   'unit_nav': UnitTablePage,
   'user_creation': UserManagementPage,
   'utility_service_management': CRMServicePage,
