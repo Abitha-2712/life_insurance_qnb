@@ -1,26 +1,25 @@
 import { createCrudService } from '@/features/common/crud/createCrudService'
-import { domainManagementUrls } from '@/core/api/urls/domain_managementUrls'
+import { transferTypeUrls } from '@/core/api/urls/transfer_typeUrls'
 
 const service = createCrudService({
-  base: 'wfc',
-  name: 'domain_management',
+  base: 'bo',
+  name: 'transfer_type',
   urls: {
-    fetchAll: domainManagementUrls.fetchAllDomain,
-    create: domainManagementUrls.saveDomain,
-    update: domainManagementUrls.saveDomain,
-    delete: domainManagementUrls.deleteDomain,
+    fetchAll: transferTypeUrls.fetchAll,
+    create: transferTypeUrls.create,
+    update: transferTypeUrls.update,
+    delete: transferTypeUrls.delete,
   },
-  idKeys: ["id","domainCode","domainId"],
+  idKeys: ['id', 'transferTypeKey'],
   mapRow: (row) => {
     const isInactive = ['N', 'NO', 'INACTIVE', '0', 'FALSE', 'IAC', 'INACT'].includes(
       String(row.status || '').toUpperCase().trim(),
     )
     return {
       ...row,
-      id: String(row.id || row.domainCode || row.domainId || ''),
-      domainId: row.domainId || row.domainCode || row.id || '',
-      domainDesc: row.domainDesc || row.description || row.domainName || '',
-      priority: String(row.priority ?? row.sequence ?? row.seq ?? ''),
+      id: row.id != null ? row.id : (row.transferTypeKey || ''),
+      transferTypeKey: row.transferTypeKey || '',
+      transferTypeValue: row.transferTypeValue || '',
       status: isInactive ? 'INACTIVE' : 'ACTIVE',
     }
   },
@@ -29,11 +28,9 @@ const service = createCrudService({
       String(form.status || '').toUpperCase().trim(),
     )
     return {
-      domainId: form.domainId,
-      domainDesc: form.domainDesc,
-      priority: form.priority,
+      transferTypeKey: form.transferTypeKey,
+      transferTypeValue: form.transferTypeValue,
       status: isAct ? 'ACT' : 'IAC',
-      action: 'ADD',
     }
   },
   buildUpdateBody: (form) => {
@@ -41,14 +38,13 @@ const service = createCrudService({
       String(form.status || '').toUpperCase().trim(),
     )
     return {
-      domainId: form.domainId,
-      domainDesc: form.domainDesc,
-      priority: form.priority,
+      id: form.id != null ? Number(form.id) : undefined,
+      transferTypeKey: form.transferTypeKey,
+      transferTypeValue: form.transferTypeValue,
       status: isAct ? 'ACT' : 'IAC',
-      action: 'UPDATE',
     }
   },
-  buildDeleteBody: (id, row) => ({ name: row?.domainId || id }),
+  buildDeleteBody: (id, row) => ({ id: Number(row?.id ?? id) }),
 })
 
 export const fetchAll = () => service.fetchAll()

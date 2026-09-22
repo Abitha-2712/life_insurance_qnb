@@ -61,6 +61,7 @@ import { syncTableUrls } from './sync_tableUrls'
 import { themeConfigUrls } from './theme_configUrls'
 import { thirdPartyUrls } from './third_partyUrls'
 import { transferControlUrls } from './transfer_controlUrls'
+import { transferTypeUrls } from './transfer_typeUrls'
 import { unitUrls } from './unitUrls'
 import { userActionUrls } from './user_actionUrls'
 import { userRoleManagementUrls } from './user_role_managementUrls'
@@ -144,6 +145,7 @@ export const urls = {
   themeConfig: themeConfigUrls,
   thirdParty: thirdPartyUrls,
   transferControl: transferControlUrls,
+  transferType: transferTypeUrls,
   unit: unitUrls,
   userAction: userActionUrls,
   userRoleManagement: userRoleManagementUrls,
@@ -151,5 +153,5 @@ export const urls = {
   userrrr: userrrrUrls,
 }
 
-export { cityUrls, accessManagementUrls, accountClassUrls, accountTypeUrls, androidUrls, appleUrls, atmLocatorUrls, bankManagementUrls, bannerConfigurationUrls, blockListUrls, blocklistIpUrls, branchLocatorUrls, campaignMessagesUrls, channelUrls, childMenuUrls, configurationParaUrls, countryUrls, crmServiceUrls, currencyUrls, customerSegmentUrls, customerSupportUrls, customerTypeUrls, customerViewUrls, dashboardUrls, databaseUrls, defaultParameterUrls, disclaimerUrls, domainManagementUrls, faqManagementUrls, forceUpdateUrls, i18MaintenanceUrls, languageUrls, licenseManagementUrls, loginUrls, logoutUrls, lookupUrls, lookupTypeUrls, manageUserUrls, menuScreenUrls, menuUrls, menuEntitlementUrls, mfaManagementUrls, offerUrls, otpControlUrls, parameterUrls, partnerOnboardingUrls, partnershipUrls, passwordConfigurationUrls, passwordPolicyUrls, pendingApprovalUrls, productUrls, productManagementUrls, pushNotificationUrls, recentActivityUrls, ruleManagementUrls, segmentMappingUrls, subProductManagementUrls, subProductsManagementUrls, syncTableUrls, themeConfigUrls, thirdPartyUrls, transferControlUrls, unitUrls, userActionUrls, userRoleManagementUrls, usernameRuleUrls, userrrrUrls }
+export { cityUrls, accessManagementUrls, accountClassUrls, accountTypeUrls, androidUrls, appleUrls, atmLocatorUrls, bankManagementUrls, bannerConfigurationUrls, blockListUrls, blocklistIpUrls, branchLocatorUrls, campaignMessagesUrls, channelUrls, childMenuUrls, configurationParaUrls, countryUrls, crmServiceUrls, currencyUrls, customerSegmentUrls, customerSupportUrls, customerTypeUrls, customerViewUrls, dashboardUrls, databaseUrls, defaultParameterUrls, disclaimerUrls, domainManagementUrls, faqManagementUrls, forceUpdateUrls, i18MaintenanceUrls, languageUrls, licenseManagementUrls, loginUrls, logoutUrls, lookupUrls, lookupTypeUrls, manageUserUrls, menuScreenUrls, menuUrls, menuEntitlementUrls, mfaManagementUrls, offerUrls, otpControlUrls, parameterUrls, partnerOnboardingUrls, partnershipUrls, passwordConfigurationUrls, passwordPolicyUrls, pendingApprovalUrls, productUrls, productManagementUrls, pushNotificationUrls, recentActivityUrls, ruleManagementUrls, segmentMappingUrls, subProductManagementUrls, subProductsManagementUrls, syncTableUrls, themeConfigUrls, thirdPartyUrls, transferControlUrls, transferTypeUrls, unitUrls, userActionUrls, userRoleManagementUrls, usernameRuleUrls, userrrrUrls }
 export default urls

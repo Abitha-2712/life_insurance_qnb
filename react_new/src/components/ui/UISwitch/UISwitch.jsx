@@ -1,8 +1,15 @@
 import './UISwitch.css'
 
-function UISwitch({ checked = false, onChange, label, disabled = false }) {
+function UISwitch({
+  checked = false,
+  onChange,
+  label,
+  disabled = false,
+  labelPosition = 'right',
+}) {
   return (
     <label className={['ui-switch', disabled ? 'is-disabled' : ''].filter(Boolean).join(' ')}>
+      {label && labelPosition === 'left' ? <span className="ui-switch-label">{label}</span> : null}
       <input
         type="checkbox"
         checked={checked}
@@ -10,7 +17,7 @@ function UISwitch({ checked = false, onChange, label, disabled = false }) {
         onChange={(e) => onChange?.(e.target.checked)}
       />
       <span className="ui-switch-track" />
-      {label ? <span className="ui-switch-label">{label}</span> : null}
+      {label && labelPosition === 'right' ? <span className="ui-switch-label">{label}</span> : null}
     </label>
   )
 }

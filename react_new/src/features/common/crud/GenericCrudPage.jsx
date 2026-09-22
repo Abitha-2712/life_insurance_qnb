@@ -1,4 +1,4 @@
-﻿import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Box from '@/components/layout/Box/Box'
 import {
   RowActionType,
@@ -16,6 +16,7 @@ import {
   useToast,
 } from '@/components/ui'
 import { t } from '@/core/i18n/t'
+import { apiStatusDescription } from '@/core/api/client'
 import GenericCrudForm from './GenericCrudForm'
 import { useCrudList } from './useCrudList'
 import './GenericCrudPage.css'
@@ -159,7 +160,12 @@ function GenericCrudPage({
       toast.success(t('Saved_successfully', 'Saved successfully'))
       setPanel(null)
     } catch (err) {
-      toast.error(err?.message || t('Save_failed', 'Save failed'))
+      const apiDesc = apiStatusDescription(err?.details?.data || err?.details)
+      const msg =
+        (apiDesc && apiDesc !== 'Save failed' && !apiDesc.startsWith('Save failed ('))
+          ? apiDesc
+          : err?.message || t('Save_failed', 'Save failed')
+      toast.error(msg, 5000)
     }
   }
 
@@ -170,7 +176,12 @@ function GenericCrudPage({
       toast.success(t('Deleted_successfully', 'Deleted successfully'))
       setDeleteTarget(null)
     } catch (err) {
-      toast.error(err?.message || t('Delete_failed', 'Delete failed'))
+      const apiDesc = apiStatusDescription(err?.details?.data || err?.details)
+      const msg =
+        (apiDesc && apiDesc !== 'Delete failed' && !apiDesc.startsWith('Delete failed ('))
+          ? apiDesc
+          : err?.message || t('Delete_failed', 'Delete failed')
+      toast.error(msg, 5000)
     }
   }
 

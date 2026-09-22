@@ -129,6 +129,6 @@ export function normalizeStatusLabel(status) {
     .toUpperCase()
     .trim()
   if (['Y', 'YES', 'ACT', 'ACTIVE', '1', 'TRUE', 'ENABLED'].includes(s)) return 'Active'
-  if (['N', 'NO', 'INACTIVE', '0', 'FALSE'].includes(s)) return 'Inactive'
+  if (['N', 'NO', 'INACTIVE', '0', 'FALSE', 'IAC', 'INACT', 'DISABLED'].includes(s)) return 'Inactive'
   return status ? String(status) : ''
 }
