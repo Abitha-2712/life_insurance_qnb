@@ -1,0 +1,117 @@
+﻿/* Flutter EmploymentMasterTablePage + occupation child chrome */
+.employment-masters-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.employment-masters-title {
+  margin: 0;
+  color: var(--qnb-dashboard-text, #131720);
+}
+
+/* Flutter UiMetricCardRow — 5 equal cards on desktop */
+.employment-masters-page .ui-metric-card-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.employment-masters-page .ui-metric-card-row > .ui-metric-card {
+  flex: unset;
+  min-height: 120px;
+}
+
+.employment-masters-page .ui-metric-card.is-selected {
+  box-shadow: 0 0 0 2px rgb(37 99 235 / 22%);
+}
+
+.employment-masters-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 12px;
+  background: #f1f3f6;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.employment-masters-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #485363;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.employment-masters-tab.is-selected {
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+  color: #131720;
+  font-weight: 600;
+}
+
+.employment-masters-tab-icon {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+}
+
+
+.employment-masters-tab-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Embedded CRUD: Add right, export under it (Flutter Align right + PDF row) */
+.employment-masters-page .generic-crud-page.is-embedded {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+}
+
+.employment-masters-page .generic-crud-page-header.is-embedded-header {
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.employment-masters-page .generic-crud-export {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.employment-masters-page .generic-crud-page > .ui-card {
+  padding: var(--qnb-space-16);
+}
+
+@media (max-width: 1100px) {
+  .employment-masters-page .ui-metric-card-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .employment-masters-page {
+    padding: 16px;
+  }
+
+  .employment-masters-page .ui-metric-card-row {
+    grid-template-columns: 1fr;
+  }
+}
+

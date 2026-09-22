@@ -1,0 +1,1192 @@
+[
+  {
+    "child": "dc_city_master",
+    "comp": "DCCityMasterPage",
+    "import": "@/features/dc_city_master/pages/DCCityMasterPage",
+    "feature": "dc_city_master",
+    "absolute": "/dashboard/dc_city_master"
+  },
+  {
+    "child": "bank_management",
+    "comp": "BankManagementPage",
+    "import": "@/features/bank_management/pages/BankManagementPage",
+    "feature": "bank_management",
+    "absolute": "/dashboard/bank_management"
+  },
+  {
+    "child": "banner-configuration",
+    "comp": "BannerConfigurationPage",
+    "import": "@/features/banner_configuration/pages/BannerConfigurationPage",
+    "feature": "banner_configuration",
+    "absolute": "/dashboard/banner-configuration"
+  },
+  {
+    "child": "faq_management",
+    "comp": "FAQManagementPage",
+    "import": "@/features/FAQ_management/pages/FAQManagementPage",
+    "feature": "FAQ_management",
+    "absolute": "/dashboard/faq_management"
+  },
+  {
+    "child": "error_management",
+    "comp": "ErrorManagementPage",
+    "import": "@/features/error_management/pages/ErrorManagementPage",
+    "feature": "error_management",
+    "absolute": "/dashboard/error_management"
+  },
+  {
+    "child": "error_master",
+    "comp": "ErrorManagementPage",
+    "import": "@/features/error_management/pages/ErrorManagementPage",
+    "feature": "error_management",
+    "absolute": "/dashboard/error_master"
+  },
+  {
+    "child": "error_configuration",
+    "comp": "ErrorConfigurationPage",
+    "import": "@/features/error_configuration/pages/ErrorConfigurationPage",
+    "feature": "error_configuration",
+    "absolute": "/dashboard/error_configuration"
+  },
+  {
+    "child": "mfa_management",
+    "comp": "MFAManagementPage",
+    "import": "@/features/mfa_management/pages/MFAManagementPage",
+    "feature": "mfa_management",
+    "absolute": "/dashboard/mfa_management"
+  },
+  {
+    "child": "notification/push-notification",
+    "comp": "PushNotificationPage",
+    "import": "@/features/push_notification/pages/PushNotificationPage",
+    "feature": "push_notification",
+    "absolute": "/dashboard/notification/push-notification"
+  },
+  {
+    "child": "Notifications_Management",
+    "comp": "PushNotificationPage",
+    "import": "@/features/push_notification/pages/PushNotificationPage",
+    "feature": "push_notification",
+    "absolute": "/dashboard/Notifications_Management"
+  },
+  {
+    "child": "user_creation",
+    "comp": "UserManagementPage",
+    "import": "@/features/user_management/pages/UserManagementPage",
+    "feature": "user_management",
+    "absolute": "/dashboard/user_creation"
+  },
+  {
+    "child": "role_management",
+    "comp": "UserManagementPage",
+    "import": "@/features/user_management/pages/UserManagementPage",
+    "feature": "user_management",
+    "absolute": "/dashboard/role_management"
+  },
+  {
+    "child": "group_management",
+    "comp": "UserManagementPage",
+    "import": "@/features/user_management/pages/UserManagementPage",
+    "feature": "user_management",
+    "absolute": "/dashboard/group_management"
+  },
+  {
+    "child": "block_user",
+    "comp": "UserManagementPage",
+    "import": "@/features/user_management/pages/UserManagementPage",
+    "feature": "user_management",
+    "absolute": "/dashboard/block_user"
+  },
+  {
+    "child": "role_based_access",
+    "comp": "UserManagementPage",
+    "import": "@/features/user_management/pages/UserManagementPage",
+    "feature": "user_management",
+    "absolute": "/dashboard/role_based_access"
+  },
+  {
+    "child": "transfer_control",
+    "comp": "TransferControlPage",
+    "import": "@/features/transfer_config/pages/TransferControlPage",
+    "feature": "transfer_config",
+    "absolute": "/dashboard/transfer_control"
+  },
+  {
+    "child": "transfer_limit",
+    "comp": "TransferControlPage",
+    "import": "@/features/transfer_config/pages/TransferControlPage",
+    "feature": "transfer_config",
+    "absolute": "/dashboard/transfer_limit"
+  },
+  {
+    "child": "transfer_type",
+    "comp": "TransferControlPage",
+    "import": "@/features/transfer_config/pages/TransferControlPage",
+    "feature": "transfer_config",
+    "absolute": "/dashboard/transfer_type"
+  },
+  {
+    "child": "global_transfer_limit",
+    "comp": "TransferControlPage",
+    "import": "@/features/transfer_config/pages/TransferControlPage",
+    "feature": "transfer_config",
+    "absolute": "/dashboard/global_transfer_limit"
+  },
+  {
+    "child": "fees_limit",
+    "comp": "TransferControlPage",
+    "import": "@/features/transfer_config/pages/TransferControlPage",
+    "feature": "transfer_config",
+    "absolute": "/dashboard/fees_limit"
+  },
+  {
+    "child": "pending_approval_nav",
+    "comp": "WorkflowConfigurationPage",
+    "import": "@/features/workflow_configuration/pages/WorkflowConfigurationPage",
+    "feature": "workflow_configuration",
+    "absolute": "/dashboard/pending_approval_nav"
+  },
+  {
+    "child": "pending-request-nav",
+    "comp": "WorkflowConfigurationPage",
+    "import": "@/features/workflow_configuration/pages/WorkflowConfigurationPage",
+    "feature": "workflow_configuration",
+    "absolute": "/dashboard/pending-request-nav"
+  },
+  {
+    "child": "pending_approval",
+    "comp": "WorkflowNewPage",
+    "import": "@/features/workflow_new/pages/WorkflowNewPage",
+    "feature": "workflow_new",
+    "absolute": "/dashboard/pending_approval"
+  },
+  {
+    "child": "pending-request",
+    "comp": "WorkflowNewPage",
+    "import": "@/features/workflow_new/pages/WorkflowNewPage",
+    "feature": "workflow_new",
+    "absolute": "/dashboard/pending-request"
+  },
+  {
+    "child": "BlockList_IP",
+    "comp": "BlocklistIPPage",
+    "import": "@/features/blocklist_ip/pages/BlocklistIPPage",
+    "feature": "blocklist_ip",
+    "absolute": "/dashboard/BlockList_IP"
+  },
+  {
+    "child": "blocklist_imei",
+    "comp": "BlocklistIMEIPage",
+    "import": "@/features/blocklist_imei/pages/BlocklistIMEIPage",
+    "feature": "blocklist_imei",
+    "absolute": "/dashboard/blocklist_imei"
+  },
+  {
+    "child": "force_update",
+    "comp": "ForceUpdatePage",
+    "import": "@/features/force_update_configuration/pages/ForceUpdatePage",
+    "feature": "force_update_configuration",
+    "absolute": "/dashboard/force_update"
+  },
+  {
+    "child": "application_version_management",
+    "comp": "ForceUpdatePage",
+    "import": "@/features/force_update_configuration/pages/ForceUpdatePage",
+    "feature": "force_update_configuration",
+    "absolute": "/dashboard/application_version_management"
+  },
+  {
+    "child": "menu-entitlement",
+    "comp": "MenuEntitlementPage",
+    "import": "@/features/menu_maintenance/pages/MenuEntitlementPage",
+    "feature": "menu_maintenance",
+    "absolute": "/dashboard/menu-entitlement"
+  },
+  {
+    "child": "child_management",
+    "comp": "MenuEntitlementPage",
+    "import": "@/features/menu_maintenance/pages/MenuEntitlementPage",
+    "feature": "menu_maintenance",
+    "absolute": "/dashboard/child_management"
+  },
+  {
+    "child": "configuration_para",
+    "comp": "ConfigurationParametersPage",
+    "import": "@/features/configuration_parameters/pages/ConfigurationParametersPage",
+    "feature": "configuration_parameters",
+    "absolute": "/dashboard/configuration_para"
+  },
+  {
+    "child": "default_parameter",
+    "comp": "DefaultParameterPage",
+    "import": "@/features/default_parameter/pages/DefaultParameterPage",
+    "feature": "default_parameter",
+    "absolute": "/dashboard/default_parameter"
+  },
+  {
+    "child": "Parameter_Maintenance",
+    "comp": "ParameterMaintenancePage",
+    "import": "@/features/Parameter_maintenance/pages/ParameterMaintenancePage",
+    "feature": "Parameter_maintenance",
+    "absolute": "/dashboard/Parameter_Maintenance"
+  },
+  {
+    "child": "database_config",
+    "comp": "DatabaseConfigurationPage",
+    "import": "@/features/data_base_configuration/pages/DatabaseConfigurationPage",
+    "feature": "data_base_configuration",
+    "absolute": "/dashboard/database_config"
+  },
+  {
+    "child": "License_Management",
+    "comp": "LicenseManagementPage",
+    "import": "@/features/license_management/pages/LicenseManagementPage",
+    "feature": "license_management",
+    "absolute": "/dashboard/License_Management"
+  },
+  {
+    "child": "sms_configuration",
+    "comp": "SMSConfigurationPage",
+    "import": "@/features/sms_configuration/pages/SMSConfigurationPage",
+    "feature": "sms_configuration",
+    "absolute": "/dashboard/sms_configuration"
+  },
+  {
+    "child": "otp_config",
+    "comp": "SMSConfigurationPage",
+    "import": "@/features/sms_configuration/pages/SMSConfigurationPage",
+    "feature": "sms_configuration",
+    "absolute": "/dashboard/otp_config"
+  },
+  {
+    "child": "otp-bio_matrix",
+    "comp": "SMSConfigurationPage",
+    "import": "@/features/sms_configuration/pages/SMSConfigurationPage",
+    "feature": "sms_configuration",
+    "absolute": "/dashboard/otp-bio_matrix"
+  },
+  {
+    "child": "rule-management",
+    "comp": "RuleManagementPage",
+    "import": "@/features/rule_management/pages/RuleManagementPage",
+    "feature": "rule_management",
+    "absolute": "/dashboard/rule-management"
+  },
+  {
+    "child": "fawran_rules",
+    "comp": "RuleManagementPage",
+    "import": "@/features/rule_management/pages/RuleManagementPage",
+    "feature": "rule_management",
+    "absolute": "/dashboard/fawran_rules"
+  },
+  {
+    "child": "segment_access_management",
+    "comp": "SegmentAccessPage",
+    "import": "@/features/segment_access_management/pages/SegmentAccessPage",
+    "feature": "segment_access_management",
+    "absolute": "/dashboard/segment_access_management"
+  },
+  {
+    "child": "customer-segment",
+    "comp": "SegmentAccessPage",
+    "import": "@/features/segment_access_management/pages/SegmentAccessPage",
+    "feature": "segment_access_management",
+    "absolute": "/dashboard/customer-segment"
+  },
+  {
+    "child": "merchant_management",
+    "comp": "MerchantManagementPage",
+    "import": "@/features/merchant_management/pages/MerchantManagementPage",
+    "feature": "merchant_management",
+    "absolute": "/dashboard/merchant_management"
+  },
+  {
+    "child": "offer_management",
+    "comp": "OfferDiscountPage",
+    "import": "@/features/offer_discount_management/pages/OfferDiscountPage",
+    "feature": "offer_discount_management",
+    "absolute": "/dashboard/offer_management"
+  },
+  {
+    "child": "discount_management",
+    "comp": "OfferDiscountPage",
+    "import": "@/features/offer_discount_management/pages/OfferDiscountPage",
+    "feature": "offer_discount_management",
+    "absolute": "/dashboard/discount_management"
+  },
+  {
+    "child": "offers_category",
+    "comp": "OfferDiscountPage",
+    "import": "@/features/offer_discount_management/pages/OfferDiscountPage",
+    "feature": "offer_discount_management",
+    "absolute": "/dashboard/offers_category"
+  },
+  {
+    "child": "offers_rewards_management",
+    "comp": "OfferDiscountPage",
+    "import": "@/features/offer_discount_management/pages/OfferDiscountPage",
+    "feature": "offer_discount_management",
+    "absolute": "/dashboard/offers_rewards_management"
+  },
+  {
+    "child": "offer_static_info",
+    "comp": "OfferDiscountPage",
+    "import": "@/features/offer_discount_management/pages/OfferDiscountPage",
+    "feature": "offer_discount_management",
+    "absolute": "/dashboard/offer_static_info"
+  },
+  {
+    "child": "finance_offer",
+    "comp": "FinanceOfferPage",
+    "import": "@/features/finance_offer/pages/FinanceOfferPage",
+    "feature": "finance_offer",
+    "absolute": "/dashboard/finance_offer"
+  },
+  {
+    "child": "finance_calculator",
+    "comp": "FinanceCalculatorPage",
+    "import": "@/features/finance_calculator/pages/FinanceCalculatorPage",
+    "feature": "finance_calculator",
+    "absolute": "/dashboard/finance_calculator"
+  },
+  {
+    "child": "instant_finance",
+    "comp": "InstantFinancePage",
+    "import": "@/features/instant_finance/pages/InstantFinancePage",
+    "feature": "instant_finance",
+    "absolute": "/dashboard/instant_finance"
+  },
+  {
+    "child": "salary_advance",
+    "comp": "InstantFinancePage",
+    "import": "@/features/instant_finance/pages/InstantFinancePage",
+    "feature": "instant_finance",
+    "absolute": "/dashboard/salary_advance"
+  },
+  {
+    "child": "Partner_Listing",
+    "comp": "PartnerOnboardingPage",
+    "import": "@/features/partner_onboarding/pages/PartnerOnboardingPage",
+    "feature": "partner_onboarding",
+    "absolute": "/dashboard/Partner_Listing"
+  },
+  {
+    "child": "partner_stepper",
+    "comp": "PartnerOnboardingPage",
+    "import": "@/features/partner_onboarding/pages/PartnerOnboardingPage",
+    "feature": "partner_onboarding",
+    "absolute": "/dashboard/partner_stepper"
+  },
+  {
+    "child": "profile_control",
+    "comp": "ProfileControlPage",
+    "import": "@/features/profile_control/pages/ProfileControlPage",
+    "feature": "profile_control",
+    "absolute": "/dashboard/profile_control"
+  },
+  {
+    "child": "profanity_check",
+    "comp": "ProfanityCheckPage",
+    "import": "@/features/profanity_check/pages/ProfanityCheckPage",
+    "feature": "profanity_check",
+    "absolute": "/dashboard/profanity_check"
+  },
+  {
+    "child": "release_management",
+    "comp": "ReleaseManagementPage",
+    "import": "@/features/release_management/pages/ReleaseManagementPage",
+    "feature": "release_management",
+    "absolute": "/dashboard/release_management"
+  },
+  {
+    "child": "gateway_sync",
+    "comp": "GatewaySyncPage",
+    "import": "@/features/gateway_sync/pages/GatewaySyncPage",
+    "feature": "gateway_sync",
+    "absolute": "/dashboard/gateway_sync"
+  },
+  {
+    "child": "gateway_configuration",
+    "comp": "GatewaySyncPage",
+    "import": "@/features/gateway_sync/pages/GatewaySyncPage",
+    "feature": "gateway_sync",
+    "absolute": "/dashboard/gateway_configuration"
+  },
+  {
+    "child": "table-migration",
+    "comp": "SyncTableManagementPage",
+    "import": "@/features/sync_table_management/pages/SyncTableManagementPage",
+    "feature": "sync_table_management",
+    "absolute": "/dashboard/table-migration"
+  },
+  {
+    "child": "table-migration-list",
+    "comp": "SyncTableManagementPage",
+    "import": "@/features/sync_table_management/pages/SyncTableManagementPage",
+    "feature": "sync_table_management",
+    "absolute": "/dashboard/table-migration-list"
+  },
+  {
+    "child": "ready_to_sync_table",
+    "comp": "ReadyToSyncPage",
+    "import": "@/features/ready_to_sync_table/pages/ReadyToSyncPage",
+    "feature": "ready_to_sync_table",
+    "absolute": "/dashboard/ready_to_sync_table"
+  },
+  {
+    "child": "Ready_To_Sync",
+    "comp": "ReadyToSyncPage",
+    "import": "@/features/ready_to_sync_table/pages/ReadyToSyncPage",
+    "feature": "ready_to_sync_table",
+    "absolute": "/dashboard/Ready_To_Sync"
+  },
+  {
+    "child": "oci_user_management",
+    "comp": "OCIUserManagementPage",
+    "import": "@/features/oci_user/pages/OCIUserManagementPage",
+    "feature": "oci_user",
+    "absolute": "/dashboard/oci_user_management"
+  },
+  {
+    "child": "oci_user_notification",
+    "comp": "OCIUserManagementPage",
+    "import": "@/features/oci_user/pages/OCIUserManagementPage",
+    "feature": "oci_user",
+    "absolute": "/dashboard/oci_user_notification"
+  },
+  {
+    "child": "User_name",
+    "comp": "UsernameRulesPage",
+    "import": "@/features/user_name_rules/pages/UsernameRulesPage",
+    "feature": "user_name_rules",
+    "absolute": "/dashboard/User_name"
+  },
+  {
+    "child": "password_policy",
+    "comp": "UsernameRulesPage",
+    "import": "@/features/user_name_rules/pages/UsernameRulesPage",
+    "feature": "user_name_rules",
+    "absolute": "/dashboard/password_policy"
+  },
+  {
+    "child": "password_configurations",
+    "comp": "UsernameRulesPage",
+    "import": "@/features/user_name_rules/pages/UsernameRulesPage",
+    "feature": "user_name_rules",
+    "absolute": "/dashboard/password_configurations"
+  },
+  {
+    "child": "domain_management",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/domain_management"
+  },
+  {
+    "child": "product_management",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/product_management"
+  },
+  {
+    "child": "sub_product_management",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/sub_product_management"
+  },
+  {
+    "child": "retail_product",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/retail_product"
+  },
+  {
+    "child": "retail_subproduct",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/retail_subproduct"
+  },
+  {
+    "child": "access_product_management",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/access_product_management"
+  },
+  {
+    "child": "subproduct",
+    "comp": "FeatureManagementPage",
+    "import": "@/features/feature_management/pages/FeatureManagementPage",
+    "feature": "feature_management",
+    "absolute": "/dashboard/subproduct"
+  },
+  {
+    "child": "about_Qnb",
+    "comp": "AboutQNBPage",
+    "import": "@/features/about_QNB/pages/AboutQNBPage",
+    "feature": "about_QNB",
+    "absolute": "/dashboard/about_Qnb"
+  },
+  {
+    "child": "term-condition",
+    "comp": "AboutQNBPage",
+    "import": "@/features/about_QNB/pages/AboutQNBPage",
+    "feature": "about_QNB",
+    "absolute": "/dashboard/term-condition"
+  },
+  {
+    "child": "terms&condition_disclaimer",
+    "comp": "AboutQNBPage",
+    "import": "@/features/about_QNB/pages/AboutQNBPage",
+    "feature": "about_QNB",
+    "absolute": "/dashboard/terms&condition_disclaimer"
+  },
+  {
+    "child": "reach_us",
+    "comp": "FollowUsReachUsPage",
+    "import": "@/features/follow_us/pages/FollowUsReachUsPage",
+    "feature": "follow_us",
+    "absolute": "/dashboard/reach_us"
+  },
+  {
+    "child": "preference",
+    "comp": "FollowUsReachUsPage",
+    "import": "@/features/follow_us/pages/FollowUsReachUsPage",
+    "feature": "follow_us",
+    "absolute": "/dashboard/preference"
+  },
+  {
+    "child": "rm_contact",
+    "comp": "FollowUsReachUsPage",
+    "import": "@/features/follow_us/pages/FollowUsReachUsPage",
+    "feature": "follow_us",
+    "absolute": "/dashboard/rm_contact"
+  },
+  {
+    "child": "customer_search",
+    "comp": "Customer360Page",
+    "import": "@/features/customer_360_view/pages/Customer360Page",
+    "feature": "customer_360_view",
+    "absolute": "/dashboard/customer_search"
+  },
+  {
+    "child": "customer-journey",
+    "comp": "CustomerJourneyPage",
+    "import": "@/features/customer_jounrey/pages/CustomerJourneyPage",
+    "feature": "customer_jounrey",
+    "absolute": "/customer-journey"
+  },
+  {
+    "child": "crm_service_management",
+    "comp": "CRMServicePage",
+    "import": "@/features/customer_service/pages/CRMServicePage",
+    "feature": "customer_service",
+    "absolute": "/dashboard/crm_service_management"
+  },
+  {
+    "child": "crm_department",
+    "comp": "CRMServicePage",
+    "import": "@/features/customer_service/pages/CRMServicePage",
+    "feature": "customer_service",
+    "absolute": "/dashboard/crm_department"
+  },
+  {
+    "child": "utility_service_management",
+    "comp": "CRMServicePage",
+    "import": "@/features/customer_service/pages/CRMServicePage",
+    "feature": "customer_service",
+    "absolute": "/dashboard/utility_service_management"
+  },
+  {
+    "child": "logging_exception",
+    "comp": "CustomerSupportPage",
+    "import": "@/features/customer_support/pages/CustomerSupportPage",
+    "feature": "customer_support",
+    "absolute": "/dashboard/logging_exception"
+  },
+  {
+    "child": "logging_event",
+    "comp": "CustomerSupportPage",
+    "import": "@/features/customer_support/pages/CustomerSupportPage",
+    "feature": "customer_support",
+    "absolute": "/dashboard/logging_event"
+  },
+  {
+    "child": "bo_user_action",
+    "comp": "CustomerSupportPage",
+    "import": "@/features/customer_support/pages/CustomerSupportPage",
+    "feature": "customer_support",
+    "absolute": "/dashboard/bo_user_action"
+  },
+  {
+    "child": "transaction-error-details",
+    "comp": "CustomerSupportPage",
+    "import": "@/features/customer_support/pages/CustomerSupportPage",
+    "feature": "customer_support",
+    "absolute": "/transaction-error-details"
+  },
+  {
+    "child": "transaction-error-table",
+    "comp": "CustomerSupportPage",
+    "import": "@/features/customer_support/pages/CustomerSupportPage",
+    "feature": "customer_support",
+    "absolute": "/dashboard/transaction-error-table"
+  },
+  {
+    "child": "transaction-error-details-landing",
+    "comp": "CustomerSupportPage",
+    "import": "@/features/customer_support/pages/CustomerSupportPage",
+    "feature": "customer_support",
+    "absolute": "/dashboard/transaction-error-details-landing"
+  },
+  {
+    "child": "data_cleansing",
+    "comp": "DataCleansingPage",
+    "import": "@/features/data_cleansing/pages/DataCleansingPage",
+    "feature": "data_cleansing",
+    "absolute": "/dashboard/data_cleansing"
+  },
+  {
+    "child": "consolidate_e_statement",
+    "comp": "EStatementPage",
+    "import": "@/features/E-statement/pages/EStatementPage",
+    "feature": "E-statement",
+    "absolute": "/dashboard/consolidate_e_statement"
+  },
+  {
+    "child": "apply_product",
+    "comp": "ApplyforProductPage",
+    "import": "@/features/apply_for_product/pages/ApplyforProductPage",
+    "feature": "apply_for_product",
+    "absolute": "/dashboard/apply_product"
+  },
+  {
+    "child": "apply_product_subproduct",
+    "comp": "ApplyProductSubproductPage",
+    "import": "@/features/apply_product_subproduct/pages/ApplyProductSubproductPage",
+    "feature": "apply_product_subproduct",
+    "absolute": "/dashboard/apply_product_subproduct"
+  },
+  {
+    "child": "app-library",
+    "comp": "AppLibraryPage",
+    "import": "@/features/app_library/pages/AppLibraryPage",
+    "feature": "app_library",
+    "absolute": "/app-library"
+  },
+  {
+    "child": "show-case",
+    "comp": "AppLibraryPage",
+    "import": "@/features/app_library/pages/AppLibraryPage",
+    "feature": "app_library",
+    "absolute": "/show-case"
+  },
+  {
+    "child": "adapter_table",
+    "comp": "AdapterTablePage",
+    "import": "@/features/adapter/pages/AdapterTablePage",
+    "feature": "adapter",
+    "absolute": "/dashboard/adapter_table"
+  },
+  {
+    "child": "api_call",
+    "comp": "APICallPage",
+    "import": "@/features/api_call/pages/APICallPage",
+    "feature": "api_call",
+    "absolute": "/dashboard/api_call"
+  },
+  {
+    "child": "dynamic_screen",
+    "comp": "DynamicScreenPage",
+    "import": "@/features/dynamic_screen/pages/DynamicScreenPage",
+    "feature": "dynamic_screen",
+    "absolute": "/dashboard/dynamic_screen"
+  },
+  {
+    "child": "splash_screen_maintenance",
+    "comp": "DynamicScreenPage",
+    "import": "@/features/dynamic_screen/pages/DynamicScreenPage",
+    "feature": "dynamic_screen",
+    "absolute": "/dashboard/splash_screen_maintenance"
+  },
+  {
+    "child": "i18n-management",
+    "comp": "DynamicScreenPage",
+    "import": "@/features/dynamic_screen/pages/DynamicScreenPage",
+    "feature": "dynamic_screen",
+    "absolute": "/dashboard/i18n-management"
+  },
+  {
+    "child": "theme_config",
+    "comp": "ScreenConfigurationPage",
+    "import": "@/features/screen_configuration/pages/ScreenConfigurationPage",
+    "feature": "screen_configuration",
+    "absolute": "/dashboard/theme_config"
+  },
+  {
+    "child": "link_configuration",
+    "comp": "ScreenConfigurationPage",
+    "import": "@/features/screen_configuration/pages/ScreenConfigurationPage",
+    "feature": "screen_configuration",
+    "absolute": "/dashboard/link_configuration"
+  },
+  {
+    "child": "fingerprint_management",
+    "comp": "ScreenConfigurationPage",
+    "import": "@/features/screen_configuration/pages/ScreenConfigurationPage",
+    "feature": "screen_configuration",
+    "absolute": "/dashboard/fingerprint_management"
+  },
+  {
+    "child": "funnel",
+    "comp": "FunnelPage",
+    "import": "@/features/funnel/pages/FunnelPage",
+    "feature": "funnel",
+    "absolute": "/dashboard/funnel"
+  },
+  {
+    "child": "account_class",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/account_class"
+  },
+  {
+    "child": "account_type",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/account_type"
+  },
+  {
+    "child": "lookup_types",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/lookup_types"
+  },
+  {
+    "child": "lookups",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/lookups"
+  },
+  {
+    "child": "atm_locator",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/atm_locator"
+  },
+  {
+    "child": "branch_locator",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/branch_locator"
+  },
+  {
+    "child": "kiosk_locator",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/kiosk_locator"
+  },
+  {
+    "child": "iban_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/iban_nav"
+  },
+  {
+    "child": "beneficiary_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/beneficiary_nav"
+  },
+  {
+    "child": "beneficiary_add",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/beneficiary_add"
+  },
+  {
+    "child": "beneficiary_edit",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/beneficiary_edit"
+  },
+  {
+    "child": "beneficiary_cooling_off",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/beneficiary_cooling_off"
+  },
+  {
+    "child": "beneficiary_cooling_pending",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/beneficiary_cooling_pending"
+  },
+  {
+    "child": "master_category_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/master_category_management"
+  },
+  {
+    "child": "category_code",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/category_code"
+  },
+  {
+    "child": "charity_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/charity_management"
+  },
+  {
+    "child": "card",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/card"
+  },
+  {
+    "child": "card_spend",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/card_spend"
+  },
+  {
+    "child": "card_issuance_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/card_issuance_management"
+  },
+  {
+    "child": "google_pay",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/google_pay"
+  },
+  {
+    "child": "apple_pay",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/apple_pay"
+  },
+  {
+    "child": "cheque_book_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/cheque_book_management"
+  },
+  {
+    "child": "cheque_deposit",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/cheque_deposit"
+  },
+  {
+    "child": "direct_remittance",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/direct_remittance"
+  },
+  {
+    "child": "direct_remittance_type",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/direct_remittance_type"
+  },
+  {
+    "child": "western_union_email",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/western_union_email"
+  },
+  {
+    "child": "western_union_history",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/western_union_history"
+  },
+  {
+    "child": "rtp_transfer_purpose_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/rtp_transfer_purpose_management"
+  },
+  {
+    "child": "rtp_account_type_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/rtp_account_type_management"
+  },
+  {
+    "child": "connectivity_hub",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/connectivity_hub"
+  },
+  {
+    "child": "mq_configuration",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/mq_configuration"
+  },
+  {
+    "child": "afaq_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/afaq_management"
+  },
+  {
+    "child": "athkar_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/athkar_management"
+  },
+  {
+    "child": "stories_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/stories_management"
+  },
+  {
+    "child": "story_report",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/story_report"
+  },
+  {
+    "child": "onboarding_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/onboarding_management"
+  },
+  {
+    "child": "onboarding_product_configuration",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/onboarding_product_configuration"
+  },
+  {
+    "child": "employment_masters",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/employment_masters"
+  },
+  {
+    "child": "notification_template",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/notification_template"
+  },
+  {
+    "child": "notification/messages-campaign",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/notification/messages-campaign"
+  },
+  {
+    "child": "notification/customer-segment",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/notification/customer-segment"
+  },
+  {
+    "child": "sector",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/sector"
+  },
+  {
+    "child": "sector_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/sector_management"
+  },
+  {
+    "child": "mccg",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/mccg"
+  },
+  {
+    "child": "favorite",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/favorite"
+  },
+  {
+    "child": "favorite_list",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/favorite_list"
+  },
+  {
+    "child": "widget",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/widget"
+  },
+  {
+    "child": "risk_mangement",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/risk_mangement"
+  },
+  {
+    "child": "eIPO_company_configuration",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/eIPO_company_configuration"
+  },
+  {
+    "child": "product_content_management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/product_content_management"
+  },
+  {
+    "child": "products _management",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/products _management"
+  },
+  {
+    "child": "report_template_maintanance",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/report_template_maintanance"
+  },
+  {
+    "child": "change_password",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/change_password"
+  },
+  {
+    "child": "group_manage_add",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/group_manage_add"
+  },
+  {
+    "child": "group_manage_edit",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/group_manage_edit"
+  },
+  {
+    "child": "template_creation",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/template_creation"
+  },
+  {
+    "child": "country_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/country_nav"
+  },
+  {
+    "child": "unit_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/unit_nav"
+  },
+  {
+    "child": "currency_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/currency_nav"
+  },
+  {
+    "child": "master_currency_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/master_currency_nav"
+  },
+  {
+    "child": "master_country_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/master_country_nav"
+  },
+  {
+    "child": "master_language_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/master_language_nav"
+  },
+  {
+    "child": "channel_nav",
+    "comp": "OtherConfigurationPage",
+    "import": "@/features/other_config/pages/OtherConfigurationPage",
+    "feature": "other_config",
+    "absolute": "/dashboard/channel_nav"
+  }
+]

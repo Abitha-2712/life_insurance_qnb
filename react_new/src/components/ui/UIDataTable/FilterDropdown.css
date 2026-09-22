@@ -1,0 +1,127 @@
+/* Flutter FilterDropdown — width 280, radius 12, elevation 6 */
+.ui-filter-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 30;
+  width: 280px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.16);
+  border: 1px solid #e2e4e9;
+  overflow: hidden;
+}
+
+.ui-filter-dropdown-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 16px 8px;
+}
+
+.ui-filter-dropdown-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ui-filter-dropdown-clear {
+  border: none;
+  background: transparent;
+  color: #10b981;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.ui-filter-dropdown-clear:hover {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.ui-filter-dropdown-divider {
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.ui-filter-dropdown-search-wrap {
+  position: relative;
+  margin: 10px 16px 8px;
+}
+
+.ui-filter-dropdown-search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  pointer-events: none;
+}
+
+.ui-filter-dropdown-search {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 0 10px 0 34px;
+  border: 1px solid #e2e4e9;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #344054;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.ui-filter-dropdown-search:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.ui-filter-dropdown-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 8px;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.ui-filter-dropdown-list button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: #334155;
+  cursor: pointer;
+}
+
+.ui-filter-dropdown-list button:hover {
+  background: #f0f7ff;
+  color: #0051d7;
+}
+
+.ui-filter-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #cbd5e1;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.ui-filter-circle.is-checked {
+  background: #2563eb;
+  border-color: #2563eb;
+}

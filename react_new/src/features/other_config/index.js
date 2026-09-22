@@ -1,0 +1,6 @@
+export { default as OtherConfigurationPage } from './pages/OtherConfigurationPage'
+export { default as AccountClassPage } from './pages/AccountClassPage'
+export { default as AccountTypePage } from './pages/AccountTypePage'
+export { default as LookupTypesPage } from './pages/LookupTypesPage'
+export { default as LookupsPage } from './pages/LookupsPage'
+export { default as service } from './services/other_configService'

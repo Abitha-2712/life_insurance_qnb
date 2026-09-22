@@ -1,0 +1,32 @@
+/** Generated from Flutter manage_user_url.dart — paths only; hosts in env / Vite proxy. */
+export const manageUserUrls = {
+  dropdownRoles: 'bko-role/fetchAll-DD',
+  dropdownGroups: 'bko-grp/fetchAll-DD',
+  saveUser: 'bko-user/post',
+  modifyUser: 'bko-user/modifyUser',
+  fetchAllUsers: 'bko-user/fetchAll',
+  deleteUser: 'bko-user/delete',
+  searchByCriteria: 'bko-user/fetchByCriteria',
+  allUserType: 'userDetail/allUserType',
+  allUnitId: 'bko-unit/fetchAll-DD',
+  graphql: 'graphql',
+  add: 'ADD',
+  update: 'UPDATE',
+  delete: 'DELETE',
+  getMfaNames: 'mfa/getMfaNames',
+  domainDropdown: 'bko-domain/fetchAll-DD',
+  productDropdown: 'bko-product/fetchAll-DD',
+  subProductDropdown: 'bko-subProduct/fetchAll-DD',
+  subProdfetchbyProdCode: 'bko-subProduct/fetchby-prodCode',
+  accessDropdown: 'bko-features/fetchAll-DD',
+  accessfetchbyPrdSub: 'bko-features/fetchbyprd-sub',
+  groupByCriteria: 'bko-grp/fetchByCriteria',
+  deleteGroup: 'bko-grp/delete',
+  fetchAllGroups: 'bko-grp/fetchAll',
+  subProductFromProCode: 'bko-grp/fetch-subpro-by-prolist',
+  accessFromProandSubCode: 'bko-grp/fetch-fun-by-sublistAndPro',
+  saveGroup: 'bko-grp/post',
+  productSubProductDropdown: 'bko-grp/product-subproduct-DD',
+}
+
+export default manageUserUrls

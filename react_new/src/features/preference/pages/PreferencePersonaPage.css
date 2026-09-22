@@ -1,0 +1,11 @@
+﻿.preference-persona-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.preference-persona-page .preference-persona-crud.generic-crud-page { padding: 0; }
+@media (max-width: 900px) {
+  .preference-persona-page { padding: 16px; }
+}

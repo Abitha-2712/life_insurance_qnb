@@ -1,0 +1,68 @@
+/* Flutter SummaryStatusRow â€” Total / Active / Inactive cards */
+.ui-summary-status-row {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.ui-summary-status-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  min-height: 156px;
+  padding: 12px 18px;
+  border-radius: 14px;
+  border: 1px solid transparent;
+  box-shadow: 0 6px 8px rgb(0 0 0 / 3%);
+  text-align: left;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.ui-summary-status-card.is-selected {
+  box-shadow: 0 6px 12px rgb(0 0 0 / 6%);
+}
+
+.ui-summary-status-card.tone-total {
+  background: #f1f6ff;
+  border-color: #d6e7ff;
+  color: #2563eb;
+}
+
+.ui-summary-status-card.tone-active {
+  background: #f0fbf4;
+  border-color: #dff6e8;
+  color: #10b981;
+}
+
+.ui-summary-status-card.tone-inactive {
+  background: #fff7ef;
+  border-color: #ffefd9;
+  color: #ea8a2b;
+}
+
+.ui-summary-status-label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #485363;
+}
+
+.ui-summary-status-count {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  color: inherit;
+}
+
+@media (max-width: 800px) {
+  .ui-summary-status-row {
+    grid-template-columns: 1fr;
+  }
+}
+

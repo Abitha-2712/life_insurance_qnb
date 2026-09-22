@@ -1,0 +1,13 @@
+﻿.apply-product-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.apply-product-page .apply-product-crud.generic-crud-page {
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .apply-product-page { padding: 16px; }
+}

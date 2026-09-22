@@ -1,0 +1,33 @@
+﻿.report-template-page {
+  padding: 25px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.report-template-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.report-template-file {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #485363;
+}
+.report-template-previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.report-template-previews img {
+  width: 140px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+@media (max-width: 900px) {
+  .report-template-page { padding: 16px; }
+}

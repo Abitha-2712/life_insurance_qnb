@@ -1,0 +1,72 @@
+﻿.generic-crud-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--qnb-space-16);
+  padding: var(--qnb-space-16);
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.generic-crud-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--qnb-space-12);
+}
+
+.generic-crud-page-header.is-embedded-header {
+  justify-content: flex-end;
+}
+
+.generic-crud-page.is-embedded {
+  padding: 0;
+}
+
+.generic-crud-page-error {
+  color: var(--qnb-error);
+  margin-bottom: var(--qnb-space-8);
+}
+
+.generic-crud-export {
+  margin-bottom: 0;
+}
+
+.generic-crud-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.generic-crud-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 8px;
+}
+
+/* Flutter CardsForm â€” actions after fields in flow (not sticky / not panel-fixed) */
+.generic-crud-form-actions {
+  display: flex;
+  justify-content: stretch;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 0;
+  border-top: none;
+  position: static;
+  background: transparent;
+}
+
+.generic-crud-form-actions > * {
+  flex: 1;
+}
+
+.generic-crud-status-row {
+  display: flex;
+  align-items: center;
+  padding: 4px 0 8px;
+}
+
+/* Flutter table card chrome after UICard default padding 8 */
+.generic-crud-page > .ui-card {
+  padding: var(--qnb-space-16);
+}
